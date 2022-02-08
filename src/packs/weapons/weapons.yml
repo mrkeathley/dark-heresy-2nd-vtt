@@ -1,3606 +1,4082 @@
 data:
-  attack: 0
   availability: Very Rare
   class: pistol
   clip:
-    max: '8'
-    value: '8'
-  craftmanship: common
-  damage: 2d10k1+5
+    max: 8
+    value: 8
+  craftsmanship: common
+  damage: 1d10+5
   damageType: explosive
   description: ''
-  penetration: '4'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 30
   rateOfFire:
     burst: 2
     full: 0
     single: 1
   reload: Full
-  special: Tearing
+  source: DH2 - 151
+  special:
+    tearing: true
   type: bolt
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 4
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Bolt Pistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: '24'
-    value: '24'
-  craftmanship: common
-  damage: 2d10k1+5
+    max: 24
+    value: 24
+  craftsmanship: common
+  damage: 1d10+5
   damageType: explosive
   description: ''
-  penetration: '4'
-  range: '100'
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 100
   rateOfFire:
     burst: 3
     full: 0
     single: 1
   reload: Full
-  special: Tearing
+  source: DH2 - 151
+  special:
+    tearing: true
   type: bolt
   weight: 7
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Boltgun
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: pistol
   clip:
-    max: '10'
-    value: '10'
-  craftmanship: common
-  damage: 2d10k1+5
+    max: 10
+    value: 10
+  craftsmanship: common
+  damage: 1d10+5
   damageType: explosive
   description: ''
-  penetration: '4'
-  range: '40'
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 40
   rateOfFire:
     burst: 2
     full: 0
     single: 1
   reload: Full
-  special: Reliable, Tearing
+  source: PG 42 EI
+  special:
+    reliable: true
+    tearing: true
   type: bolt
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Godwyn-Deaz Bolt Pistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: '30'
-    value: '30'
-  craftmanship: common
-  damage: 2d10k1+5
+    max: 30
+    value: 30
+  craftsmanship: common
+  damage: 1d10+5
   damageType: explosive
   description: ''
-  penetration: '4'
-  range: '90'
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 90
   rateOfFire:
     burst: 2
     full: 0
     single: 1
   reload: Full
-  special: Reliable, Tearing
+  source: PG 42 EI
+  special:
+    reliable: true
+    tearing: true
   type: bolt
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Godwyn-Deaz Bolter
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: heavy
   clip:
-    max: '80'
-    value: '80'
-  craftmanship: common
-  damage: 2d10k1+8
+    max: 80
+    value: 80
+  craftsmanship: common
+  damage: 1d10+8
   damageType: explosive
   description: ''
-  penetration: '5'
-  range: '140'
+  equipped: false
+  modifications: []
+  penetration: 5
+  range: 140
   rateOfFire:
     burst: 0
     full: 6
     single: 0
   reload: Full
-  special: Reliable, Tearing
+  source: PG 42 EI
+  special:
+    reliable: true
+    tearing: true
   type: bolt
   weight: 35
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Godwyn-Deaz Heavy Bolter
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: basic
   clip:
-    max: '60'
-    value: '60'
-  craftmanship: common
-  damage: 2d10k1+5
+    max: 60
+    value: 60
+  craftsmanship: common
+  damage: 1d10+5
   damageType: explosive
   description: ''
-  penetration: '4'
-  range: '80'
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 80
   rateOfFire:
     burst: 2
     full: 4
     single: 1
   reload: Full
-  special: Reliable, Storm, Tearing
+  source: PG 42 EI
+  special:
+    reliable: true
+    storm: true
+    tearing: true
   type: bolt
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Godwyn-Deaz Storm Bolter
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: heavy
   clip:
-    max: '60'
-    value: '60'
-  craftmanship: common
-  damage: 2d10k1+8
+    max: 60
+    value: 60
+  craftsmanship: common
+  damage: 1d10+8
   damageType: explosive
   description: ''
-  penetration: '5'
-  range: '150'
+  equipped: false
+  modifications: []
+  penetration: 5
+  range: 150
   rateOfFire:
     burst: 0
     full: 6
     single: 0
   reload: Full
-  special: Tearing
+  source: DH2 - 151
+  special:
+    tearing: true
   type: bolt
   weight: 40
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Heavy Bolter
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: heavy
   clip:
-    max: '40'
-    value: '40'
-  craftmanship: common
-  damage: 3d10k2+5
+    max: 40
+    value: 40
+  craftsmanship: common
+  damage: 2d10+5
   damageType: explosive
-  description: Auto-Stabilised trait while in use, and are always of at least Good
-    craftsmanship. They ignore all protective benefits granted by psychic powers and
-    inflict +2 additional damage for every point of the wielders psy rating.
-  penetration: '5'
-  range: '120'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 5
+  range: 120
   rateOfFire:
     burst: 2
     full: 5
     single: 0
   reload: 3 Full
-  special: Daemonbane, Reliable, Tearing
+  source: PG 41 EB
+  special:
+    daemonbane: true
+    reliable: true
+    tearing: true
   type: bolt
   weight: 20
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Psycannon
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: basic
   clip:
-    max: '60'
-    value: '60'
-  craftmanship: common
-  damage: 2d10k1+5
+    max: 60
+    value: 60
+  craftsmanship: common
+  damage: 1d10+5
   damageType: explosive
   description: ''
-  penetration: '4'
-  range: '90'
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 90
   rateOfFire:
     burst: 2
     full: 4
     single: 1
   reload: Full
-  special: Storm, Tearing
+  source: DH2 - 151
+  special:
+    storm: true
+    tearing: true
   type: bolt
   weight: 9
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Storm Bolter
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
-  damage: 2d10k1+4
+    max: 0
+    value: 0
+  craftsmanship: common
+  damage: 1d10+4
   damageType: rending
-  description: Two-handed weapon.
-  penetration: '2'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Tearing, Two-Handed
+  source: DH2 - 158
+  special:
+    tearing: true
+    two-handed: true
   type: chain
   weight: 13
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Chainaxe
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
-  damage: 2d10k1+1
+    max: 0
+    value: 0
+  craftsmanship: common
+  damage: 1d10+1
   damageType: rending
   description: ''
-  penetration: '1'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 1
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Tearing
+  source: DH2 - 158
+  special:
+    tearing: true
   type: chain
   weight: 2
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Chainblade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Average
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
-  damage: 2d10k1+2
+    max: 0
+    value: 0
+  craftsmanship: common
+  damage: 1d10+2
   damageType: rending
   description: ''
-  penetration: '2'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Balanced, Tearing
+  source: DH2 - 158
+  special:
+    balanced: true
+    tearing: true
   type: chain
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Chainsword
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
-  damage: ''
+    max: 0
+    value: 0
+  craftsmanship: common
+  damage: 2d10
   damageType: rending
   description: ''
-  penetration: '9'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 9
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Razor Sharp, Tearing, Two-Handed, Unwieldy
+  source: DH2 - 159
+  special:
+    razor-sharp: true
+    tearing: true
+    two-handed: true
+    unwieldy: true
   type: chain
   weight: 15
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Eviscerator
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: basic
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10+4
   damageType: rending
-  description: Combines a boltgun with a single-shot crossbow
-  penetration: '2'
-  range: '100'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 100
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Accurate, Reliable
+  source: PG 42 EI
+  special:
+    accurate: true
+    reliable: true
   type: exotic
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Condemnor
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: pistol
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: Damage, penetration, and weapon qualities are of what profile of weapon
-    is made after. One hour recharge between shots.
-  penetration: ''
-  range: '3'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 3
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: ''
+  source: PG 42 EO
+  special: {}
   type: exotic
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Digi-Weapon
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: pistol
   clip:
-    max: '16'
-    value: '16'
-  craftmanship: common
+    max: 16
+    value: 16
+  craftsmanship: common
   damage: 1d10+2
-  damageType: renergynding
-  description: Compact, Forearm Weapon Mounting, and Silencer modifications.
-  penetration: '2'
-  range: '30'
+  damageType: rending
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 30
   rateOfFire:
     burst: 4
     full: 8
     single: 0
   reload: 2 Full
-  special: Inaccurate, Toxic (2)
+  source: PG 42 EO
+  special:
+    inaccurate: true
+    toxic: 2
   type: exotic
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Firesprite Needler
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: melee
   clip:
-    max: '0'
-    value: '0'
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+5
   damageType: energy
-  description: When a Ghostblade Overheats, it is damaged and counts as a regular
-    sword until repaired. Its weight includes the backpack power supply.
-  penetration: '6'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Felling (4), Razor Sharp, Overheats
+  source: PG 43 EO
+  special:
+    felling: 4
+    overheats: true
+    razor-sharp: true
   type: exotic
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Ghost Blade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: pistol
   clip:
-    max: '6'
-    value: '6'
-  craftmanship: common
+    max: 6
+    value: 6
+  craftsmanship: common
   damage: 1d10+3
   damageType: impact
   description: ''
-  penetration: '6'
-  range: '15'
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 15
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Full
-  special: Concussive (1), Graviton
+  source: DH2 - 156
+  special:
+    concussive: 1
+    graviton: true
   type: exotic
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Grav Pistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
-  class: throw
+  class: thrown
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+7
   damageType: impact
   description: ''
-  penetration: '1'
-  range: sbx3
+  equipped: false
+  modifications: []
+  penetration: 1
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Concussive (3), Graviton
+  source: PG 43 EO
+  special:
+    blast: 3
+    concussive: 3
+    graviton: true
   type: exotic
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Graviton Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: basic
   clip:
-    max: '9'
-    value: '9'
-  craftmanship: common
+    max: 9
+    value: 9
+  craftsmanship: common
   damage: 1d10+6
   damageType: impact
   description: ''
-  penetration: '8'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 8
+  range: 30
   rateOfFire:
     burst: 3
     full: 0
     single: 1
   reload: 2 Full
-  special: Concussive (2), Graviton
+  source: DH2 - 156
+  special:
+    concussive: 2
+    graviton: true
   type: exotic
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Graviton Gun
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+5
   damageType: impact
-  description: Two-handed weapon.
-  penetration: '7'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 7
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Concussive (3), Graviton
+  source: PG 43 EO
+  special:
+    concussive: 3
+    graviton: true
   type: exotic
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Graviton Hammer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+4
   damageType: rending
   description: ''
-  penetration: '4'
-  range: '300'
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 300
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Felling (2)
+  source: PG 40 EB
+  special:
+    felling: 2
   type: exotic
   weight: 10
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hellrifle
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: heavy
   clip:
-    max: '6'
-    value: '6'
-  craftmanship: common
+    max: 6
+    value: 6
+  craftsmanship: common
   damage: 4d10+4
   damageType: impact
-  description: Creates a gravitic anomaly within the area of its Blast quality that
-    persists for 1d5 rounds. Whenever a character begins his turn in this area, he
-    must make a Hard (20) Dodge (Strength) test. If he fails, he is Immobilized until
-    the end of his turn and suffers a single automatic hit to a randomly determined
-    location for 4d10+4 Impact damage with penetration 8.
-  penetration: '8'
-  range: '100'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 8
+  range: 100
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 3 Full
-  special: Blast (5), Concussive (0), Inaccurate
+  source: PG 43 EO
+  special:
+    blast: 5
+    concussive: 0
+    inaccurate: true
   type: exotic
   weight: 65
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Integration Cannon
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: pistol
   clip:
-    max: '6'
-    value: '6'
-  craftmanship: common
+    max: 6
+    value: 6
+  craftsmanship: common
   damage: 1d10
   damageType: rending
-  description: Built-in silencer
-  penetration: '0'
-  range: '30'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Full
-  special: Accurate, Felling (1), Toxic (5)
+  source: DH2 - 156
+  special:
+    accurate: true
+    felling: 1
+    toxic: 5
   type: exotic
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Needle Pistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: '6'
-    value: '6'
-  craftmanship: common
+    max: 6
+    value: 6
+  craftsmanship: common
   damage: 1d10
   damageType: rending
-  description: Built-in silencer
-  penetration: '0'
-  range: '180'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 180
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Accurate, Felling (1), Toxic (5)
+  source: DH2 - 156
+  special:
+    accurate: true
+    felling: 1
+    toxic: 5
   type: exotic
   weight: 2
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Needle Rifle
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: basic
   clip:
-    max: '5'
-    value: '5'
-  craftmanship: common
+    max: 5
+    value: 5
+  craftsmanship: common
   damage: 1d10+5
   damageType: impact
-  description: Can use any type of shotgun and crossbow ammunition, as well as its
-    own Purgatus Stakes
-  penetration: '0'
-  range: '50'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 50
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Reliable
+  source: PG 44 EI
+  special:
+    reliable: true
   type: exotic
   weight: 16
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Purgatus Crossbow
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: '3'
-    value: '3'
-  craftmanship: common
+    max: 3
+    value: 3
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: Silencer modification
-  penetration: ''
-  range: '120'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 120
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Full
-  special: ''
+  source: PG 43 EO
+  special: {}
   type: exotic
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Quillgun
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d5+1
   damageType: impact
-  description: Provides 4 AP to the Body and Arm wielding the shield (this is doubled
-    to 8 AP against weapons that cause Energy damage), which stacks with existing
-    armour.
-  penetration: '1'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 1
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Defensive
+  source: PG 43 EO
+  special:
+    defensive: true
   type: exotic
   weight: 5
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Silver Shield
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: heavy
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: impact
-  description: Double their Snare value against the Daemonic trait. Any such adversary
-    trapped must also test for Warp Instability at the start of each round.
-  penetration: '0'
-  range: '60'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 60
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Blast (4), Reliable, Sanctified, Snare (2)
+  source: PG 41 EB
+  special:
+    blast: 4
+    reliable: true
+    sanctified: true
+    snare: 2
   type: exotic
   weight: 25
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Silverseine Launcher
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: pistol
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: Web dissolve away after 1d5 hours.
-  penetration: '0'
-  range: '30'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Full
-  special: Snare (0)
+  source: DH2 - 156
+  special:
+    snare: 0
   type: exotic
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 4
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Web Pistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: basic
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: Web dissolve away after 1d5 hours.
-  penetration: '0'
-  range: '50'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 50
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: 2 Full
-  special: Blast (5), Snare (1)
+  source: DH2 - 156
+  special:
+    blast: 5
+    snare: 1
   type: exotic
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Webber
 type: weapon
 ---
 data:
-  attack: 0
   availability: Plentiful
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10+2
   damageType: energy
-  description: Cannot be used with launcher weapons and cannot be thrown. Require
-    Half Action to ready.
-  penetration: '0'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (2), Flame
+  source: DH2 - 157
+  special:
+    blast: 2
+    flame: true
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Fire Bomb
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: ''
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 6d10
   damageType: energy
-  description: Cannot be used with launcher weapons and cannot be thrown.
-  penetration: '12'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 12
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (2), Flame, Melta,
+  source: DH2 - 157
+  special:
+    blast: 2
+    flame: true
+    melta: true
   type: explosive
   weight: 12
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Melta Bomb
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+5
   damageType: energy
-  description: Any character who can draw line of sight to an ally wielding an active
-    Brazier of Holy Fire gains a +10 bonus to his Willpower tests. Additionally, it
-    can be used as a heavy flamer with a clip size of 1. Once fired, it loses the
-    Flame quality in melee until it isreloaded, a process that takes roughly 20 minutes
-    and involves several special hymns.
-  penetration: '3'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 3
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Flame, Unbalanced
+  source: PG 45 EI
+  special:
+    flame: true
+    unbalanced: true
   type: flame
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Brazier of Holy Fire
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: heavy
   clip:
-    max: '8'
-    value: '8'
-  craftmanship: common
+    max: 8
+    value: 8
+  craftsmanship: common
   damage: 1d10+5
   damageType: energy
-  description: Includes the backpack fuel supply
-  penetration: '3'
-  range: '30'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 3
+  range: 30
   rateOfFire:
     burst: 2
     full: 0
     single: 1
   reload: 2 Full
-  special: Flame, Reliable, Spray
+  source: PG 42 EI
+  special:
+    flame: true
+    reliable: true
+    spray: true
   type: flame
   weight: 40
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Cerberus Heavy Flamer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: impact
   description: ''
-  penetration: '2'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Flame, Unbalanced
+  source: PG 46 EI
+  special:
+    flame: true
+    unbalanced: true
   type: flame
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Fire Gauntlets
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: basic
   clip:
-    max: '6'
-    value: '6'
-  craftmanship: common
+    max: 6
+    value: 6
+  craftsmanship: common
   damage: 1d10+4
   damageType: energy
   description: ''
-  penetration: '2'
-  range: '20'
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 20
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Flame, Spray
+  source: DH2 - 152
+  special:
+    flame: true
+    spray: true
   type: flame
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Flamer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: '6'
-    value: '6'
-  craftmanship: common
+    max: 6
+    value: 6
+  craftsmanship: common
   damage: 1d10+4
   damageType: energy
-  description: Cannot use other Flame ammunition.
-  penetration: '2'
-  range: '20'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 20
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Corrosive, Felling (1), Flame, Spray, Toxic (2)
+  source: PG 42 EI
+  special:
+    corrosive: true
+    felling: 1
+    flame: true
+    spray: true
+    toxic: 2
   type: flame
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Gorgon Chemical Flamer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: pistol
   clip:
-    max: '2'
-    value: '2'
-  craftmanship: common
+    max: 2
+    value: 2
+  craftsmanship: common
   damage: 1d10+4
   damageType: energy
   description: ''
-  penetration: '2'
-  range: '10'
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 10
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Flame, Spray
+  source: DH2 - 152
+  special:
+    flame: true
+    spray: true
   type: flame
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 4
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hand Flamer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: heavy
   clip:
-    max: '10'
-    value: '10'
-  craftmanship: common
+    max: 10
+    value: 10
+  craftsmanship: common
   damage: 1d10+5
   damageType: energy
   description: ''
-  penetration: '4'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 30
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Flame, Spray
+  source: DH2 - 152
+  special:
+    flame: true
+    spray: true
   type: flame
   weight: 45
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Heavy Flamer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: '10'
-    value: '10'
-  craftmanship: common
+    max: 10
+    value: 10
+  craftsmanship: common
   damage: 1d10+4
   damageType: energy
-  description: Gains the Fear (1) trait when fired until the end of the encounter.
-    The Hydras Spray quality affects a 90 cone. Includes the backpack fuel supply
-  penetration: '2'
-  range: '8'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 8
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Flame, Proven (3), Spray
+  source: PG 42 EI
+  special:
+    flame: true
+    proven: 3
+    spray: true
   type: flame
   weight: 10
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hydra Flamer Array
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: basic
   clip:
-    max: '10'
-    value: '10'
-  craftmanship: common
+    max: 10
+    value: 10
+  craftsmanship: common
   damage: 1d10+6
   damageType: energy
-  description: ignores any protective benefits granted by psychic powers, and targets
-    in its area of effect suffer a 10 penalty on Agility tests to avoid the flames
-    for each point of the wielders psy rating.
-  penetration: '6'
-  range: '30'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 30
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Daemonbane, Flame, Spray
+  source: PG 40 EB
+  special:
+    daemonbane: true
+    flame: true
+    spray: true
   type: flame
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Incinerator
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+10
   damageType: energy
-  description: Acts as a psy-focus, and adds +1 to their psy rating. Add the users
-    SBx2 to the damage.
-  penetration: '4'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Daemonbane, Force, Power Field, Unwieldy
+  source: PG 42 EB
+  special:
+    daemonbane: true
+    force: true
+    power-field: true
+    unwieldy: true
   type: force
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Animus Hammer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10
   damageType: rending
-  description: Requires two hands to use, unless the wielder has a Strength bonus
-    of 5 or higher.
-  penetration: '0'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Force, Unbalanced
+  source: PG 42 EB
+  special:
+    force: true
+    unbalanced: true
   type: force
   weight: 10
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Force Hammer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: impact
   description: ''
-  penetration: '2'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Force, Two-Handed
+  source: DH2 - 160
+  special:
+    force: true
+    two-handed: true
   type: force
   weight: 2
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Force Staff
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+1
   damageType: rending
   description: ''
-  penetration: '2'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Balanced, Force
+  source: DH2 - 160
+  special:
+    balanced: true
+    force: true
   type: force
   weight: 5
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Force Sword
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+1
   damageType: energy
-  description: Is a one-handed weapon, but when used with two hands it gains the Concussive
-    (X) quality, where X equals the users psy rating. Add the users SBx2 to the damage.
-  penetration: '8'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 8
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Daemonbane, Force, Power Field, Unwieldy
+  source: PG 43 EB
+  special:
+    daemonbane: true
+    force: true
+    power-field: true
+    unwieldy: true
   type: force
   weight: 10
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Nemesis Daemon Hammer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+6
   damageType: energy
-  description: Atwo-handed weapon. It also includes an exterminator cartridge (pg
-    163 CB) loaded with Incinerator ammunition (pg 40 EB). Add the users SBx2 to the
-    damage.
-  penetration: '4'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Balanced, Concussive (4), Daemonbane, Force, Power Field
+  source: PG 43 EB
+  special:
+    balanced: true
+    concussive: 4
+    daemonbane: true
+    force: true
+    power-field: true
   type: force
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Santus Hammer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+4
   damageType: energy
-  description: Once per game session, as a Full Action, a character wielding Tempus
-    may smite the ground, causing a blast with a radius of 2d10 metres. Each other
-    character in this area must make a Hard (20) Agility test or lose a Half Action
-    during his next turn; if a character fails with two or more degrees of failure,
-    he loses his Full Action instead. This is a two-handed weapon. Add the users SBx2
-    to the damage.
-  penetration: '6'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Daemonbane, Force, Power Field, Unwieldy
+  source: PG 43 EB
+  special:
+    daemonbane: true
+    force: true
+    power-field: true
+    unwieldy: true
   type: force
   weight: 14
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Tempus Hammer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
-  class: throw
+  class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: explosive
-  description: Whenever a character suffers a hit from this grenade, enters its smoke,
-    or begins his turn within the smoke, he suffers Energy damage equal to his Corruption
-    bonus or his Daemonic (X) trait(whichever is higher), ignoring armour and Toughness
-    bonus.
-  penetration: '0'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Daemonbane, Sanctified, Smoke (3)
+  source: PG 41 EB
+  special:
+    daemonbane: true
+    sanctified: true
+    smoke: 3
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Ironfaith Incense Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
-  class: throw
+  class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10+4
   damageType: explosive
   description: ''
-  penetration: '4'
-  range: sbx3
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Crippling (2), Tainted
+  source: PG 40 EB
+  special:
+    blast: 3
+    crippling: 2
+    tainted: true
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Abyssal Charge
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
-  class: throw
+  class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 2d10
   damageType: explosive
   description: ''
-  penetration: '2'
-  range: sbx3
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Crippling (3), Sanctified
+  source: PG 40 EB
+  special:
+    blast: 3
+    crippling: 3
+    sanctified: true
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Argent Globe
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
   description: ''
-  penetration: '0'
-  range: sbx3
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Smoke (2)
+  source: DH2 - 157
+  special:
+    smoke: 2
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Blind Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: Special
   damageType: impact
-  description: within radius must make a Toughness test each turn; failure inicts
-    one level of Fatigue. Four or more DoF suers a 1d10 Toughness damage. Lasts for
-    2d5 rounds, or less in adverse weather conditions.
-  penetration: '0'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3)
+  source: DH2 - 157
+  special:
+    blast: 3
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Choke Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 2d10
   damageType: explosive
   description: ''
-  penetration: '0'
-  range: sbx3
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3)
+  source: DH2 - 157
+  special:
+    blast: 3
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Frag Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Average
   class: ''
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+2
   damageType: explosive
   description: ''
-  penetration: '2'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (5)
+  source: DH2 - 157
+  special:
+    blast: 5
   type: explosive
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Frag Missile
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
   description: ''
-  penetration: '0'
-  range: sbx3
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (6), Hallucinogenic
+  source: DH2 - 157
+  special:
+    blast: 6
+    hallucinogenic: true
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hallucinogen Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
   description: ''
-  penetration: '0'
-  range: sbx3
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Haywire (2)
+  source: DH2 - 157
+  special:
+    haywire: 2
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Haywire Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 2d10+4
   damageType: explosive
-  description: Gain Vengeful (9) against vehicles.
-  penetration: '6'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Concussive (0)
+  source: DH2 - 157
+  special:
+    concussive: 0
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Krak Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: ''
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 3d10+8
   damageType: explosive
-  description: Gain Vengeful (9) against vehicles.
-  penetration: '8'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 8
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Concussive (3), Proven (2)
+  source: DH2 - 157
+  special:
+    concussive: 3
+    proven: 2
   type: explosive
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Krak Missile
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: Must pass an Ordinary (+10) Agility test or be blinded for a number
-    of rounds equal to his DoF.
-  penetration: '0'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (6),
+  source: DH2 - 158
+  special:
+    blast: 6
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Photon Flash Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: 'Respirators and sealed armour grant no bonuses against these grenades.
-    For every degree of failure on a Toughness test to resist the grenades effects,
-    add +1 to the roll (to a maximum of 10) on Table 53: Hallucinogen Effects'
-  penetration: ''
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Hallucinogenic (4)
+  source: PG 44 EI
+  special:
+    blast: 3
+    hallucinogenic: 4
   type: explosive
   weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Psychotroke Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: explosive
-  description: 'Any psyker caught within the grenades blast radius, or who enters
-    the cloud created by its Smoke quality before it dissipates (1d5 rounds), must
-    take a Very Hard (30) Willpower test or have his psy rating temporarily reduced
-    by 1 for every degree of failure. If a psyker fails the test by two or more degrees
-    of failure, he must also immediately roll on Table 62: Psychic Phenomena. Every
-    six hours, a psyker automatically recovers 1 point of psy rating lost this way.
-    Additionally, any attempt to manifest a psychic power from within the cloud automatically
-    fails.'
-  penetration: '0'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Smoke (3)
+  source: PG 44 EI
+  special:
+    blast: 3
+    smoke: 3
   type: explosive
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Psyk-Out Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
-  class: throw
+  class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: explosive
-  description: 'Whenever a character with the Psyker trait suffers a hit from this
-    grenade, enters its smoke, or begins his turn within the smoke, he must make a
-    Very Hard (30) Willpower test or have his psy rating temporarily reduced by 1
-    for every degree of failure. If the character fails the test by two or more degrees
-    of failure, he must also immediately roll on Table 62: Psychic Phenomena. Every
-    six hours, a psyker automatically recovers 1 point of psy rating lost this way.
-    Additionally, any attempt to manifest a psychic power from within the cloud automatically
-    fails.'
-  penetration: '0'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Smoke (3)
+  source: PG 41 EB
+  special:
+    blast: 3
+    smoke: 3
   type: explosive
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Psyk-Out Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: energy
-  description: When struck must immediately make a Hard (20) Toughness test or suffer
-    2d10 Toughness damage.
-  penetration: '0'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (2)
+  source: PG 44 EI
+  special:
+    blast: 2
   type: explosive
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Rad Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
   description: ''
-  penetration: '0'
-  range: sbx3
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Smoke (4)
+  source: DH2 - 158
+  special:
+    smoke: 4
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Smoke Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: Any character within the blast radius suffers mind-mould
-  penetration: ''
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (5)
+  source: PG 45 EI
+  special:
+    blast: 5
   type: explosive
   weight: 2
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Spore Bomb
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
   description: ''
-  penetration: '0'
-  range: sbx3
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Concussive (2)
+  source: DH2 - 158
+  special:
+    blast: 3
+    concussive: 2
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Stun Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: explosive
-  description: 'When a psyker is struck by an attack from this weapon, he must immediately
-    roll on Table 63: Perils of the Warp. When a creature with the Daemonic trait
-    is struck by this weapon, it gains the Warp Instability trait until the end of
-    the encounter. If it already has this trait, it suffers a 20 penalty to the tests
-    it makes for this trait until the end of the encounter'
-  penetration: '0'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (2), Sanctified
+  source: PG 45 EI
+  special:
+    blast: 2
+    sanctified: true
   type: explosive
   weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Tears of the Emperor
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: Web dissolve away after 1d5 hours.
-  penetration: '0'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Snare (2)
+  source: DH2 - 158
+  special:
+    blast: 3
+    snare: 2
   type: explosive
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Web Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10+4
   damageType: explosive
-  description: Whenever a character begins his turn in the cloud of smoke created
-    by the Smoke quality of the grenade, he suffers a single automatic hit that inflicts
-    1d10 Impact damage with the Corrosive and Toxic (2) qualities and must test for
-    suffocation
-  penetration: '3'
-  range: sbx3
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 3
+  range: 0
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Corrosive, Flame, Smoke (5), Toxic (2)
+  source: PG 45 EI
+  special:
+    blast: 3
+    corrosive: true
+    flame: true
+    smoke: 5
+    toxic: 2
   type: explosive
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Whitefire Grenade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: basic
   clip:
-    max: '30'
-    value: '30'
-  craftmanship: common
+    max: 30
+    value: 30
+  craftsmanship: common
   damage: 1d10+4
   damageType: energy
-  description: Do not benet from the Las Weapon Variable Setting rules.
-  penetration: '7'
-  range: '60'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 7
+  range: 60
   rateOfFire:
     burst: 3
     full: 0
     single: 1
   reload: 2 Full
-  special: ''
+  source: DH2 - 154
+  special: {}
   type: las
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hot-shot Lasgun
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: pistol
   clip:
-    max: '40'
-    value: '40'
-  craftmanship: common
+    max: 40
+    value: 40
+  craftsmanship: common
   damage: 1d10+4
   damageType: energy
-  description: Do not benet from the Las Weapon Variable Setting rules.
-  penetration: '7'
-  range: '20'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 7
+  range: 20
   rateOfFire:
     burst: 2
     full: 0
     single: 1
   reload: 2 Full
-  special: ''
+  source: DH2 - 154
+  special: {}
   type: las
   weight: 4
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hot-shot Laspistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: basic
   clip:
-    max: '60'
-    value: '60'
-  craftmanship: common
+    max: 60
+    value: 60
+  craftsmanship: common
   damage: 1d10+3
   damageType: energy
-  description: 'Las Weapon Variable Setting: Overcharge: +1 Dam, 2 ammo. Overload:
-    +2 Dam and Pen but uses 4 ammo, loses Reliable, and gains Unreliable'
-  penetration: '0'
-  range: '100'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 100
   rateOfFire:
     burst: 3
     full: 0
     single: 1
   reload: Full
-  special: Reliable
+  source: DH2 - 153
+  special:
+    reliable: true
   type: las
   weight: 4
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Lasgun
 type: weapon
 ---
 data:
-  attack: 0
   availability: Plentiful
   class: basic
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10+4
   damageType: energy
-  description: Do not benet from the Las Weapon Variable Setting rules.
-  penetration: '0'
-  range: '70'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 70
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Half
-  special: Unreliable
+  source: DH2 - 153
+  special:
+    unreliable: true
   type: las
   weight: 4
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Laslock
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: pistol
   clip:
-    max: '30'
-    value: '30'
-  craftmanship: common
+    max: 30
+    value: 30
+  craftsmanship: common
   damage: 1d10+2
   damageType: energy
-  description: 'Las Weapon Variable Setting: Overcharge: +1 Dam, 2 ammo. Overload:
-    +2 Dam and Pen but uses 4 ammo, loses Reliable, and gains Unreliable'
-  penetration: '0'
-  range: '30'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 2
     full: 0
     single: 1
   reload: Half
-  special: Reliable
+  source: DH2 - 153
+  special:
+    reliable: true
   type: las
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Laspistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: basic
   clip:
-    max: '40'
-    value: '40'
-  craftmanship: common
+    max: 40
+    value: 40
+  craftsmanship: common
   damage: 1d10+3
   damageType: energy
-  description: 'Las Weapon Variable Setting: Overcharge: +1 Dam, 2 ammo. Overload:
-    +2 Dam and Pen but uses 4 ammo, loses Reliable, and gains Unreliable'
-  penetration: '1'
-  range: '150'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 1
+  range: 150
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Full
-  special: Accurate, Felling (4), Reliable
+  source: DH2 - 154
+  special:
+    accurate: true
+    felling: 4
+    reliable: true
   type: las
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 5
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Long-Las
 type: weapon
 ---
 data:
-  attack: 0
   availability: Average
   class: basic
   clip:
-    max: '6'
-    value: '6'
-  craftmanship: common
+    max: 6
+    value: 6
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: Uses grenades as its ammo and uses its profile.
-  penetration: ''
-  range: '60'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 60
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: ''
+  source: DH2 - 154
+  special: {}
   type: launcher
   weight: 12
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Grenade Launcher
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: heavy
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
-  description: Uses Missiles as its ammo and uses its profile.
-  penetration: ''
-  range: '300'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 300
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Full
-  special: ''
+  source: DH2 - 154
+  special: {}
   type: launcher
   weight: 35
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Missile Launcher
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: basic
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 2d10+2
   damageType: impact
-  description: If a character with a Strength bonus of 3 or less uses this weapon,
-    it counts as a Heavy weapon instead of Basic weapon. When fired, an arquebus also
-    creates a cloud with the Smoke (1) quality that lasts for 1d5-1 rounds.
-  penetration: '2'
-  range: '45'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 45
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Concussive (1), Inaccurate, Unreliable
+  source: PG 42 EI
+  special:
+    concussive: 1
+    inaccurate: true
+    unreliable: true
   type: low-tech
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Arquebus
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10
   damageType: rending
-  description: Two-handed melee weapon.
-  penetration: '6'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Felling (2), Sanctified
+  source: PG 45 EI
+  special:
+    felling: 2
+    sanctified: true
   type: low-tech
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Axe of Retribution
 type: weapon
 ---
 data:
-  attack: 0
   availability: Average
   class: thrown
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: ''
   damageType: impact
   description: ''
-  penetration: '0'
-  range: '10'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 10
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Inaccurate, Snare
+  source: DH2 - 154
+  special:
+    inaccurate: true
+    snare: true
   type: low-tech
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Bolas
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: basic
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: rending
-  description: Two-handed weapon.
-  penetration: '0'
-  range: '30'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Half
-  special: Primitive (6), Reliable
+  source: DH2 - 154
+  special:
+    primitive: 6
+    reliable: true
   type: low-tech
   weight: 2
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Bow
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: heavy
   clip:
-    max: '14'
-    value: '14'
-  craftmanship: common
+    max: 14
+    value: 14
+  craftsmanship: common
   damage: 1d10+6
   damageType: impact
-  description: Whenever inflicts damage on a target that has the Size trait with a
-    value of 5 or lower, that target is knocked Prone.
-  penetration: '1'
-  range: '70'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 1
+  range: 70
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Concussive (2), Reliable
+  source: PG 44 EI
+  special:
+    concussive: 2
+    reliable: true
   type: low-tech
   weight: 12
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Castigator Heavy Crossbow
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: basic
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: rending
   description: ''
-  penetration: '0'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Primitive (7)
+  source: DH2 - 154
+  special:
+    primitive: 7
   type: low-tech
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Crossbow
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: pistol
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: rending
-  description: If given a forearm weapon mounting, the Deliverances range is not reduced.
-    Tests to find a concealed Deliverance suffer a 20 penalty, and it counts as having
-    a built-in silencer
-  penetration: '0'
-  range: '15'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 15
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Half
-  special: Primitive (7)
+  source: PG 42 EI
+  special:
+    primitive: 7
   type: low-tech
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Deliverance Light Crossbow
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: heavy
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
-  damage: 3d10k2+2
+    max: 1
+    value: 1
+  craftsmanship: common
+  damage: 2d10+2
   damageType: explosive
-  description: Single use item and cannot be reloaded.
-  penetration: '2'
-  range: '200'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 200
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (3), Crippling (1), Inaccurate, Primitive (7), Tearing
+  source: PG 42 EI
+  special:
+    blast: 3
+    crippling: 1
+    inaccurate: true
+    primitive: 7
+    tearing: true
   type: low-tech
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Drakes Claw
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+8
   damageType: rending
-  description: A target who escapes from this weapons Snare quality is no longer affected
-    by its Crippling quality.
-  penetration: '2'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Crippling (2), Flexible, Primitive (8), Snare (2)
+  source: PG 45 EI
+  special:
+    crippling: 2
+    flexible: true
+    primitive: 8
+    snare: 2
   type: low-tech
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Flail of Chastisement
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: pistol
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10+2
   damageType: impact
-  description: Counts as a truncheon when used in melee combat.
-  penetration: '0'
-  range: '15'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 15
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Inaccurate, Primitive (8), Unreliable
+  source: PG 42 EI
+  special:
+    inaccurate: true
+    primitive: 8
+    unreliable: true
   type: low-tech
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Flintlock Pistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10
   damageType: rending
-  description: Two-handed weapon.
-  penetration: '0'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Unbalanced, Two-Handed
+  source: DH2 - 160
+  special:
+    two-handed: true
+    unbalanced: true
   type: low-tech
   weight: 7
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Great Weapon
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+3
   damageType: explosive
-  description: After a successful attack is made with this weapon, its tip is destroyed
-    and it is treated as a sta.
-  penetration: '7'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 7
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Concussive (3)
+  source: DH2 - 160
+  special:
+    concussive: 3
   type: low-tech
   weight: 4
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hunting Lance
 type: weapon
 ---
 data:
-  attack: 0
   availability: ''
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10-2
   damageType: impact
   description: ''
-  penetration: '0'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Primitive (7), Unbalanced
+  source: DH2 - 160
+  special:
+    primitive: 7
+    unbalanced: true
   type: low-tech
   weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Improvised
 type: weapon
 ---
 data:
-  attack: 0
   availability: Plentiful
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d5
   damageType: rending
   description: ''
-  penetration: '0'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: ''
+  source: DH2 - 160
+  special: {}
   type: low-tech
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Knife
 type: weapon
 ---
 data:
-  attack: 0
   availability: Plentiful
   class: thrown
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d5
   damageType: rending
   description: ''
-  penetration: '0'
-  range: '5'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 5
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: ''
+  source: DH2 - 160
+  special: {}
   type: low-tech
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Knife
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: heavy
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10
   damageType: rending
-  description: Single use item and cannot be reloaded.
-  penetration: '0'
-  range: '200'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 200
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: ''
-  special: Blast (4), Flame, Inaccurate, Primitive (8)
+  source: PG 42 EI
+  special:
+    blast: 4
+    flame: true
+    inaccurate: true
+    primitive: 8
   type: low-tech
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Longflame
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: impact
-  description: Two-handed melee weapon. May spend a Half Action each round to maintain
-    a hold of his victim
-  penetration: '0'
-  range: '2'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 2
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Snare (4), Unwieldy
+  source: PG 46 EI
+  special:
+    snare: 4
+    unwieldy: true
   type: low-tech
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Man-Catcher
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: basic
   clip:
-    max: '1'
-    value: '1'
-  craftmanship: common
+    max: 1
+    value: 1
+  craftsmanship: common
   damage: 1d10+3
   damageType: impact
-  description: Counts as a staff when used in melee combat
-  penetration: '0'
-  range: '30'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Inaccurate, Primitive (8), Unreliable
+  source: PG 44 EI
+  special:
+    inaccurate: true
+    primitive: 8
+    unreliable: true
   type: low-tech
   weight: 7
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Musket
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: impact
-  description: The Praesidium Protectiva adds +4 AP to the body and the arm holding
-    the device, and also acts as a force field with a protection rating of 35. It
-    is only available to Acolytes with the Adepta Sororitas background
-  penetration: '0'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Defensive
+  source: PG 46 EI
+  special:
+    defensive: true
   type: low-tech
   weight: 14
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Praesidium Protectiva
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
-  damage: ''
+    max: 0
+    value: 0
+  craftsmanship: common
+  damage: 1d10
   damageType: rending
-  description: When triggering Righteous Fury, he gains 1d5 Corruption points.
-  penetration: '0'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Balanced, Tainted, Tearing, Vengeful (8)
+  source: PG 43 EB
+  special:
+    balanced: true
+    tainted: true
+    tearing: true
+    vengeful: 8
   type: low-tech
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Rune Weapon (Sword)
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d5
   damageType: impact
-  description: Attacks suer a 20 penalty instead of the normal penalty from the Defensive
-    quality.
-  penetration: '0'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Defensive
+  source: DH2 - 160
+  special:
+    defensive: true
   type: low-tech
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shield
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: '8'
-    value: '8'
-  craftmanship: common
+    max: 8
+    value: 8
+  craftsmanship: common
   damage: 1d10+3
   damageType: impact
-  description: If used as improvised melee weapon and scores two or more degrees of
-    failure on the Weapon Skill test, its mechanisms snap and it is damaged.
-  penetration: '0'
-  range: '50'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 50
   rateOfFire:
     burst: 2
     full: 0
     single: 1
   reload: 2 Full
-  special: Inaccurate, Overheats, Primitive (8), Unreliable
+  source: PG 44 EI
+  special:
+    inaccurate: true
+    overheats: true
+    primitive: 8
+    unreliable: true
   type: low-tech
   weight: 45
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Snapper Repeating Rifle
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: rending
-  description: Two-handed weapon.
-  penetration: '0'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Primitive (8), Two-Handed
+  source: DH2 - 160
+  special:
+    primitive: 8
+    two-handed: true
   type: low-tech
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Spear
 type: weapon
 ---
 data:
-  attack: 0
   availability: Plentiful
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: impact
-  description: Two-handed weapon.
-  penetration: '0'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Balanced, Primitive (7), Two-Handed
+  source: DH2 - 160
+  special:
+    balanced: true
+    primitive: 7
+    two-handed: true
   type: low-tech
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Staff
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+4
   damageType: rending
-  description: Has the Compact modification. When a character successfully inflicts
-    a hit as part of an All Out Attack action using a stealth claw, he inflicts additional
-    damage equal to his psy rating.
-  penetration: '4'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Felling (2), Razor Sharp, Sanctified
+  source: PG 43 EB
+  special:
+    felling: 2
+    razor-sharp: true
+    sanctified: true
   type: low-tech
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Stealth Claw
 type: weapon
 ---
 data:
-  attack: 0
   availability: Common
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: rending
   description: ''
-  penetration: '0'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Balanced
+  source: DH2 - 160
+  special:
+    balanced: true
   type: low-tech
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Sword
 type: weapon
 ---
 data:
-  attack: 0
   availability: Plentiful
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: impact
   description: ''
-  penetration: '0'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Primitive (7)
+  source: DH2 - 160
+  special:
+    primitive: 7
   type: low-tech
   weight: 2
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Truncheon
 type: weapon
 ---
 data:
-  attack: 0
   availability: ''
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d5-3
   damageType: impact
   description: ''
-  penetration: '0'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: ''
+  source: DH2 - 226
+  special: {}
   type: low-tech
   weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Unarmed
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee/ thrown
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+8
   damageType: rending
-  description: A two-handed weapon.
-  penetration: '4'
-  range: '6'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 6
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Balanced, Crippling (3), Felling (3),Sanctified
+  source: PG 43 EB
+  special:
+    balanced: true
+    crippling: 3
+    felling: 3
+    sanctified: true
   type: low-tech
   weight: 9
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Wailing Trident
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+3
   damageType: impact
-  description: Two-handed weapon.
-  penetration: '1'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 1
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Concussive (1), Primitive (8), Two-Handed
+  source: DH2 - 160
+  special:
+    concussive: 1
+    primitive: 8
+    two-handed: true
   type: low-tech
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 5
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Warhammer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Average
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: rending
   description: ''
-  penetration: '0'
-  range: '3'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 3
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Flexible, Primitive (6)
+  source: DH2 - 160
+  special:
+    flexible: true
+    primitive: 6
   type: low-tech
   weight: 2
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Whip
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: pistol
   clip:
-    max: '3'
-    value: '3'
-  craftmanship: common
+    max: 3
+    value: 3
+  craftsmanship: common
   damage: 2d10+10
   damageType: energy
   description: ''
-  penetration: '12'
-  range: '10'
+  equipped: false
+  modifications: []
+  penetration: 12
+  range: 10
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Full
-  special: Melta
+  source: DH2 - 155
+  special:
+    melta: true
   type: melta
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Inferno Pistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: '5'
-    value: '5'
-  craftmanship: common
+    max: 5
+    value: 5
+  craftsmanship: common
   damage: 2d10+10
   damageType: energy
   description: ''
-  penetration: '12'
-  range: '20'
+  equipped: false
+  modifications: []
+  penetration: 12
+  range: 20
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Full
-  special: Melta
+  source: DH2 - 155
+  special:
+    melta: true
   type: melta
   weight: 15
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Meltagun
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: basic
   clip:
-    max: '40'
-    value: '40'
-  craftmanship: common
+    max: 40
+    value: 40
+  craftsmanship: common
   damage: 1d10+7
   damageType: energy
   description: ''
-  penetration: '6'
-  range: '90'
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 90
   rateOfFire:
     burst: 2
     full: 0
     single: 1
   reload: 5 Full
-  special: Maximal, Overheats
+  source: DH2 - 155
+  special:
+    maximal: true
+    overheats: true
   type: plasma
   weight: 18
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Plasma Gun
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: pistol
   clip:
-    max: '10'
-    value: '10'
-  craftmanship: common
+    max: 10
+    value: 10
+  craftsmanship: common
   damage: 1d10+6
   damageType: energy
   description: ''
-  penetration: '6'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 30
   rateOfFire:
     burst: 2
     full: 0
     single: 1
   reload: 3 Full
-  special: Maximal, Overheats
+  source: DH2 - 155
+  special:
+    maximal: true
+    overheats: true
   type: plasma
   weight: 4
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Plasma Pistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: basic
   clip:
-    max: '40'
-    value: '40'
-  craftmanship: common
+    max: 40
+    value: 40
+  craftsmanship: common
   damage: 1d10+5
   damageType: energy
   description: ''
-  penetration: '3'
-  range: '120'
+  equipped: false
+  modifications: []
+  penetration: 3
+  range: 120
   rateOfFire:
     burst: 5
     full: 10
     single: 1
   reload: Full
-  special: Reliable
+  source: PG 44 EI
+  special:
+    reliable: true
   type: plasma
   weight: 20
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Sentinel Plasma Rifle
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+3
   damageType: energy
   description: ''
-  penetration: '5'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 5
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Power Field
+  source: PG 42 EO
+  special:
+    power-field: true
   type: power
   weight: 2
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Desoleum Power Blade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+3
   damageType: energy
-  description: Compact modification
-  penetration: '5'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 5
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Power Field
+  source: PG 42 EO
+  special:
+    power-field: true
   type: power
   weight: 2
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Desoleum Power Blade
 type: weapon
 ---
 data:
-  attack: 0
   availability: Near Unique
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+6
   damageType: energy
-  description: An Ebenus hammer acts as a null rod (pg 177 CB) and grants the wielder
-    the Deny The Witch talent. Add the users SBx2 to the damage.
-  penetration: '10'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 10
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Daemonbane, Power Field, Unwieldy
+  source: PG 43 EB
+  special:
+    daemonbane: true
+    power-field: true
+    unwieldy: true
   type: power
   weight: 16
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Ebenus Hammer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+4
   damageType: energy
-  description: Two-handed weapon and functions as a Combi-tool.
-  penetration: '6'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Power Field, Two-Handed, Unbalanced
+  source: DH2 - 161
+  special:
+    power-field: true
+    two-handed: true
+    unbalanced: true
   type: power
   weight: 8
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Omnissian Axe
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+8
   damageType: energy
-  description: Grants the wielder an additional +10 bonus to Parry tests, and is a
-    two-handed weapon.
-  penetration: '5'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 5
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Balanced, Power Field, Proven (4), Sanctified
+  source: PG 43 EB
+  special:
+    balanced: true
+    power-field: true
+    proven: 4
+    sanctified: true
   type: power
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 5
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Ordo Malleus Power Glaive
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+7
   damageType: energy
-  description: Two-handed weapon.
-  penetration: '7'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 7
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Power Field, Two-Handed, Unbalanced
+  source: DH2 - 161
+  special:
+    power-field: true
+    two-handed: true
+    unbalanced: true
   type: power
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Axe
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10
   damageType: energy
   description: ''
-  penetration: '9'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 9
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Power Field, Unwieldy
+  source: DH2 - 161
+  special:
+    power-field: true
+    unwieldy: true
   type: power
   weight: 13
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Fist
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+5
   damageType: energy
-  description: When used with two hands it gains the Concussive (0) quality.
-  penetration: '4'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 4
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Power Field, Shocking
+  source: DH2 - 161
+  special:
+    power-field: true
+    shocking: true
   type: power
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 4
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Maul (High)
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+1
   damageType: energy
-  description: When used with two hands it gains the Concussive (0) quality.
-  penetration: '2'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Shocking
+  source: DH2 - 161
+  special:
+    shocking: true
   type: power
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 4
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Maul (Low)
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10
   damageType: energy
-  description: Adds 4 Armour points to the wearers Body and the Arm holding the shield.
-  penetration: '1'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 1
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Defensive, Power Field
+  source: PG 43 EB
+  special:
+    defensive: true
+    power-field: true
   type: power
   weight: 6
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Shield
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+7
   damageType: energy
-  description: Inflicts an additional 1d10 Energy damage for every point of psy rating
-    the target possesses. Grants a +10 bonus to all Interaction tests made with those
-    aligned with the Ordo Hereticus.
-  penetration: '5'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 5
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Power Field, Sanctified, Unbalanced
+  source: PG 46 EI
+  special:
+    power-field: true
+    sanctified: true
+    unbalanced: true
   type: power
   weight: 1
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Stake
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+5
   damageType: energy
   description: ''
-  penetration: '5'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 5
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Balanced, Power Field
+  source: DH2 - 161
+  special:
+    balanced: true
+    power-field: true
   type: power
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Sword
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 2d10+4
   damageType: energy
-  description: Is a one-handed weapon, but it inflicts an additional +2 damage when
-    used with two hands. Add the users SBx2 to the damage.
-  penetration: '10'
-  range: ''
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 10
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Concussive (2), Power Field, Unwieldy
+  source: PG 43 EB
+  special:
+    concussive: 2
+    power-field: true
+    unwieldy: true
   type: power
   weight: 16
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Thunder Hammer
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+2
   damageType: rending
   description: ''
-  penetration: '0'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Flexible, Shocking
+  source: PG 45 EI
+  special:
+    flexible: true
+    shocking: true
   type: shock
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 5
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Electro-Flail
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+3
   damageType: impact
   description: ''
-  penetration: '0'
-  range: ''
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 0
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Shocking
+  source: DH2 - 161
+  special:
+    shocking: true
   type: shock
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 3
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shock Maul
 type: weapon
 ---
 data:
-  attack: 0
   availability: Extremely Rare
   class: melee
   clip:
-    max: ''
-    value: ''
-  craftmanship: common
+    max: 0
+    value: 0
+  craftsmanship: common
   damage: 1d10+1
   damageType: impact
   description: ''
-  penetration: '0'
-  range: '3'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 3
   rateOfFire:
-    burst: 0
-    full: 0
-    single: 0
+    burst: -1
+    full: -1
+    single: -1
   reload: ''
-  special: Flexible, Shocking
+  source: DH2 - 161
+  special:
+    flexible: true
+    shocking: true
   type: shock
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shock Whip
 type: weapon
 ---
 data:
-  attack: 0
   availability: Very Rare
   class: heavy
   clip:
-    max: '24'
-    value: '24'
-  craftmanship: common
+    max: 24
+    value: 24
+  craftsmanship: common
   damage: 3d10+8
   damageType: impact
   description: ''
-  penetration: '6'
-  range: '300'
+  equipped: false
+  modifications: []
+  penetration: 6
+  range: 300
   rateOfFire:
     burst: 3
     full: 0
     single: 1
   reload: 2 Full
-  special: Reliable
+  source: DH2 - 155
+  special:
+    reliable: true
   type: solidprojectile
   weight: 40
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Autocannon
 type: weapon
 ---
 data:
-  attack: 0
   availability: Average
   class: basic
   clip:
-    max: '30'
-    value: '30'
-  craftmanship: common
+    max: 30
+    value: 30
+  craftsmanship: common
   damage: 1d10+3
   damageType: impact
   description: ''
-  penetration: '0'
-  range: '100'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 100
   rateOfFire:
     burst: 3
     full: 10
     single: 1
   reload: Full
-  special: ''
+  source: DH2 - 155
+  special: {}
   type: solidprojectile
   weight: 5
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Autogun
 type: weapon
 ---
 data:
-  attack: 0
   availability: Average
   class: pistol
   clip:
-    max: '18'
-    value: '18'
-  craftmanship: common
+    max: 18
+    value: 18
+  craftsmanship: common
   damage: 1d10+2
   damageType: impact
   description: ''
-  penetration: '0'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 0
     full: 6
     single: 1
   reload: Full
-  special: ''
+  source: DH2 - 155
+  special: {}
   type: solidprojectile
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Autopistol
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: pistol
   clip:
-    max: '5'
-    value: '5'
-  craftmanship: common
+    max: 5
+    value: 5
+  craftsmanship: common
   damage: 1d10+4
   damageType: impact
-  description: Two Handed to fire.
-  penetration: '2'
-  range: '35'
+  description: ''
+  equipped: false
+  modifications: []
+  penetration: 2
+  range: 35
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: '!'
+  source: DH2 - 155
+  special:
+    '!': true
   type: solidprojectile
   weight: 3
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hand Cannon
 type: weapon
 ---
 data:
-  attack: 0
   availability: Rare
   class: heavy
   clip:
-    max: '80'
-    value: '80'
-  craftmanship: common
+    max: 80
+    value: 80
+  craftsmanship: common
   damage: 1d10+4
   damageType: impact
   description: ''
-  penetration: '3'
-  range: '100'
+  equipped: false
+  modifications: []
+  penetration: 3
+  range: 100
   rateOfFire:
     burst: 0
     full: 8
     single: 0
   reload: 2 Full
-  special: ''
+  source: DH2 - 156
+  special: {}
   type: solidprojectile
   weight: 30
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Heavy Stubber
 type: weapon
 ---
 data:
-  attack: 0
   availability: Average
   class: basic
   clip:
-    max: '8'
-    value: '8'
-  craftmanship: common
+    max: 8
+    value: 8
+  craftsmanship: common
   damage: 1d10+4
   damageType: impact
   description: ''
-  penetration: '0'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Scatter
+  source: DH2 - 156
+  special:
+    scatter: true
   type: solidprojectile
   weight: 5
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shotgun
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: basic
   clip:
-    max: '18'
-    value: '18'
-  craftmanship: common
+    max: 18
+    value: 18
+  craftsmanship: common
   damage: 1d10+4
   damageType: impact
   description: ''
-  penetration: '0'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 3
     full: 0
     single: 1
   reload: Full
-  special: Scatter
+  source: DH2 - 156
+  special:
+    scatter: true
   type: solidprojectile
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 7
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shotgun (Combat)
 type: weapon
 ---
 data:
-  attack: 0
   availability: Scarce
   class: basic
   clip:
-    max: '20'
-    value: '20'
-  craftmanship: common
+    max: 20
+    value: 20
+  craftsmanship: common
   damage: 1d10+4
   damageType: impact
   description: ''
-  penetration: '3'
-  range: '200'
+  equipped: false
+  modifications: []
+  penetration: 3
+  range: 200
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: Full
-  special: Accurate, Reliable
+  source: DH2 - 156
+  special:
+    accurate: true
+    reliable: true
   type: solidprojectile
   weight: 5
-img: modules/dh2compendium/assets/icons/weapon.jpg
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Sniper Rifle
 type: weapon
 ---
 data:
-  attack: 0
   availability: Average
   class: pistol
   clip:
-    max: '9'
-    value: '9'
-  craftmanship: common
+    max: 9
+    value: 9
+  craftsmanship: common
   damage: 1d10+3
   damageType: impact
   description: ''
-  penetration: '0'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 3
     full: 0
     single: 1
   reload: Full
-  special: ''
+  source: DH2 - 156
+  special: {}
   type: solidprojectile
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Stub Automatic
 type: weapon
 ---
 data:
-  attack: 0
   availability: Plentiful
   class: pistol
   clip:
-    max: '6'
-    value: '6'
-  craftmanship: common
+    max: 6
+    value: 6
+  craftsmanship: common
   damage: 1d10+3
   damageType: impact
   description: ''
-  penetration: '0'
-  range: '30'
+  equipped: false
+  modifications: []
+  penetration: 0
+  range: 30
   rateOfFire:
     burst: 0
     full: 0
     single: 1
   reload: 2 Full
-  special: Reliable
+  source: DH2 - 156
+  special:
+    reliable: true
   type: solidprojectile
-  weight: 0
-img: modules/dh2compendium/assets/icons/weapon.jpg
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Stub Revolver
 type: weapon

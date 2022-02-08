@@ -2,7 +2,8 @@ data:
   aptitudes: Weapon Skill, Ballistic Skill
   benefit: The penalty for  attacks with both weapons in the same turn drops to -10.
   cost: 0
-  prerequisites: PG 123 CB
+  prerequisites: ''
+  source: PG 123 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Ambidextrous
@@ -13,7 +14,8 @@ data:
   benefit: Ignores all penalties for fighting with a melee weapon while suffering
     from obscured vision
   cost: 0
-  prerequisites: PG 123 CB
+  prerequisites: ''
+  source: PG 123 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Blind Fighting
@@ -27,7 +29,8 @@ data:
     character instead of the originaltarget. In the case of a melee attack, the character
     may also attempt to Parry the attack as part of his Reaction.
   cost: 0
-  prerequisites: PG 60 EB
+  prerequisites: ''
+  source: PG 60 EB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Bodyguard
@@ -38,7 +41,8 @@ data:
   benefit: Reduces the effective distance of all falls by a number of metres equal
     to his Agility bonus. Also adds +20 to his Acrobatics skill tests when using Jump
   cost: 0
-  prerequisites: PG 124 CB
+  prerequisites: ''
+  source: PG 124 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Catfall
@@ -49,7 +53,8 @@ data:
   benefit: Once per day, he can re-roll a test made to gather information from a group
     of people.
   cost: 0
-  prerequisites: PG 124 CB
+  prerequisites: ''
+  source: PG 124 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Clues from the Crowds
@@ -60,7 +65,8 @@ data:
   benefit: Test Willpower to avoid Fatigue from Blood Loss with a Challenging (+0)
     Willpower test.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Die Hard
@@ -71,7 +77,8 @@ data:
   benefit: As a Full Action, may make an Opposed Weapon Skill test and force opponent
     to drop weapon. If 3 or more DoS, can steal weapon.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Disarm
@@ -81,7 +88,8 @@ data:
   aptitudes: General, Offence
   benefit: Gain additional +10 for outnumbering opponent.
   cost: 0
-  prerequisites: PG 126 CB
+  prerequisites: ''
+  source: PG 126 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Double Team
@@ -92,7 +100,8 @@ data:
   benefit: Suffers a -10 times X penalty to Fellowship and Influence tests when dealing
     with group.
   cost: 0
-  prerequisites: PG 126 CB
+  prerequisites: ''
+  source: PG 126 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Enemy
@@ -103,7 +112,8 @@ data:
   benefit: Can summon larger metallic objects up to 2 kilograms per point of his Willpower
     bonus, and can summon such objects up to 40 metres.
   cost: 0
-  prerequisites: PG 127 CB
+  prerequisites: ''
+  source: PG 127 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Ferric Summons
@@ -113,7 +123,8 @@ data:
   aptitudes: Offence, Toughness
   benefit: a Full Action, suffering 1d5-2 for +10 WP.
   cost: 0
-  prerequisites: PG 57 EI
+  prerequisites: ''
+  source: PG 57 EI
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Flagellant
@@ -129,7 +140,8 @@ data:
     After combat ends can make a Willpower test to snap out and cannot Frenzy again
     for at least an hour.
   cost: 0
-  prerequisites: PG 127 CB
+  prerequisites: ''
+  source: PG 127 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Frenzy
@@ -141,7 +153,8 @@ data:
     quality, he may reduce the distance it scatters by a number of metres up to half
     his BS bonus
   cost: 0
-  prerequisites: PG 62 EO
+  prerequisites: ''
+  source: PG 62 EO
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Grenadier
@@ -151,7 +164,8 @@ data:
   aptitudes: Toughness, Defence
   benefit: Test Challenging (+0)  Toughness Test to overcome Stunning.
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Iron Jaw
@@ -161,7 +175,8 @@ data:
   aptitudes: Willpower, Defence
   benefit: Ignore mundane horrors.
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Jaded
@@ -171,7 +186,8 @@ data:
   aptitudes: Perception, Social
   benefit: Can retry Awareness test once with 10 modifier.
   cost: 0
-  prerequisites: PG 129 CB
+  prerequisites: ''
+  source: PG 129 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Keen Intuition
@@ -181,7 +197,8 @@ data:
   aptitudes: Agility, General
   benefit: Stand as a Free Action.
   cost: 0
-  prerequisites: PG 129 CB
+  prerequisites: ''
+  source: PG 129 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Leap Up
@@ -192,7 +209,8 @@ data:
   benefit: When he would make an Agility test to avoid attacks from weapons with the
     Spray quality, he may make the test using his Dodge (Ag) skill instead.
   cost: 0
-  prerequisites: PG 63 EO
+  prerequisites: ''
+  source: PG 63 EO
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Leaping Dodge
@@ -203,7 +221,8 @@ data:
   benefit: Reduces any penalty for making attacks (Melee or Ranged) from a moving
     vehicle or mount by 10 for each advance.
   cost: 0
-  prerequisites: PG 58 EI
+  prerequisites: ''
+  source: PG 58 EI
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Mounted Warrior
@@ -213,7 +232,8 @@ data:
   aptitudes: Perception, Offence
   benefit: Can add DoS from the attack to reduce armour value of cover.
   cost: 0
-  prerequisites: PG 130 CB
+  prerequisites: ''
+  source: PG 130 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Nowhere to Hide
@@ -225,7 +245,8 @@ data:
     tests increases to +10 times X. Additionally, when the character acquires his
     talent, also increases his Influence by 1.
   cost: 0
-  prerequisites: PG 130 CB
+  prerequisites: ''
+  source: PG 130 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Peer
@@ -235,7 +256,8 @@ data:
   aptitudes: Agility, Finesse
   benefit: Draw weapon as Free Action.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Quick Draw
@@ -245,7 +267,8 @@ data:
   aptitudes: Agility, Fieldcraft
   benefit: Reduce reload time by half time.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Rapid Reload
@@ -255,7 +278,8 @@ data:
   aptitudes: Toughness, Defence
   benefit: Gain +10 bonus to particular resistance test.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Resistance
@@ -269,7 +293,8 @@ data:
     in the vehicle. In addition, once per round the character can attempt an Ordinary
     (+10) Agility test to Mount or Dismount a vehicle as a Free Action.
   cost: 0
-  prerequisites: PG 63 EO
+  prerequisites: ''
+  source: PG 63 EO
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Skilled Rider
@@ -279,7 +304,8 @@ data:
   aptitudes: Toughness, General
   benefit: Gain an additional wound.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Sound Constitution
@@ -289,7 +315,8 @@ data:
   aptitudes: Weapon Skill, Offence
   benefit: Make special attack to stun opponent.
   cost: 0
-  prerequisites: PG 132 CB
+  prerequisites: ''
+  source: PG 132 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Takedown
@@ -299,7 +326,8 @@ data:
   aptitudes: Intelligence, Tech
   benefit: Un-jam gun as Half Action.
   cost: 0
-  prerequisites: PG 132 CB
+  prerequisites: ''
+  source: PG 132 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Technical Knock
@@ -309,7 +337,8 @@ data:
   aptitudes: Perception, Psyker
   benefit: Allows Psyniscience test as Free Action.
   cost: 0
-  prerequisites: PG 133 CB
+  prerequisites: ''
+  source: PG 133 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Warp Sense
@@ -319,7 +348,8 @@ data:
   aptitudes: General, Finesse
   benefit: Use Weapon Group without penalty.
   cost: 0
-  prerequisites: PG 133 CB
+  prerequisites: ''
+  source: PG 133 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Weapon Training
@@ -331,7 +361,8 @@ data:
     weapons damage and penetration by an amount equal to the characters Intelligence
     bonus until the end of the round once per encounter.
   cost: 0
-  prerequisites: PG 133 CB
+  prerequisites: ''
+  source: PG 133 CB
   tier: '1'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Weapon-Tech
@@ -343,7 +374,8 @@ data:
     NPCs by 20. In addition, once per encounter, he can reroll a failed Interaction
     skill test when interacting with such an NPC.
   cost: 0
-  prerequisites: PG 62 EO
+  prerequisites: ''
+  source: PG 62 EO
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Ambassador Imperialis
@@ -354,7 +386,8 @@ data:
   benefit: A Scholastic Lore or Forbidden Lore test utilising sources of recorded
     information of any sort can re-roll with -10.
   cost: 0
-  prerequisites: PG 62 EO
+  prerequisites: ''
+  source: PG 62 EO
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Archivator
@@ -365,7 +398,8 @@ data:
   benefit: Gains an extra amount of Armor points equal to his Intelligence bonus.
     Takes an hour each day.
   cost: 0
-  prerequisites: PG 123 CB
+  prerequisites: ''
+  source: PG 123 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Armor-Monger
@@ -376,7 +410,8 @@ data:
   benefit: Can Parry while Frenzied, and can re-roll a failed test to snap out of
     Frenzy or resist entering Frenzy if they choose.
   cost: 0
-  prerequisites: PG 123 CB
+  prerequisites: ''
+  source: PG 123 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Battle Rage
@@ -387,7 +422,8 @@ data:
   benefit: Remove bracing requirement from Heavy weapons, and +20 to his Athletics
     skill test when using Heft.
   cost: 0
-  prerequisites: PG 123 CB
+  prerequisites: ''
+  source: PG 123 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Bulging Biceps
@@ -399,7 +435,8 @@ data:
     damage ignoring armour and Toughness bonus for each degree of success on the Fear
     test.
   cost: 0
-  prerequisites: PG 60 EB
+  prerequisites: ''
+  source: PG 60 EB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Bulwark of Faith
@@ -409,7 +446,8 @@ data:
   aptitudes: Weapon Skill, Defence
   benefit: Opponents get no bonus for outnumbering the character.
   cost: 0
-  prerequisites: PG 124 CB
+  prerequisites: ''
+  source: PG 124 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Combat Master
@@ -420,7 +458,8 @@ data:
   benefit: Can use Per or Int instead of Ag for Initiative rolls, and rolls two dice
     (picking higher) for the result.
   cost: 0
-  prerequisites: PG 124 CB
+  prerequisites: ''
+  source: PG 124 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Constant Vigilance
@@ -430,7 +469,8 @@ data:
   aptitudes: Fellowship, Leadership
   benefit: Use Fellowship instead of Influence for Requisition tests.
   cost: 0
-  prerequisites: PG 124 CB
+  prerequisites: ''
+  source: PG 124 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Contact Network
@@ -441,7 +481,8 @@ data:
   benefit: Has a+10 bonus to all Interrogate tests, additional +5 for others who also
     have Coordinated Interrogation
   cost: 0
-  prerequisites: PG 124 CB
+  prerequisites: ''
+  source: PG 124 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Coordinated Interrogation
@@ -451,7 +492,8 @@ data:
   aptitudes: Weapon Skill, Defence
   benefit: May make a Standard Attack after successful Parry with -20 to Weapon Skill.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Counter Attack
@@ -461,7 +503,8 @@ data:
   aptitudes: Intelligence, Knowledge
   benefit: Can reduce Influence by 1 to gain 1d5 Subtlety.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Cover-Up
@@ -472,7 +515,8 @@ data:
   benefit: May re-roll failed Awareness and Psyniscience Tests to detect the presence
     of Daemons. In addition, his attacks against Daemons gain the Proven (3) quality.
   cost: 0
-  prerequisites: PG 60 EB
+  prerequisites: ''
+  source: PG 60 EB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Daemonhunter
@@ -484,7 +528,8 @@ data:
     power is a Daemon, he gains a +10 bonus to the Focus Power test. At the GMs discretion,
     this bonus may apply to other tests, such as rituals to summon or bind a Daemon.
   cost: 0
-  prerequisites: PG 60 EB
+  prerequisites: ''
+  source: PG 60 EB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Daemonologist
@@ -494,7 +539,8 @@ data:
   aptitudes: Willpower, Defence
   benefit: Can use Willpower to Evade against psychic attacks.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Deny the Witch
@@ -505,7 +551,8 @@ data:
   benefit: Successful All Out Attack grants, may make a second All Out Attack once
     per turn.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Devastating Assault
@@ -516,7 +563,8 @@ data:
   benefit: A second ranged attack against the same target, grants a+20 bonus if scored
     1 or more DoS.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Double Tap
@@ -526,7 +574,8 @@ data:
   aptitudes: Intelligence, Finesse
   benefit: Gain proficiency with one exotic weapon type.
   cost: 0
-  prerequisites: PG 127 CB
+  prerequisites: ''
+  source: PG 127 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Exotic Weapon Training
@@ -536,7 +585,8 @@ data:
   aptitudes: Fellowship, Social
   benefit: Can use Fellowship instead of Agility when Shadowing.
   cost: 0
-  prerequisites: PG 127 CB
+  prerequisites: ''
+  source: PG 127 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Face in a Crowd
@@ -549,7 +599,8 @@ data:
     Forbidden Lore (Xenos) skill, he makes a Medicae (WS) or Medicae (BS) test in
     place of the normal Weapon Skill or Ballistic Skill test.
   cost: 0
-  prerequisites: PG 62 EO
+  prerequisites: ''
+  source: PG 62 EO
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Field Vivisection
@@ -559,7 +610,8 @@ data:
   aptitudes: Agility, Defence
   benefit: 20 to hit character when he Charges or Runs.
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Hard Target
@@ -571,7 +623,8 @@ data:
     amount gained by half (rounded up) and gain Insanity points equal to the amount
     reduced.
   cost: 0
-  prerequisites: PG 61 EB
+  prerequisites: ''
+  source: PG 61 EB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Harden Soul
@@ -581,7 +634,8 @@ data:
   aptitudes: Toughness, Defence
   benefit: Character always heals as if Lightly Damaged.
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Hardy
@@ -592,7 +646,8 @@ data:
   benefit: Gain +10 bonus to attack Weapon Skill tests. Must make a Challenging (+0)
     Willpower test to retreat or surrender.
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Hatred
@@ -603,7 +658,8 @@ data:
   benefit: As a Full Action, can both move up to his Full Move rate and make a single
     shot attack with a ranged weapon per weapon.
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Hip Shooting
@@ -616,7 +672,8 @@ data:
     test, he may voluntarily suffer 1 level of Fatigue in order to reduce the degrees
     of failure by an amount equal to his Agility bonus, to a minimum of 1.
   cost: 0
-  prerequisites: PG 62 EO
+  prerequisites: ''
+  source: PG 62 EO
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Hotshot Pilot
@@ -626,7 +683,8 @@ data:
   aptitudes: Ballistic Skill, Finesse
   benefit: Fire at multiple targets more than 10 metres apart when firing two weapons.
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Independent Targeting
@@ -637,7 +695,8 @@ data:
   benefit: Attacker imposes penalty on all evasion attempts made against this attack
     equal to 10 times the total degrees of success scored on the attack test.
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Inescapable Attack
@@ -650,7 +709,8 @@ data:
     represent inspiring words, encouragement, or sheer steadfastness in the face of
     terrifying foes.
   cost: 0
-  prerequisites: PG 61 EB
+  prerequisites: ''
+  source: PG 61 EB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Inspiring Aura
@@ -661,7 +721,8 @@ data:
   benefit: After failing a Fear or Pinning test, the character can re-roll the test
     with a 10 modifier.
   cost: 0
-  prerequisites: PG 61 EB
+  prerequisites: ''
+  source: PG 61 EB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Iron Resolve
@@ -671,7 +732,8 @@ data:
   aptitudes: Weapon Skill, Offence
   benefit: Spend Fate point to make melee attacks unavoidable.
   cost: 0
-  prerequisites: PG 129 CB
+  prerequisites: ''
+  source: PG 129 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Killing Strike
@@ -682,7 +744,8 @@ data:
   benefit: The character can attempt any Linguistics skill in which he is not trained
     as an untrained skill test as if it were not a Specialist skill.
   cost: 0
-  prerequisites: PG 63 EO
+  prerequisites: ''
+  source: PG 63 EO
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Lexographer
@@ -694,7 +757,8 @@ data:
     with Pen 0 and the Shocking quality. Must pass a Toughness test or suffer 1 level
     of Fatigue after attack.
   cost: 0
-  prerequisites: PG 129 CB
+  prerequisites: ''
+  source: PG 129 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Luminen Shock
@@ -707,7 +771,8 @@ data:
     damage from falling if the coils are active. Each use drains half the power stored
     in the coils (can use the coils twice before recharging them).
   cost: 0
-  prerequisites: PG 129 CB
+  prerequisites: ''
+  source: PG 129 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Maglev Transcendence
@@ -717,7 +782,8 @@ data:
   aptitudes: Ballistic Skill, Finesse
   benefit: No penalties for firing at long or extreme range.
   cost: 0
-  prerequisites: PG 130 CB
+  prerequisites: ''
+  source: PG 130 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Marksman
@@ -727,7 +793,8 @@ data:
   aptitudes: Intelligence, Tech
   benefit: Gain ability to use certain Mechadendrites. Weapon or Utility.
   cost: 0
-  prerequisites: PG 130 CB
+  prerequisites: ''
+  source: PG 130 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Mechadendrite Use
@@ -739,7 +806,8 @@ data:
     degrees of success on successful Weapon Skill tests equal to half of his Weapon
     Skill bonus (rounded down).
   cost: 0
-  prerequisites: PG 61 EB
+  prerequisites: ''
+  source: PG 61 EB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: One-on-One
@@ -750,7 +818,8 @@ data:
   benefit: psyker or ally within 10 metres target of a psychic power suffer any number
     of levels of Fatigue, each level grants +10 to opposed test to resist or avoid.
   cost: 0
-  prerequisites: PG 58 EI
+  prerequisites: ''
+  source: PG 58 EI
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Penitent Psyker
@@ -760,7 +829,8 @@ data:
   aptitudes: Ballistic Skill/Weapon Skill, Finesse
   benefit: No penalty to making Called Shot in either Ranged or Melee Combat.
   cost: 0
-  prerequisites: PG 130 CB
+  prerequisites: ''
+  source: PG 130 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Precision Killer
@@ -771,7 +841,8 @@ data:
   benefit: Spend 10 minutes and make a Tech-Use test to heal 1d5 damage. Rolls 96
     or higher, loses the ability for one week.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Prosanguine
@@ -781,7 +852,8 @@ data:
   aptitudes: Offence, Willpower
   benefit: Attacks gain the Vengeful (9) quality against opponents of Hatred group.
   cost: 0
-  prerequisites: PG 58 EI
+  prerequisites: ''
+  source: PG 58 EI
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Purity of Hatred
@@ -794,7 +866,8 @@ data:
     within a distance equal to twice the characters Willpower bonus in meters suffer
     a 10 penalty to Willpower tests.
   cost: 0
-  prerequisites: PG 61 EB
+  prerequisites: ''
+  source: PG 61 EB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Rites of Banishment
@@ -804,7 +877,8 @@ data:
   aptitudes: Willpower, Defence
   benefit: May reroll failed WP tests to resist psychic powers.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Strong Minded
@@ -814,7 +888,8 @@ data:
   aptitudes: Weapon Skill, Finesse
   benefit: May make multiple melee attacks.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Swift Attack
@@ -826,7 +901,8 @@ data:
     points up to his psy rating. For each point he gains in this way, he gains a +10
     bonus but adds +5 to rolls on Table 6-2 Psychic Phenomena
   cost: 0
-  prerequisites: PG 58 EI
+  prerequisites: ''
+  source: PG 58 EI
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Tainted Psyker
@@ -837,7 +913,8 @@ data:
   benefit: Attacks with two weapons count as being part of the same Half Action, and
     both tests made to attack with the weapons suer a 20 penalty.
   cost: 0
-  prerequisites: PG 132 CB
+  prerequisites: ''
+  source: PG 132 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Two-Weapon Wielder
@@ -848,7 +925,8 @@ data:
   benefit: When fighting unarmed, attacks hit as Deadly Natural Weapons and user can
     re-roll damage.
   cost: 0
-  prerequisites: PG 132 CB
+  prerequisites: ''
+  source: PG 132 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Unarmed Specialist
@@ -859,7 +937,8 @@ data:
   benefit: 'Spend Fate point to add 1d5 to psy rating however he adds +30 to rolls
     on Table 62: Psychic Phenomena'
   cost: 0
-  prerequisites: PG 132 CB
+  prerequisites: ''
+  source: PG 132 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Warp Conduit
@@ -872,7 +951,8 @@ data:
     targeting each other foe also engaged in melee combat with the character beyond
     the rst (to a maximum number of attacks up to his Weapon Skill bonus).
   cost: 0
-  prerequisites: PG 133 CB
+  prerequisites: ''
+  source: PG 133 CB
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Whirlwind of Death
@@ -883,7 +963,8 @@ data:
   benefit: Counts as possessing the Psyniscience skill at Rank 1 (Known), even though
     he is not a psyker.
   cost: 0
-  prerequisites: PG 58 EI
+  prerequisites: ''
+  source: PG 58 EI
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Witch Finder
@@ -894,7 +975,8 @@ data:
   benefit: The character can attempt any Forbidden Lore (Xenos) test in which he is
     not trained as an untrained skill test as if it were not a Specialist skill.
   cost: 0
-  prerequisites: PG 63 EO
+  prerequisites: ''
+  source: PG 63 EO
   tier: '2'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Xenosavant
@@ -906,7 +988,8 @@ data:
     Pinning test. If this reduces the result to zero or less, he counts as having
     passed the Fear test with 1 degree of success.
   cost: 0
-  prerequisites: PG 123 CB
+  prerequisites: ''
+  source: PG 123 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Adamantium Faith
@@ -917,7 +1000,8 @@ data:
   benefit: Character or an ally within 10 metres gains Corruption, reduce the amount
     by 1 to a min of 0.
   cost: 0
-  prerequisites: PG 57 EI
+  prerequisites: ''
+  source: PG 57 EI
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Aegis of Contempt
@@ -929,7 +1013,8 @@ data:
     move at half rate as a Free Action. Only once per round, and opponent does not
     receive a free attack.
   cost: 0
-  prerequisites: PG 123 CB
+  prerequisites: ''
+  source: PG 123 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Assassin Strike
@@ -940,7 +1025,8 @@ data:
   benefit: Adds 5 x his psy rating to any Opposed test when defending against psychic
     powers.
   cost: 0
-  prerequisites: PG 123 CB
+  prerequisites: ''
+  source: PG 123 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Bastion of Iron Will
@@ -951,7 +1037,8 @@ data:
   benefit: When attacking with any bladed weapon, can re-roll one missed attack per
     round.
   cost: 0
-  prerequisites: PG 123 CB
+  prerequisites: ''
+  source: PG 123 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Blademaster
@@ -961,7 +1048,8 @@ data:
   aptitudes: Weapon Skill, Offence
   benefit: Add half WS bonus (Round up) to damage inflicted in melee.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Crushing Blow
@@ -973,7 +1061,8 @@ data:
     attack test against this character, it must immediately test for Warp Instability
     after resolving the attack.
   cost: 0
-  prerequisites: PG 60 EB
+  prerequisites: ''
+  source: PG 60 EB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Daemonic Disruption
@@ -985,7 +1074,8 @@ data:
     Corruption, he may choose to automatically pass the test. If he does, he also
     gains a Malignancy and increases his Corruption total by 1d10.
   cost: 0
-  prerequisites: PG 60 EB
+  prerequisites: ''
+  source: PG 60 EB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Dark Soul
@@ -997,7 +1087,8 @@ data:
     (Melee with Weapon Skill, Ranged with Ballistic Skill). Attack in that combat
     type inflicts Critical damage, add his Perception bonus to the damage result.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Deathdealer
@@ -1008,7 +1099,8 @@ data:
   benefit: Reduce Subtlety loss by 1d5 when conducting an Interrogation. If this results
     in a negative number increase the warbands Subtlety by 1.
   cost: 0
-  prerequisites: PG 125 CB
+  prerequisites: ''
+  source: PG 125 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Delicate Interrogation
@@ -1018,7 +1110,8 @@ data:
   aptitudes: General, Finesse
   benefit: Attacks using Spray quality only effects enemies.
   cost: 0
-  prerequisites: PG 57 EI
+  prerequisites: ''
+  source: PG 57 EI
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Divine Protection
@@ -1029,7 +1122,8 @@ data:
   benefit: Spend 1 Fate point to add the number of  DoS scored on the attack test
     to damage and Penetration.
   cost: 0
-  prerequisites: PG 127 CB
+  prerequisites: ''
+  source: PG 127 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Eye of Vengeance
@@ -1039,7 +1133,8 @@ data:
   aptitudes: Willpower, Psyker
   benefit: Roll twice for Psychic Phenomena and choose result.
   cost: 0
-  prerequisites: PG 127 CB
+  prerequisites: ''
+  source: PG 127 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Favored by the Warp
@@ -1049,7 +1144,8 @@ data:
   aptitudes: Perception, Knowledge
   benefit: Spend 1 Fate point to reveal a clue.
   cost: 0
-  prerequisites: PG 127 CB
+  prerequisites: ''
+  source: PG 127 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Flash of Insight
@@ -1059,7 +1155,8 @@ data:
   aptitudes: Fellowship, Leadership
   benefit: Affect NPCs within 100xFelB metres with Social skills.
   cost: 0
-  prerequisites: PG 127 CB
+  prerequisites: ''
+  source: PG 127 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Halo of Command
@@ -1071,7 +1168,8 @@ data:
     half his Strength bonus (rounded up) to the weapons penetration. The attack also
     counts as having the Concussive (2) weapon quality.
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Hammer Blow
@@ -1084,7 +1182,8 @@ data:
     purposes of attack modifiers and the benefits of cover until the start of his
     next turn.
   cost: 0
-  prerequisites: PG 62 EO
+  prerequisites: ''
+  source: PG 62 EO
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Hull Down
@@ -1095,7 +1194,8 @@ data:
   benefit: Character or an ally within 10 metres gains Insanity, reduce the amount
     by 1 to a min of 0.
   cost: 0
-  prerequisites: PG 57 EI
+  prerequisites: ''
+  source: PG 57 EI
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Indomitable Conviction
@@ -1105,7 +1205,8 @@ data:
   aptitudes: Intelligence, Knowledge
   benefit: counts as having all Common Lore and Scholastic Lore skills at rank 1 (Known).
   cost: 0
-  prerequisites: PG 128 CB
+  prerequisites: ''
+  source: PG 128 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Infused Knowledge
@@ -1119,7 +1220,8 @@ data:
     to twice his Willpower bonus. This additional damage ignores armour and Toughness
     bonus.
   cost: 0
-  prerequisites: PG 61 EB
+  prerequisites: ''
+  source: PG 61 EB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Instrument of His Will
@@ -1129,7 +1231,8 @@ data:
   aptitudes: Leadership, Willpower
   benefit: Subtract the fellowship bonus from DoF for failed Fear or Pinning test.
   cost: 0
-  prerequisites: PG 57 EI
+  prerequisites: ''
+  source: PG 57 EI
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Into the Jaws of Hell
@@ -1139,7 +1242,8 @@ data:
   aptitudes: Defence, Willpower
   benefit: The character is immune to the effects of the Baneful Presence trait.
   cost: 0
-  prerequisites: PG 61 EB
+  prerequisites: ''
+  source: PG 61 EB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Iron Faith
@@ -1149,7 +1253,8 @@ data:
   aptitudes: Weapon Skill, Finesse
   benefit: Character may make many melee attacks with single roll.
   cost: 0
-  prerequisites: PG 129 CB
+  prerequisites: ''
+  source: PG 129 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Lightning Attack
@@ -1161,7 +1266,8 @@ data:
     and deals 1d10 plus twice his Willpower bonus in Energy damage. Must pass a Toughness
     test or suffer 1 level of Fatigue after attack.
   cost: 0
-  prerequisites: PG 129 CB
+  prerequisites: ''
+  source: PG 129 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Luminen Blast
@@ -1173,7 +1279,8 @@ data:
     test is Challenging (+0) or better, score a number of degrees of success equal
     to the characteristic bonus.
   cost: 0
-  prerequisites: PG 130 CB
+  prerequisites: ''
+  source: PG 130 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Mastery
@@ -1183,7 +1290,8 @@ data:
   aptitudes: Ballistic Skill, Offence
   benefit: Add half BS (rounding up) bonus to ranged damage rolls.
   cost: 0
-  prerequisites: PG 130 CB
+  prerequisites: ''
+  source: PG 130 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Mighty Shot
@@ -1194,7 +1302,8 @@ data:
   benefit: Ignore penalties from Critical damage by spending Fate point. Once the
     encounter ends, the effects trigger as normal.
   cost: 0
-  prerequisites: PG 130 CB
+  prerequisites: ''
+  source: PG 130 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Never Die
@@ -1204,7 +1313,8 @@ data:
   aptitudes: Agility, Offence
   benefit: Double speed when charging.
   cost: 0
-  prerequisites: PG 130 CB
+  prerequisites: ''
+  source: PG 130 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Preternatural Speed
@@ -1217,7 +1327,8 @@ data:
     Table 732: Motive Systems Critical Hit effects and apply the result. If he is
     riding a living mount, roll 1d5 on Table 718: Impact Critical effects  Leg'
   cost: 0
-  prerequisites: PG 63 EO
+  prerequisites: ''
+  source: PG 63 EO
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Push the Limit
@@ -1229,7 +1340,8 @@ data:
     from the Sanctic Daemonology discipline, he may spend a Fate point in order to
     negate the result entirely.
   cost: 0
-  prerequisites: PG 61 EB
+  prerequisites: ''
+  source: PG 61 EB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Sanctic Purity
@@ -1240,7 +1352,8 @@ data:
   benefit: When armed with a shield, the character can re-roll one failed Evasion
     test to Parry an attack per round.
   cost: 0
-  prerequisites: PG 61 EB
+  prerequisites: ''
+  source: PG 61 EB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Shield Wall
@@ -1250,7 +1363,8 @@ data:
   aptitudes: Agility, Fieldcraft
   benefit: Move more quickly in combat.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Sprint
@@ -1260,7 +1374,8 @@ data:
   aptitudes: Agility, Defence
   benefit: Can make additional Dodge or Parry attempt per round.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Step Aside
@@ -1271,7 +1386,8 @@ data:
   benefit: Gain +20 to Medicae tests, bonuses to first aid tests and only suffers
     a 10 penalty for those suffering Critical damage.
   cost: 0
-  prerequisites: PG 131 CB
+  prerequisites: ''
+  source: PG 131 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Superior Chirurgeon
@@ -1282,7 +1398,8 @@ data:
   benefit: May shoot into melee without penalty. Also an Aim action beforehand, prevents
     any chance of hitting friendly targets as well.
   cost: 0
-  prerequisites: PG 132 CB
+  prerequisites: ''
+  source: PG 132 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Target Selection
@@ -1292,7 +1409,8 @@ data:
   aptitudes: Strength, Offence
   benefit: Break enemies with armoured charge.
   cost: 0
-  prerequisites: PG 132 CB
+  prerequisites: ''
+  source: PG 132 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Thunder Charge
@@ -1302,7 +1420,8 @@ data:
   aptitudes: Toughness, Defence
   benefit: Reduce Critical damage taken.
   cost: 0
-  prerequisites: PG 132 CB
+  prerequisites: ''
+  source: PG 132 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: True Grit
@@ -1312,7 +1431,8 @@ data:
   aptitudes: Finesse, Offence
   benefit: No penalties when fighting with two single handed weapons.
   cost: 0
-  prerequisites: PG 132 CB
+  prerequisites: ''
+  source: PG 132 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Two-Weapon Master
@@ -1325,7 +1445,8 @@ data:
     make any Focus Power tests or sustain other psychic powers until the beginning
     of his next turn.
   cost: 0
-  prerequisites: PG 133 CB
+  prerequisites: ''
+  source: PG 133 CB
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Warp Lock
@@ -1336,7 +1457,8 @@ data:
   benefit: The character reduces the penalty for using a weapon without the proper
     training by 10.
   cost: 0
-  prerequisites: PG 63 EO
+  prerequisites: ''
+  source: PG 63 EO
   tier: '3'
 img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
 name: Weapon Intuition
