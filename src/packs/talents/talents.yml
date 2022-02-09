@@ -5,7 +5,7 @@ data:
   prerequisites: ''
   source: PG 123 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/swords/swords_01_b.png
 name: Ambidextrous
 type: talent
 ---
@@ -17,7 +17,7 @@ data:
   prerequisites: ''
   source: PG 123 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/blue/b_02.png
 name: Blind Fighting
 type: talent
 ---
@@ -32,7 +32,7 @@ data:
   prerequisites: ''
   source: PG 60 EB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/armor/helmet_s05.png
 name: Bodyguard
 type: talent
 ---
@@ -44,7 +44,7 @@ data:
   prerequisites: ''
   source: PG 124 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/wind-grasp-magenta-1.jpg
 name: Catfall
 type: talent
 ---
@@ -80,7 +80,7 @@ data:
   prerequisites: ''
   source: PG 125 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/armor/gloves_s08.png
 name: Disarm
 type: talent
 ---
@@ -91,7 +91,7 @@ data:
   prerequisites: ''
   source: PG 126 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/violet/p_29.PNG
 name: Double Team
 type: talent
 ---
@@ -103,7 +103,7 @@ data:
   prerequisites: ''
   source: PG 126 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/violet/p_21.PNG
 name: Enemy
 type: talent
 ---
@@ -115,7 +115,7 @@ data:
   prerequisites: ''
   source: PG 127 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/blue/b_02.png
 name: Ferric Summons
 type: talent
 ---
@@ -126,7 +126,7 @@ data:
   prerequisites: ''
   source: PG 57 EI
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/flail/flail_03_t.PNG
 name: Flagellant
 type: talent
 ---
@@ -143,7 +143,7 @@ data:
   prerequisites: ''
   source: PG 127 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/red/r_08.png
 name: Frenzy
 type: talent
 ---
@@ -156,7 +156,7 @@ data:
   prerequisites: ''
   source: PG 62 EO
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/grenade/grenade_04.png
 name: Grenadier
 type: talent
 ---
@@ -248,7 +248,7 @@ data:
   prerequisites: ''
   source: PG 130 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/evil-eye-eerie-2.jpg
 name: Peer
 type: talent
 ---
@@ -259,7 +259,7 @@ data:
   prerequisites: ''
   source: PG 131 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_18.png
 name: Quick Draw
 type: talent
 ---
@@ -329,7 +329,7 @@ data:
   prerequisites: ''
   source: PG 132 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/blue/b_21.png
 name: Technical Knock
 type: talent
 ---
@@ -340,7 +340,7 @@ data:
   prerequisites: ''
   source: PG 133 CB
   tier: '1'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/evil-eye-eerie-3.jpg
 name: Warp Sense
 type: talent
 ---
@@ -395,13 +395,12 @@ type: talent
 ---
 data:
   aptitudes: Intelligence, Tech
-  benefit: Gains an extra amount of Armor points equal to his Intelligence bonus.
-    Takes an hour each day.
+  benefit: The character gains an extra amount of Armour points equal to his Intelligence bonus, which he can distribute to any locations that his armour would normally cover, as long as he has at least an hour each day to clean and repair it or make minor modifications. This bonus applies only to armour when the Acolyte is wearing it, as it combines his training with his skill at armoury.
   cost: 0
   prerequisites: ''
   source: PG 123 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/blue/b_07.png
 name: Armor-Monger
 type: talent
 ---
@@ -413,7 +412,7 @@ data:
   prerequisites: ''
   source: PG 123 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/evil-eye-red-1.jpg
 name: Battle Rage
 type: talent
 ---
@@ -438,7 +437,7 @@ data:
   prerequisites: ''
   source: PG 60 EB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/haste-sky-3.jpg
 name: Bulwark of Faith
 type: talent
 ---
@@ -449,7 +448,7 @@ data:
   prerequisites: ''
   source: PG 124 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/armor/helmet_s10.png
 name: Combat Master
 type: talent
 ---
@@ -461,7 +460,7 @@ data:
   prerequisites: ''
   source: PG 124 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/evil-eye-eerie-1.jpg
 name: Constant Vigilance
 type: talent
 ---
@@ -518,7 +517,7 @@ data:
   prerequisites: ''
   source: PG 60 EB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/red/r_36.png
 name: Daemonhunter
 type: talent
 ---
@@ -531,7 +530,7 @@ data:
   prerequisites: ''
   source: PG 60 EB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/red/r_29.png
 name: Daemonologist
 type: talent
 ---
@@ -542,7 +541,7 @@ data:
   prerequisites: ''
   source: PG 125 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/haste-royal-2.jpg
 name: Deny the Witch
 type: talent
 ---
@@ -566,7 +565,7 @@ data:
   prerequisites: ''
   source: PG 125 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/pistols/pistols_13.png
 name: Double Tap
 type: talent
 ---
@@ -577,7 +576,7 @@ data:
   prerequisites: ''
   source: PG 127 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/spear/stave_04_b.png
 name: Exotic Weapon Training
 type: talent
 ---
@@ -588,7 +587,7 @@ data:
   prerequisites: ''
   source: PG 127 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/green/g_11.png
 name: Face in a Crowd
 type: talent
 ---
@@ -760,7 +759,7 @@ data:
   prerequisites: ''
   source: PG 129 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/lighting-eerie-2.jpg
 name: Luminen Shock
 type: talent
 ---
@@ -785,7 +784,7 @@ data:
   prerequisites: ''
   source: PG 130 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/rifles/rifle_03.png
 name: Marksman
 type: talent
 ---
@@ -880,7 +879,7 @@ data:
   prerequisites: ''
   source: PG 131 CB
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/red/r_27.png
 name: Strong Minded
 type: talent
 ---
@@ -904,7 +903,7 @@ data:
   prerequisites: ''
   source: PG 58 EI
   tier: '2'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/horror-red-3.jpg
 name: Tainted Psyker
 type: talent
 ---
@@ -991,19 +990,18 @@ data:
   prerequisites: ''
   source: PG 123 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/violet/p_06.png
 name: Adamantium Faith
 type: talent
 ---
 data:
   aptitudes: Defence, Leadership
-  benefit: Character or an ally within 10 metres gains Corruption, reduce the amount
-    by 1 to a min of 0.
+  benefit: Character or an ally within 10 metres gains Corruption, reduce the amount by 1 to a min of 0. In addition, an ally within 10 metres can spend a Fate point to gain 0 Corruption instead. These effects do not stack when there are multiple characters with this talent within range.
   cost: 0
-  prerequisites: ''
+  prerequisites: 'Shared Destiny, Shield of Contempt, Hatred (any)'
   source: PG 57 EI
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/link-eerie-1.jpg
 name: Aegis of Contempt
 type: talent
 ---
@@ -1016,7 +1014,7 @@ data:
   prerequisites: ''
   source: PG 123 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/blue/gr_10.PNG
 name: Assassin Strike
 type: talent
 ---
@@ -1028,7 +1026,7 @@ data:
   prerequisites: ''
   source: PG 123 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/protect-blue-2.jpg
 name: Bastion of Iron Will
 type: talent
 ---
@@ -1040,7 +1038,7 @@ data:
   prerequisites: ''
   source: PG 123 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/swords/swords_06_b.PNG
 name: Blademaster
 type: talent
 ---
@@ -1051,7 +1049,7 @@ data:
   prerequisites: ''
   source: PG 125 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/maces/mace_09_b.png
 name: Crushing Blow
 type: talent
 ---
@@ -1064,7 +1062,7 @@ data:
   prerequisites: ''
   source: PG 60 EB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/violet/p_19.PNG
 name: Daemonic Disruption
 type: talent
 ---
@@ -1077,7 +1075,7 @@ data:
   prerequisites: ''
   source: PG 60 EB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/blue/b_32.png
 name: Dark Soul
 type: talent
 ---
@@ -1090,7 +1088,7 @@ data:
   prerequisites: ''
   source: PG 125 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/rifles/rifle_06.png
 name: Deathdealer
 type: talent
 ---
@@ -1113,7 +1111,7 @@ data:
   prerequisites: ''
   source: PG 57 EI
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/heal-sky-3.jpg
 name: Divine Protection
 type: talent
 ---
@@ -1125,7 +1123,7 @@ data:
   prerequisites: ''
   source: PG 127 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/evil-eye-red-3.jpg
 name: Eye of Vengeance
 type: talent
 ---
@@ -1136,7 +1134,7 @@ data:
   prerequisites: ''
   source: PG 127 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/green/g_23.PNG
 name: Favored by the Warp
 type: talent
 ---
@@ -1171,7 +1169,7 @@ data:
   prerequisites: ''
   source: PG 128 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/items/maces/mace_02_b.png
 name: Hammer Blow
 type: talent
 ---
@@ -1256,7 +1254,7 @@ data:
   prerequisites: ''
   source: PG 129 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/enchant-sky-2.jpg
 name: Lightning Attack
 type: talent
 ---
@@ -1269,7 +1267,7 @@ data:
   prerequisites: ''
   source: PG 129 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/lighting-eerie-3.jpg
 name: Luminen Blast
 type: talent
 ---
@@ -1355,7 +1353,7 @@ data:
   prerequisites: ''
   source: PG 61 EB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/talents/blue/b_19.PNG
 name: Shield Wall
 type: talent
 ---
@@ -1412,7 +1410,7 @@ data:
   prerequisites: ''
   source: PG 132 CB
   tier: '3'
-img: systems/dark-heresy-2nd/icons/talents/blue/b_18.png
+img: systems/dark-heresy-2nd/icons/psykana/lighting-acid-2.jpg
 name: Thunder Charge
 type: talent
 ---

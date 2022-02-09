@@ -1,0 +1,502 @@
+data:
+  armourPoints:
+    body: 2
+    head: 0
+    leftArm: 2
+    leftLeg: 2
+    rightArm: 2
+    rightLeg: 2
+  availability: rare
+  craftmanship: common
+  description: ''
+  maxAgility: 0
+  type: basic
+  weight: 5
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Armoured Bodyglove
+type: armour
+---
+data:
+  armourPoints:
+    body: 3
+    head: 0
+    leftArm: 3
+    leftLeg: 3
+    rightArm: 3
+    rightLeg: 3
+  availability: common
+  craftmanship: common
+  description: ''
+  maxAgility: 35
+  type: basic
+  weight: 15
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Chainmail Suit
+type: armour
+---
+data:
+  armourPoints:
+    body: 5
+    head: 5
+    leftArm: 5
+    leftLeg: 5
+    rightArm: 5
+    rightLeg: 5
+  availability: scarce
+  craftmanship: common
+  description: ''
+  maxAgility: 25
+  type: basic
+  weight: 30
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Feudal World Plate
+type: armour
+---
+data:
+  armourPoints:
+    body: 1
+    head: 0
+    leftArm: 1
+    leftLeg: 0
+    rightArm: 1
+    rightLeg: 0
+  availability: common
+  craftmanship: common
+  description: ''
+  maxAgility: 0
+  type: basic
+  weight: 5
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Heavy Leathers
+type: armour
+---
+data:
+  armourPoints:
+    body: 1
+    head: 0
+    leftArm: 1
+    leftLeg: 1
+    rightArm: 1
+    rightLeg: 1
+  availability: average
+  craftmanship: common
+  description: ''
+  maxAgility: 0
+  type: basic
+  weight: 4
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Imperial Robes
+type: armour
+---
+data:
+  armourPoints:
+    body: 0
+    head: 0
+    leftArm: 0
+    leftLeg: 0
+    rightArm: 0
+    rightLeg: 0
+  availability: rare
+  craftmanship: common
+  description: Grants a +40 bonus to any Toughness test made to resist the effects
+    of gasses, as well as a +10 bonus for resisting extreme temperatures and being
+    set on fire. Contains rebreather for 5 hours. If takes more than 5 points of damage  in
+    a single round, the suit becomes damaged and require repair.
+  maxAgility: 40
+  type: basic
+  weight: 10
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Mould Suit
+type: armour
+---
+data:
+  armourPoints:
+    body: 6
+    head: 0
+    leftArm: 0
+    leftLeg: 0
+    rightArm: 0
+    rightLeg: 0
+  availability: very rare
+  craftmanship: common
+  description: Gains the Resistance (Psychic Powers) talent, or an additional +10
+    to tests to resist psychic powers if the character already has this talent. Obsidian
+    plate counts it's listed Armour points as triple against hits inflicted by Psychic
+    Bolts. A psyker wearing obsidian plate cannot push his psychic powers, and reduces
+    his psy-rating by 3 (to a minimum of 1)
+  maxAgility: 35
+  type: basic
+  weight: 35
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Obsidian Plate
+type: armour
+---
+data:
+  armourPoints:
+    body: 6
+    head: 0
+    leftArm: 0
+    leftLeg: 0
+    rightArm: 0
+    rightLeg: 0
+  availability: very rare
+  craftmanship: common
+  description: ''
+  maxAgility: 50
+  type: basic
+  weight: 20
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Xenos Hide Vest
+type: armour
+---
+data:
+  armourPoints:
+    body: 6
+    head: 0
+    leftArm: 0
+    leftLeg: 0
+    rightArm: 0
+    rightLeg: 0
+  availability: rare
+  craftmanship: common
+  description: ''
+  maxAgility: 55
+  type: carapace
+  weight: 7
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Carapace Chestplate
+type: armour
+---
+data:
+  armourPoints:
+    body: 0
+    head: 0
+    leftArm: 5
+    leftLeg: 0
+    rightArm: 5
+    rightLeg: 0
+  availability: rare
+  craftmanship: common
+  description: ''
+  maxAgility: 0
+  type: carapace
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Carapace Gauntlets
+type: armour
+---
+data:
+  armourPoints:
+    body: 0
+    head: 0
+    leftArm: 0
+    leftLeg: 5
+    rightArm: 0
+    rightLeg: 5
+  availability: rare
+  craftmanship: common
+  description: ''
+  maxAgility: 0
+  type: carapace
+  weight: 3
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Carapace Greaves
+type: armour
+---
+data:
+  armourPoints:
+    body: 0
+    head: 4
+    leftArm: 0
+    leftLeg: 0
+    rightArm: 0
+    rightLeg: 0
+  availability: rare
+  craftmanship: common
+  description: ''
+  maxAgility: 0
+  type: carapace
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Carapace Helm
+type: armour
+---
+data:
+  armourPoints:
+    body: 5
+    head: 5
+    leftArm: 5
+    leftLeg: 5
+    rightArm: 5
+    rightLeg: 5
+  availability: rare
+  craftmanship: common
+  description: ''
+  maxAgility: 45
+  type: carapace
+  weight: 15
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Enforcer Light Carapace
+type: armour
+---
+data:
+  armourPoints:
+    body: 6
+    head: 6
+    leftArm: 6
+    leftLeg: 6
+    rightArm: 6
+    rightLeg: 6
+  availability: very rare
+  craftmanship: common
+  description: ''
+  maxAgility: 45
+  type: carapace
+  weight: 15
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Militarum Tempestus Carapace
+type: armour
+---
+data:
+  armourPoints:
+    body: 3
+    head: 0
+    leftArm: 3
+    leftLeg: 3
+    rightArm: 3
+    rightLeg: 3
+  availability: scarce
+  craftmanship: common
+  description: Counts 1 AP higher against Blast.
+  maxAgility: 55
+  type: flak
+  weight: 8
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Flak Cloak
+type: armour
+---
+data:
+  armourPoints:
+    body: 3
+    head: 0
+    leftArm: 3
+    leftLeg: 0
+    rightArm: 3
+    rightLeg: 0
+  availability: scarce
+  craftmanship: common
+  description: Counts 1 AP higher against Blast.
+  maxAgility: 60
+  type: flak
+  weight: 5
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Flak Coat
+type: armour
+---
+data:
+  armourPoints:
+    body: 0
+    head: 0
+    leftArm: 2
+    leftLeg: 0
+    rightArm: 2
+    rightLeg: 0
+  availability: average
+  craftmanship: common
+  description: Counts 1 AP higher against Blast.
+  maxAgility: 0
+  type: flak
+  weight: 1
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Flak Gauntlets
+type: armour
+---
+data:
+  armourPoints:
+    body: 0
+    head: 2
+    leftArm: 0
+    leftLeg: 0
+    rightArm: 0
+    rightLeg: 0
+  availability: average
+  craftmanship: common
+  description: Counts 1 AP higher against Blast.
+  maxAgility: 0
+  type: flak
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Flak Helmet
+type: armour
+---
+data:
+  armourPoints:
+    body: 3
+    head: 0
+    leftArm: 0
+    leftLeg: 0
+    rightArm: 0
+    rightLeg: 0
+  availability: average
+  craftmanship: common
+  description: Counts 1 AP higher against Blast.
+  maxAgility: 60
+  type: flak
+  weight: 5
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Flak Vest
+type: armour
+---
+data:
+  armourPoints:
+    body: 4
+    head: 4
+    leftArm: 4
+    leftLeg: 4
+    rightArm: 4
+    rightLeg: 4
+  availability: scarce
+  craftmanship: common
+  description: Counts 1 AP higher against Blast.
+  maxAgility: 50
+  type: flak
+  weight: 11
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Imperial Guard Flak Armour
+type: armour
+---
+data:
+  armourPoints:
+    body: 2
+    head: 0
+    leftArm: 2
+    leftLeg: 2
+    rightArm: 2
+    rightLeg: 2
+  availability: scarce
+  craftmanship: common
+  description: Counts 1 AP higher against Blast.
+  maxAgility: 55
+  type: flak
+  weight: 4
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Light Flak Cloak
+type: armour
+---
+data:
+  armourPoints:
+    body: 4
+    head: 0
+    leftArm: 4
+    leftLeg: 4
+    rightArm: 4
+    rightLeg: 4
+  availability: very rare
+  craftmanship: common
+  description: ''
+  maxAgility: 60
+  type: mesh
+  weight: 3
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Mesh Cloak
+type: armour
+---
+data:
+  armourPoints:
+    body: 4
+    head: 0
+    leftArm: 0
+    leftLeg: 0
+    rightArm: 0
+    rightLeg: 0
+  availability: rare
+  craftmanship: common
+  description: ''
+  maxAgility: 0
+  type: mesh
+  weight: 2
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Mesh Vest
+type: armour
+---
+data:
+  armourPoints:
+    body: 7
+    head: 7
+    leftArm: 7
+    leftLeg: 7
+    rightArm: 7
+    rightLeg: 7
+  availability: extremely rare
+  craftmanship: common
+  description: Grants Unnatural Strength (1) trait and always counts as Braced.
+  maxAgility: 50
+  type: power
+  weight: 35
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Adepta Sororitas Power Armour
+type: armour
+---
+data:
+  armourPoints:
+    body: 8
+    head: 8
+    leftArm: 8
+    leftLeg: 8
+    rightArm: 8
+    rightLeg: 8
+  availability: extremely rare
+  craftmanship: common
+  description: Grants the wearer the Auto-Stabilised and Unnatural Strength (1) trait,
+    and increases the value of his Size (X) trait by 1. When used with the detachable
+    helmet, it is environmentally sealed with its own oxygen supply and voxcaster
+    systems. Its power supply can operate for 2d5 hours before recharging or refueling
+    is needed, and while powered the suits weight does not count towards the users
+    carry limit
+  maxAgility: 35
+  type: power
+  weight: 65
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Heavy Power Armour
+type: armour
+---
+data:
+  armourPoints:
+    body: 7
+    head: 7
+    leftArm: 7
+    leftLeg: 7
+    rightArm: 7
+    rightLeg: 7
+  availability: very rare
+  craftmanship: common
+  description: Grants Unnatural Strength (1) trait and increases Size by 1 level.
+    Power supply functions for 1d5 hours before needing recharging.
+  maxAgility: 40
+  type: power
+  weight: 40
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Light Power Armour
+type: armour
+---
+data:
+  armourPoints:
+    body: 6
+    head: 6
+    leftArm: 6
+    leftLeg: 6
+    rightArm: 6
+    rightLeg: 6
+  availability: extremely rare
+  craftmanship: common
+  description: Contains an integral respirator, commlink, photo-visor, targeter, and
+    recoil suppression sleeves, as well as a magnetic harness on the back capable
+    of holding a single basic weapon. Any Acolyte without the Adeptus Mechanicus background
+    gains the Enemy (Adeptus Mechanicus) talent while wearing or displaying Praetor
+    Armour.
+  maxAgility: 50
+  type: power
+  weight: 16
+img: systems/dark-heresy-2nd/icons/items/armor/armor_s09.png
+name: Praetor Armour
+type: armour
