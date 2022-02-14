@@ -1,0 +1,320 @@
+data:
+  availability: Extremely Rare
+  damage:
+    damage: 2
+    special: {}
+  description: ''
+  weapon_type: Stub revolvers, stub automatics, shotguns (all types), sniper rifles,
+    hand cannons, autopistols, and autoguns.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Amputator Shells
+type: ammunition
+---
+data:
+  availability: Very Rare
+  damage:
+    special:
+      concussive: 5
+      reliable: true
+  description: ''
+  weapon_type: Quillgun
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Ataractic Quill
+type: ammunition
+---
+data:
+  availability: Rare
+  damage:
+    special: {}
+  description: If target suffers damage, they also suffer Blood Loss for [[1d5]] rounds
+    or until treated.
+  weapon_type: Stub revolvers, stub automatics, hand cannons, autopistols, and autoguns.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Bleeder Rounds
+type: ammunition
+---
+data:
+  availability: Scarce
+  damage:
+    damage: 2
+    special: {}
+  description: Target gets double armour points against this ammo.
+  weapon_type: Stub revolvers, stub automatics, sniper rifles, and hand cannons.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Dumdum Bullets
+type: ammunition
+---
+data:
+  availability: Rare
+  damage:
+    damage: 1d10
+    penetration: 6
+    special:
+      accurate: false
+      inaccurate: true
+      melta: true
+      primitive: false
+  description: ''
+  weapon_type: Crossbows
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Emperors Light Thermal Bolts
+type: ammunition
+---
+data:
+  availability: Scarce
+  damage:
+    special:
+      crippling: 2
+  description: ''
+  weapon_type: Crossbows
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Emperors Wrath Shard Bolts
+type: ammunition
+---
+data:
+  availability: Scarce
+  damage:
+    damage: 1
+    penetration: 1
+    special: {}
+  description: ''
+  weapon_type: Stub revolvers, stub automatics, sniper rifles, autopistols, and autoguns.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Expander Rounds
+type: ammunition
+---
+data:
+  availability: Scarce
+  damage:
+    damageType: explosive
+    special:
+      blast: 1
+      primitive: false
+  description: ''
+  weapon_type: Bows and crossbows.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Explosive Arrows/Quarrels
+type: ammunition
+---
+data:
+  availability: Scarce
+  damage:
+    special:
+      blast: false
+      flame: true
+      unreliable: true
+  description: ''
+  weapon_type: Bows, Crossbows, Shotguns.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Heretics Match Incendiary Rounds
+type: ammunition
+---
+data:
+  availability: Scarce
+  damage:
+    damage: 1
+    penetration: 4
+    special:
+      reliable: false
+      tearing: true
+  description: ''
+  weapon_type: Laspistols, lascarbines, lasguns, and long las weapons.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Hot-Shot Charge Packs
+type: ammunition
+---
+data:
+  availability: Rare
+  damage:
+    special:
+      flame: true
+  description: ''
+  weapon_type: Shotgun and all Bolt weapons.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Inferno Shells
+type: ammunition
+---
+data:
+  availability: Scarce
+  damage:
+    penetration: 3
+    special: {}
+  description: ''
+  weapon_type: Stub revolvers, stub automatics, hand cannons, sniper rifles, autopistols,
+    and autoguns.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Man-Stopper Bullets
+type: ammunition
+---
+data:
+  availability: Extremely Rare
+  damage:
+    special:
+      sanctified: true
+  description: 'Whenever a target with either the Psyker or Daemon trait is struck
+    by a Purgatus stake-bolt, it must make a Challenging (+0) Willpower test. If it
+    fails, it must immediately roll on Table 62: Psychic Phenomena.'
+  weapon_type: Purgatus Crossbow only.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Purgatus Stakes
+type: ammunition
+---
+data:
+  availability: Very Rare
+  damage:
+    special:
+      haywire: 2
+  description: ''
+  weapon_type: Crossbows.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Purity Bolts
+type: ammunition
+---
+data:
+  availability: Rare
+  damage:
+    special:
+      sanctified: true
+  description: ''
+  weapon_type: Bows, Crossbows, Flame, Solid Projectile weapons.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Sanctified Ammunition
+type: ammunition
+---
+data:
+  availability: Rare
+  damage:
+    special:
+      hallucinogenic: 2
+      recharge: true
+  description: ''
+  weapon_type: Bolt and Solid Projectile weapons
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Scrambler Rounds
+type: ammunition
+---
+data:
+  availability: Very Rare
+  damage:
+    special:
+      sanctified: true
+  description: Daemonic or Psyker entities take an additional [[1d10]] damage.
+  weapon_type: Crossbows
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Silver Stakes
+type: ammunition
+---
+data:
+  availability: Near Unique
+  damage:
+    damageType: energy
+    special:
+      shocking: true
+  description: If the target has the machine trait, take an additional 3 damage.
+  weapon_type: Bolt pistols, boltguns, and heavy bolters.
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Tempest Bolt Shells
+type: ammunition
+---
+data:
+  availability: Very Rare
+  damage:
+    special:
+      blast: 5
+      concussive: 5
+  description: Anyone within the blast radius must pass a Hard (20) Strength test
+    or be thrown 1d5 metres away from the centre of the blast and knocked Prone.
+  weapon_type: Crossbows
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Theta-Pattern Concussion Bolts
+type: ammunition
+---
+data:
+  availability: Very Rare
+  damage:
+    special:
+      shocking: true
+  description: If the target fails its Toughness test from the Shocking effect by
+    three or more degrees, it becomes Unconscious instead of Stunned for a number
+    of rounds equal to his degrees of failure.
+  weapon_type: Crossbows
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Theta-Pattern Shock Bolts
+type: ammunition
+---
+data:
+  availability: Scarce
+  damage:
+    damage: -2
+    special:
+      toxic: 1
+  description: ''
+  weapon_type: Bolt and Solid Projectile weapons
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Tox Rounds
+type: ammunition
+---
+data:
+  availability: Scarce
+  damage:
+    special:
+      reliable: true
+      toxic: 4
+  description: ''
+  weapon_type: Quillgun
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Veneum Quill
+type: ammunition
+---
+data:
+  availability: Very Rare
+  damage:
+    special:
+      crippling: 2
+      reliable: false
+      sanctified: false
+      tainted: true
+  description: ''
+  weapon_type: Bolt weapons and crossbows
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Abyssal Bolt
+type: ammunition
+---
+data:
+  availability: Very Rare
+  damage:
+    special: {}
+  description: When a psyker suffers damage from this weapon, he must make a Difficult
+    (10) Willpower test or be Stunned for a number of rounds equal to his degrees
+    of failure. When a target with the Warp Instability trait suffers damage from
+    this weapon, it must immediately test for Instability with a 10 penalty.
+  weapon_type: Combat shotguns, shotguns
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Nitidus Rounds
+type: ammunition
+---
+data:
+  availability: Extremely Rare
+  damage:
+    special:
+      daemonbane: true
+      sanctified: true
+  description: Add +1 damage for every point of the users psy rating. Ignores all
+    protective benefits granded by psychic powers.
+  weapon_type: Bolt Weapons
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Psybolts
+type: ammunition
+---
+data:
+  availability: Very Rare
+  damage:
+    special:
+      sanctified: true
+  description: Ignores any protective benefits granted by psychic powers. Targets
+    in its area of effect suffer a penalty to the Agility test to avoid being hit
+    equal to 5 times the psykers psy rating.
+  weapon_type: Flame Weapons
+img: systems/dark-heresy-2nd/icons/items/ammo/ammo_06.PNG
+name: Psyflame
+type: ammunition

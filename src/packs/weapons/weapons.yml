@@ -1,12 +1,12 @@
 data:
   availability: Very Rare
-  class: pistol
+  class: Pistol
   clip:
     max: 8
     value: 8
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -20,7 +20,7 @@ data:
   source: DH2 - 151
   special:
     tearing: true
-  type: bolt
+  type: Bolt
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Bolt Pistol
@@ -28,13 +28,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 24
     value: 24
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -48,7 +48,7 @@ data:
   source: DH2 - 151
   special:
     tearing: true
-  type: bolt
+  type: Bolt
   weight: 7
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Boltgun
@@ -56,13 +56,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: pistol
+  class: Pistol
   clip:
     max: 10
     value: 10
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -77,7 +77,7 @@ data:
   special:
     reliable: true
     tearing: true
-  type: bolt
+  type: Bolt
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Godwyn-Deaz Bolt Pistol
@@ -85,13 +85,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 30
     value: 30
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -106,7 +106,7 @@ data:
   special:
     reliable: true
     tearing: true
-  type: bolt
+  type: Bolt
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Godwyn-Deaz Bolter
@@ -114,13 +114,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 80
     value: 80
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+8
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -135,7 +135,7 @@ data:
   special:
     reliable: true
     tearing: true
-  type: bolt
+  type: Bolt
   weight: 35
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Godwyn-Deaz Heavy Bolter
@@ -143,13 +143,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: basic
+  class: Basic
   clip:
     max: 60
     value: 60
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -165,7 +165,7 @@ data:
     reliable: true
     storm: true
     tearing: true
-  type: bolt
+  type: Bolt
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Godwyn-Deaz Storm Bolter
@@ -173,13 +173,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 60
     value: 60
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+8
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -193,7 +193,7 @@ data:
   source: DH2 - 151
   special:
     tearing: true
-  type: bolt
+  type: Bolt
   weight: 40
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Heavy Bolter
@@ -201,13 +201,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: heavy
+  class: Heavy
   clip:
     max: 40
     value: 40
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+5
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -223,7 +223,7 @@ data:
     daemonbane: true
     reliable: true
     tearing: true
-  type: bolt
+  type: Bolt
   weight: 20
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Psycannon
@@ -231,13 +231,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: basic
+  class: Basic
   clip:
     max: 60
     value: 60
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -252,7 +252,7 @@ data:
   special:
     storm: true
     tearing: true
-  type: bolt
+  type: Bolt
   weight: 9
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Storm Bolter
@@ -260,13 +260,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -281,7 +281,7 @@ data:
   special:
     tearing: true
     two-handed: true
-  type: chain
+  type: Chain
   weight: 13
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Chainaxe
@@ -289,13 +289,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+1
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -309,7 +309,7 @@ data:
   source: DH2 - 158
   special:
     tearing: true
-  type: chain
+  type: Chain
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Chainblade
@@ -317,13 +317,13 @@ type: weapon
 ---
 data:
   availability: Average
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+2
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -338,7 +338,7 @@ data:
   special:
     balanced: true
     tearing: true
-  type: chain
+  type: Chain
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Chainsword
@@ -346,13 +346,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -369,7 +369,7 @@ data:
     tearing: true
     two-handed: true
     unwieldy: true
-  type: chain
+  type: Chain
   weight: 15
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Eviscerator
@@ -377,13 +377,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: basic
+  class: Basic
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -398,7 +398,7 @@ data:
   special:
     accurate: true
     reliable: true
-  type: exotic
+  type: Exotic
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Condemnor
@@ -406,13 +406,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: pistol
+  class: Pistol
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -425,7 +425,7 @@ data:
   reload: ''
   source: PG 42 EO
   special: {}
-  type: exotic
+  type: Exotic
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Digi-Weapon
@@ -433,13 +433,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: pistol
+  class: Pistol
   clip:
     max: 16
     value: 16
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+2
-  damageType: rending
+  damageType: R
   description: ''
   equipped: false
   modifications: []
@@ -454,7 +454,7 @@ data:
   special:
     inaccurate: true
     toxic: 2
-  type: exotic
+  type: Exotic
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Firesprite Needler
@@ -462,13 +462,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: energy
+  damageType: E
   description: ''
   equipped: false
   modifications: []
@@ -484,7 +484,7 @@ data:
     felling: 4
     overheats: true
     razor-sharp: true
-  type: exotic
+  type: Exotic
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Ghost Blade
@@ -492,13 +492,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: pistol
+  class: Pistol
   clip:
     max: 6
     value: 6
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -513,7 +513,7 @@ data:
   special:
     concussive: 1
     graviton: true
-  type: exotic
+  type: Exotic
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Grav Pistol
@@ -521,13 +521,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: thrown
+  class: Thrown
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+7
-  damageType: impact
+  damageType: I
   description: ''
   equipped: false
   modifications: []
@@ -543,7 +543,7 @@ data:
     blast: 3
     concussive: 3
     graviton: true
-  type: exotic
+  type: Exotic
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Graviton Grenade
@@ -551,13 +551,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: basic
+  class: Basic
   clip:
     max: 9
     value: 9
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+6
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -572,7 +572,7 @@ data:
   special:
     concussive: 2
     graviton: true
-  type: exotic
+  type: Exotic
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Graviton Gun
@@ -580,13 +580,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+5
-  damageType: impact
+  damageType: I
   description: ''
   equipped: false
   modifications: []
@@ -601,7 +601,7 @@ data:
   special:
     concussive: 3
     graviton: true
-  type: exotic
+  type: Exotic
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Graviton Hammer
@@ -609,13 +609,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -629,7 +629,7 @@ data:
   source: PG 40 EB
   special:
     felling: 2
-  type: exotic
+  type: Exotic
   weight: 10
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hellrifle
@@ -637,13 +637,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: heavy
+  class: Heavy
   clip:
     max: 6
     value: 6
-  craftsmanship: common
+  craftsmanship: Common
   damage: 4d10+4
-  damageType: impact
+  damageType: I
   description: ''
   equipped: false
   modifications: []
@@ -659,7 +659,7 @@ data:
     blast: 5
     concussive: 0
     inaccurate: true
-  type: exotic
+  type: Exotic
   weight: 65
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Integration Cannon
@@ -667,13 +667,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: pistol
+  class: Pistol
   clip:
     max: 6
     value: 6
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -689,7 +689,7 @@ data:
     accurate: true
     felling: 1
     toxic: 5
-  type: exotic
+  type: Exotic
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Needle Pistol
@@ -697,13 +697,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 6
     value: 6
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -719,7 +719,7 @@ data:
     accurate: true
     felling: 1
     toxic: 5
-  type: exotic
+  type: Exotic
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Needle Rifle
@@ -727,13 +727,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: basic
+  class: Basic
   clip:
     max: 5
     value: 5
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -747,7 +747,7 @@ data:
   source: PG 44 EI
   special:
     reliable: true
-  type: exotic
+  type: Exotic
   weight: 16
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Purgatus Crossbow
@@ -755,13 +755,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 3
     value: 3
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -774,7 +774,7 @@ data:
   reload: Full
   source: PG 43 EO
   special: {}
-  type: exotic
+  type: Exotic
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Quillgun
@@ -782,13 +782,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d5+1
-  damageType: impact
+  damageType: I
   description: ''
   equipped: false
   modifications: []
@@ -802,7 +802,7 @@ data:
   source: PG 43 EO
   special:
     defensive: true
-  type: exotic
+  type: Exotic
   weight: 5
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Silver Shield
@@ -810,13 +810,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -833,7 +833,7 @@ data:
     reliable: true
     sanctified: true
     snare: 2
-  type: exotic
+  type: Exotic
   weight: 25
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Silverseine Launcher
@@ -841,13 +841,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: pistol
+  class: Pistol
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -861,7 +861,7 @@ data:
   source: DH2 - 156
   special:
     snare: 0
-  type: exotic
+  type: Exotic
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Web Pistol
@@ -869,13 +869,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: basic
+  class: Basic
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -890,7 +890,7 @@ data:
   special:
     blast: 5
     snare: 1
-  type: exotic
+  type: Exotic
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Webber
@@ -898,13 +898,13 @@ type: weapon
 ---
 data:
   availability: Plentiful
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+2
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -919,7 +919,7 @@ data:
   special:
     blast: 2
     flame: true
-  type: explosive
+  type: Explosives
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Fire Bomb
@@ -931,9 +931,9 @@ data:
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 6d10
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -949,7 +949,7 @@ data:
     blast: 2
     flame: true
     melta: true
-  type: explosive
+  type: Explosives
   weight: 12
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Melta Bomb
@@ -957,13 +957,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -978,7 +978,7 @@ data:
   special:
     flame: true
     unbalanced: true
-  type: flame
+  type: Flame
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Brazier of Holy Fire
@@ -986,13 +986,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 8
     value: 8
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1008,7 +1008,7 @@ data:
     flame: true
     reliable: true
     spray: true
-  type: flame
+  type: Flame
   weight: 40
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Cerberus Heavy Flamer
@@ -1016,13 +1016,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1037,7 +1037,7 @@ data:
   special:
     flame: true
     unbalanced: true
-  type: flame
+  type: Flame
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Fire Gauntlets
@@ -1045,13 +1045,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: basic
+  class: Basic
   clip:
     max: 6
     value: 6
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1066,7 +1066,7 @@ data:
   special:
     flame: true
     spray: true
-  type: flame
+  type: Flame
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Flamer
@@ -1074,13 +1074,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 6
     value: 6
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1098,7 +1098,7 @@ data:
     flame: true
     spray: true
     toxic: 2
-  type: flame
+  type: Flame
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Gorgon Chemical Flamer
@@ -1106,13 +1106,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: pistol
+  class: Pistol
   clip:
     max: 2
     value: 2
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1127,7 +1127,7 @@ data:
   special:
     flame: true
     spray: true
-  type: flame
+  type: Flame
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hand Flamer
@@ -1135,13 +1135,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 10
     value: 10
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1156,7 +1156,7 @@ data:
   special:
     flame: true
     spray: true
-  type: flame
+  type: Flame
   weight: 45
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Heavy Flamer
@@ -1164,13 +1164,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 10
     value: 10
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1186,7 +1186,7 @@ data:
     flame: true
     proven: 3
     spray: true
-  type: flame
+  type: Flame
   weight: 10
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hydra Flamer Array
@@ -1194,13 +1194,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: basic
+  class: Basic
   clip:
     max: 10
     value: 10
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+6
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1216,7 +1216,7 @@ data:
     daemonbane: true
     flame: true
     spray: true
-  type: flame
+  type: Flame
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Incinerator
@@ -1224,13 +1224,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+10
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1247,7 +1247,7 @@ data:
     force: true
     power-field: true
     unwieldy: true
-  type: force
+  type: Force
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Animus Hammer
@@ -1255,13 +1255,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -1276,7 +1276,7 @@ data:
   special:
     force: true
     unbalanced: true
-  type: force
+  type: Force
   weight: 10
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Force Hammer
@@ -1284,13 +1284,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1305,7 +1305,7 @@ data:
   special:
     force: true
     two-handed: true
-  type: force
+  type: Force
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Force Staff
@@ -1313,13 +1313,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+1
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -1334,7 +1334,7 @@ data:
   special:
     balanced: true
     force: true
-  type: force
+  type: Force
   weight: 5
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Force Sword
@@ -1342,13 +1342,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+1
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1365,7 +1365,7 @@ data:
     force: true
     power-field: true
     unwieldy: true
-  type: force
+  type: Force
   weight: 10
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Nemesis Daemon Hammer
@@ -1373,13 +1373,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+6
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1397,7 +1397,7 @@ data:
     daemonbane: true
     force: true
     power-field: true
-  type: force
+  type: Force
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Santus Hammer
@@ -1405,13 +1405,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1428,7 +1428,7 @@ data:
     force: true
     power-field: true
     unwieldy: true
-  type: force
+  type: Force
   weight: 14
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Tempus Hammer
@@ -1436,13 +1436,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -1458,7 +1458,7 @@ data:
     daemonbane: true
     sanctified: true
     smoke: 3
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Ironfaith Incense Grenade
@@ -1466,13 +1466,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -1488,7 +1488,7 @@ data:
     blast: 3
     crippling: 2
     tainted: true
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Abyssal Charge
@@ -1496,13 +1496,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -1518,7 +1518,7 @@ data:
     blast: 3
     crippling: 3
     sanctified: true
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Argent Globe
@@ -1526,13 +1526,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1546,7 +1546,7 @@ data:
   source: DH2 - 157
   special:
     smoke: 2
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Blind Grenade
@@ -1554,13 +1554,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: Special
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1574,7 +1574,7 @@ data:
   source: DH2 - 157
   special:
     blast: 3
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Choke Grenade
@@ -1582,13 +1582,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -1602,7 +1602,7 @@ data:
   source: DH2 - 157
   special:
     blast: 3
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Frag Grenade
@@ -1614,9 +1614,9 @@ data:
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+2
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -1630,7 +1630,7 @@ data:
   source: DH2 - 157
   special:
     blast: 5
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Frag Missile
@@ -1638,13 +1638,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1659,7 +1659,7 @@ data:
   special:
     blast: 6
     hallucinogenic: true
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hallucinogen Grenade
@@ -1667,13 +1667,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1687,7 +1687,7 @@ data:
   source: DH2 - 157
   special:
     haywire: 2
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Haywire Grenade
@@ -1695,13 +1695,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+4
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -1715,7 +1715,7 @@ data:
   source: DH2 - 157
   special:
     concussive: 0
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Krak Grenade
@@ -1727,9 +1727,9 @@ data:
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 3d10+8
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -1744,7 +1744,7 @@ data:
   special:
     concussive: 3
     proven: 2
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Krak Missile
@@ -1752,13 +1752,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1772,7 +1772,7 @@ data:
   source: DH2 - 158
   special:
     blast: 6
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Photon Flash Grenade
@@ -1780,13 +1780,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1801,7 +1801,7 @@ data:
   special:
     blast: 3
     hallucinogenic: 4
-  type: explosive
+  type: Grenades/Missiles
   weight: 0
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Psychotroke Grenade
@@ -1809,13 +1809,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -1830,7 +1830,7 @@ data:
   special:
     blast: 3
     smoke: 3
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Psyk-Out Grenade
@@ -1838,13 +1838,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -1859,7 +1859,7 @@ data:
   special:
     blast: 3
     smoke: 3
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Psyk-Out Grenade
@@ -1867,13 +1867,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -1887,7 +1887,7 @@ data:
   source: PG 44 EI
   special:
     blast: 2
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Rad Grenade
@@ -1895,13 +1895,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1915,7 +1915,7 @@ data:
   source: DH2 - 158
   special:
     smoke: 4
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Smoke Grenade
@@ -1923,13 +1923,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1943,7 +1943,7 @@ data:
   source: PG 45 EI
   special:
     blast: 5
-  type: explosive
+  type: Grenades/Missiles
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Spore Bomb
@@ -1951,13 +1951,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -1972,7 +1972,7 @@ data:
   special:
     blast: 3
     concussive: 2
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Stun Grenade
@@ -1980,13 +1980,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -2001,7 +2001,7 @@ data:
   special:
     blast: 2
     sanctified: true
-  type: explosive
+  type: Grenades/Missiles
   weight: 0
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Tears of the Emperor
@@ -2009,13 +2009,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2030,7 +2030,7 @@ data:
   special:
     blast: 3
     snare: 2
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Web Grenade
@@ -2038,13 +2038,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -2062,7 +2062,7 @@ data:
     flame: true
     smoke: 5
     toxic: 2
-  type: explosive
+  type: Grenades/Missiles
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Whitefire Grenade
@@ -2070,13 +2070,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: basic
+  class: Basic
   clip:
     max: 30
     value: 30
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -2089,7 +2089,7 @@ data:
   reload: 2 Full
   source: DH2 - 154
   special: {}
-  type: las
+  type: Las
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hot-shot Lasgun
@@ -2097,13 +2097,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: pistol
+  class: Pistol
   clip:
     max: 40
     value: 40
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -2116,7 +2116,7 @@ data:
   reload: 2 Full
   source: DH2 - 154
   special: {}
-  type: las
+  type: Las
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hot-shot Laspistol
@@ -2124,13 +2124,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: basic
+  class: Basic
   clip:
     max: 60
     value: 60
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -2144,7 +2144,7 @@ data:
   source: DH2 - 153
   special:
     reliable: true
-  type: las
+  type: Las
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Lasgun
@@ -2152,13 +2152,13 @@ type: weapon
 ---
 data:
   availability: Plentiful
-  class: basic
+  class: Basic
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -2172,7 +2172,7 @@ data:
   source: DH2 - 153
   special:
     unreliable: true
-  type: las
+  type: Las
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Laslock
@@ -2180,13 +2180,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: pistol
+  class: Pistol
   clip:
     max: 30
     value: 30
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+2
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -2200,7 +2200,7 @@ data:
   source: DH2 - 153
   special:
     reliable: true
-  type: las
+  type: Las
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Laspistol
@@ -2208,13 +2208,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: basic
+  class: Basic
   clip:
     max: 40
     value: 40
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -2230,7 +2230,7 @@ data:
     accurate: true
     felling: 4
     reliable: true
-  type: las
+  type: Las
   weight: 5
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Long-Las
@@ -2238,13 +2238,13 @@ type: weapon
 ---
 data:
   availability: Average
-  class: basic
+  class: Basic
   clip:
     max: 6
     value: 6
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2257,7 +2257,7 @@ data:
   reload: 2 Full
   source: DH2 - 154
   special: {}
-  type: launcher
+  type: Launcher
   weight: 12
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Grenade Launcher
@@ -2265,13 +2265,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2284,7 +2284,7 @@ data:
   reload: Full
   source: DH2 - 154
   special: {}
-  type: launcher
+  type: Launcher
   weight: 35
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Missile Launcher
@@ -2292,13 +2292,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: basic
+  class: Basic
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+2
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2314,7 +2314,7 @@ data:
     concussive: 1
     inaccurate: true
     unreliable: true
-  type: low-tech
+  type: Low-Tech
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Arquebus
@@ -2322,13 +2322,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2343,7 +2343,7 @@ data:
   special:
     felling: 2
     sanctified: true
-  type: low-tech
+  type: Low-Tech
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Axe of Retribution
@@ -2351,13 +2351,13 @@ type: weapon
 ---
 data:
   availability: Average
-  class: thrown
+  class: Thrown
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: ''
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2372,7 +2372,7 @@ data:
   special:
     inaccurate: true
     snare: true
-  type: low-tech
+  type: Low-Tech
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Bolas
@@ -2380,13 +2380,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: basic
+  class: Basic
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2401,7 +2401,7 @@ data:
   special:
     primitive: 6
     reliable: true
-  type: low-tech
+  type: Low-Tech
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Bow
@@ -2409,13 +2409,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: heavy
+  class: Heavy
   clip:
     max: 14
     value: 14
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+6
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2430,7 +2430,7 @@ data:
   special:
     concussive: 2
     reliable: true
-  type: low-tech
+  type: Low-Tech
   weight: 12
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Castigator Heavy Crossbow
@@ -2438,13 +2438,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: basic
+  class: Basic
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2458,7 +2458,7 @@ data:
   source: DH2 - 154
   special:
     primitive: 7
-  type: low-tech
+  type: Low-Tech
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Crossbow
@@ -2466,13 +2466,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: pistol
+  class: Pistol
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2486,7 +2486,7 @@ data:
   source: PG 42 EI
   special:
     primitive: 7
-  type: low-tech
+  type: Low-Tech
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Deliverance Light Crossbow
@@ -2494,13 +2494,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+2
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -2518,7 +2518,7 @@ data:
     inaccurate: true
     primitive: 7
     tearing: true
-  type: low-tech
+  type: Low-Tech
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Drakes Claw
@@ -2526,13 +2526,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+8
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2549,7 +2549,7 @@ data:
     flexible: true
     primitive: 8
     snare: 2
-  type: low-tech
+  type: Low-Tech
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Flail of Chastisement
@@ -2557,13 +2557,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: pistol
+  class: Pistol
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+2
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2579,7 +2579,7 @@ data:
     inaccurate: true
     primitive: 8
     unreliable: true
-  type: low-tech
+  type: Low-Tech
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Flintlock Pistol
@@ -2587,13 +2587,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2608,7 +2608,7 @@ data:
   special:
     two-handed: true
     unbalanced: true
-  type: low-tech
+  type: Low-Tech
   weight: 7
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Great Weapon
@@ -2616,13 +2616,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+3
-  damageType: explosive
+  damageType: Explosive
   description: ''
   equipped: false
   modifications: []
@@ -2636,7 +2636,7 @@ data:
   source: DH2 - 160
   special:
     concussive: 3
-  type: low-tech
+  type: Low-Tech
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hunting Lance
@@ -2644,13 +2644,13 @@ type: weapon
 ---
 data:
   availability: ''
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10-2
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2665,7 +2665,7 @@ data:
   special:
     primitive: 7
     unbalanced: true
-  type: low-tech
+  type: Low-Tech
   weight: 0
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Improvised
@@ -2673,13 +2673,13 @@ type: weapon
 ---
 data:
   availability: Plentiful
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d5
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2692,7 +2692,7 @@ data:
   reload: ''
   source: DH2 - 160
   special: {}
-  type: low-tech
+  type: Low-Tech
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Knife
@@ -2700,13 +2700,13 @@ type: weapon
 ---
 data:
   availability: Plentiful
-  class: thrown
+  class: Thrown
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d5
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2719,7 +2719,7 @@ data:
   reload: ''
   source: DH2 - 160
   special: {}
-  type: low-tech
+  type: Low-Tech
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Knife
@@ -2727,13 +2727,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2750,7 +2750,7 @@ data:
     flame: true
     inaccurate: true
     primitive: 8
-  type: low-tech
+  type: Low-Tech
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Longflame
@@ -2758,13 +2758,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2779,7 +2779,7 @@ data:
   special:
     snare: 4
     unwieldy: true
-  type: low-tech
+  type: Low-Tech
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Man-Catcher
@@ -2787,13 +2787,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: basic
+  class: Basic
   clip:
     max: 1
     value: 1
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2809,7 +2809,7 @@ data:
     inaccurate: true
     primitive: 8
     unreliable: true
-  type: low-tech
+  type: Low-Tech
   weight: 7
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Musket
@@ -2817,13 +2817,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2837,7 +2837,7 @@ data:
   source: PG 46 EI
   special:
     defensive: true
-  type: low-tech
+  type: Low-Tech
   weight: 14
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Praesidium Protectiva
@@ -2845,13 +2845,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2868,7 +2868,7 @@ data:
     tainted: true
     tearing: true
     vengeful: 8
-  type: low-tech
+  type: Low-Tech
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Rune Weapon (Sword)
@@ -2876,13 +2876,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d5
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2896,7 +2896,7 @@ data:
   source: DH2 - 160
   special:
     defensive: true
-  type: low-tech
+  type: Low-Tech
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shield
@@ -2904,13 +2904,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 8
     value: 8
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2927,7 +2927,7 @@ data:
     overheats: true
     primitive: 8
     unreliable: true
-  type: low-tech
+  type: Low-Tech
   weight: 45
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Snapper Repeating Rifle
@@ -2935,13 +2935,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -2956,7 +2956,7 @@ data:
   special:
     primitive: 8
     two-handed: true
-  type: low-tech
+  type: Low-Tech
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Spear
@@ -2964,13 +2964,13 @@ type: weapon
 ---
 data:
   availability: Plentiful
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -2986,7 +2986,7 @@ data:
     balanced: true
     primitive: 7
     two-handed: true
-  type: low-tech
+  type: Low-Tech
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Staff
@@ -2994,13 +2994,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -3016,7 +3016,7 @@ data:
     felling: 2
     razor-sharp: true
     sanctified: true
-  type: low-tech
+  type: Low-Tech
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Stealth Claw
@@ -3024,13 +3024,13 @@ type: weapon
 ---
 data:
   availability: Common
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -3044,7 +3044,7 @@ data:
   source: DH2 - 160
   special:
     balanced: true
-  type: low-tech
+  type: Low-Tech
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Sword
@@ -3052,13 +3052,13 @@ type: weapon
 ---
 data:
   availability: Plentiful
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3072,7 +3072,7 @@ data:
   source: DH2 - 160
   special:
     primitive: 7
-  type: low-tech
+  type: Low-Tech
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Truncheon
@@ -3080,13 +3080,13 @@ type: weapon
 ---
 data:
   availability: ''
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d5-3
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3099,7 +3099,7 @@ data:
   reload: ''
   source: DH2 - 226
   special: {}
-  type: low-tech
+  type: Low-Tech
   weight: 0
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Unarmed
@@ -3107,13 +3107,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee/ thrown
+  class: Melee/ Thrown
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+8
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -3130,7 +3130,7 @@ data:
     crippling: 3
     felling: 3
     sanctified: true
-  type: low-tech
+  type: Low-Tech
   weight: 9
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Wailing Trident
@@ -3138,13 +3138,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3160,7 +3160,7 @@ data:
     concussive: 1
     primitive: 8
     two-handed: true
-  type: low-tech
+  type: Low-Tech
   weight: 5
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Warhammer
@@ -3168,13 +3168,13 @@ type: weapon
 ---
 data:
   availability: Average
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -3189,7 +3189,7 @@ data:
   special:
     flexible: true
     primitive: 6
-  type: low-tech
+  type: Low-Tech
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Whip
@@ -3197,13 +3197,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: pistol
+  class: Pistol
   clip:
     max: 3
     value: 3
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+10
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3217,7 +3217,7 @@ data:
   source: DH2 - 155
   special:
     melta: true
-  type: melta
+  type: Melta
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Inferno Pistol
@@ -3225,13 +3225,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 5
     value: 5
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+10
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3245,7 +3245,7 @@ data:
   source: DH2 - 155
   special:
     melta: true
-  type: melta
+  type: Melta
   weight: 15
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Meltagun
@@ -3253,13 +3253,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: basic
+  class: Basic
   clip:
     max: 40
     value: 40
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+7
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3274,7 +3274,7 @@ data:
   special:
     maximal: true
     overheats: true
-  type: plasma
+  type: Plasma
   weight: 18
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Plasma Gun
@@ -3282,13 +3282,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: pistol
+  class: Pistol
   clip:
     max: 10
     value: 10
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+6
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3303,7 +3303,7 @@ data:
   special:
     maximal: true
     overheats: true
-  type: plasma
+  type: Plasma
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Plasma Pistol
@@ -3311,13 +3311,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: basic
+  class: Basic
   clip:
     max: 40
     value: 40
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3331,7 +3331,7 @@ data:
   source: PG 44 EI
   special:
     reliable: true
-  type: plasma
+  type: Plasma
   weight: 20
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Sentinel Plasma Rifle
@@ -3339,13 +3339,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3359,7 +3359,7 @@ data:
   source: PG 42 EO
   special:
     power-field: true
-  type: power
+  type: Power
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Desoleum Power Blade
@@ -3367,13 +3367,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: energy
+  damageType: E
   description: ''
   equipped: false
   modifications: []
@@ -3387,7 +3387,7 @@ data:
   source: PG 42 EO
   special:
     power-field: true
-  type: power
+  type: Power
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Desoleum Power Blade
@@ -3395,13 +3395,13 @@ type: weapon
 ---
 data:
   availability: Near Unique
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+6
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3417,7 +3417,7 @@ data:
     daemonbane: true
     power-field: true
     unwieldy: true
-  type: power
+  type: Power
   weight: 16
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Ebenus Hammer
@@ -3425,13 +3425,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3447,7 +3447,7 @@ data:
     power-field: true
     two-handed: true
     unbalanced: true
-  type: power
+  type: Power
   weight: 8
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Omnissian Axe
@@ -3455,13 +3455,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+8
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3478,7 +3478,7 @@ data:
     power-field: true
     proven: 4
     sanctified: true
-  type: power
+  type: Power
   weight: 5
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Ordo Malleus Power Glaive
@@ -3486,13 +3486,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+7
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3508,7 +3508,7 @@ data:
     power-field: true
     two-handed: true
     unbalanced: true
-  type: power
+  type: Power
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Axe
@@ -3516,13 +3516,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3537,7 +3537,7 @@ data:
   special:
     power-field: true
     unwieldy: true
-  type: power
+  type: Power
   weight: 13
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Fist
@@ -3545,13 +3545,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3566,7 +3566,7 @@ data:
   special:
     power-field: true
     shocking: true
-  type: power
+  type: Power
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Maul (High)
@@ -3574,13 +3574,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+1
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3594,7 +3594,7 @@ data:
   source: DH2 - 161
   special:
     shocking: true
-  type: power
+  type: Power
   weight: 4
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Maul (Low)
@@ -3602,13 +3602,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3623,7 +3623,7 @@ data:
   special:
     defensive: true
     power-field: true
-  type: power
+  type: Power
   weight: 6
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Shield
@@ -3631,13 +3631,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+7
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3653,7 +3653,7 @@ data:
     power-field: true
     sanctified: true
     unbalanced: true
-  type: power
+  type: Power
   weight: 1
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Stake
@@ -3661,13 +3661,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+5
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3682,7 +3682,7 @@ data:
   special:
     balanced: true
     power-field: true
-  type: power
+  type: Power
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Power Sword
@@ -3690,13 +3690,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 2d10+4
-  damageType: energy
+  damageType: Energy
   description: ''
   equipped: false
   modifications: []
@@ -3712,7 +3712,7 @@ data:
     concussive: 2
     power-field: true
     unwieldy: true
-  type: power
+  type: Power
   weight: 16
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Thunder Hammer
@@ -3720,13 +3720,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+2
-  damageType: rending
+  damageType: Rending
   description: ''
   equipped: false
   modifications: []
@@ -3741,7 +3741,7 @@ data:
   special:
     flexible: true
     shocking: true
-  type: shock
+  type: Shock
   weight: 5
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Electro-Flail
@@ -3749,13 +3749,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3769,7 +3769,7 @@ data:
   source: DH2 - 161
   special:
     shocking: true
-  type: shock
+  type: Shock
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shock Maul
@@ -3777,13 +3777,13 @@ type: weapon
 ---
 data:
   availability: Extremely Rare
-  class: melee
+  class: Melee
   clip:
     max: 0
     value: 0
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+1
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3798,7 +3798,7 @@ data:
   special:
     flexible: true
     shocking: true
-  type: shock
+  type: Shock
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shock Whip
@@ -3806,13 +3806,13 @@ type: weapon
 ---
 data:
   availability: Very Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 24
     value: 24
-  craftsmanship: common
+  craftsmanship: Common
   damage: 3d10+8
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3826,7 +3826,7 @@ data:
   source: DH2 - 155
   special:
     reliable: true
-  type: solidprojectile
+  type: Solid Projectile
   weight: 40
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Autocannon
@@ -3834,13 +3834,13 @@ type: weapon
 ---
 data:
   availability: Average
-  class: basic
+  class: Basic
   clip:
     max: 30
     value: 30
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3853,7 +3853,7 @@ data:
   reload: Full
   source: DH2 - 155
   special: {}
-  type: solidprojectile
+  type: Solid Projectile
   weight: 5
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Autogun
@@ -3861,13 +3861,13 @@ type: weapon
 ---
 data:
   availability: Average
-  class: pistol
+  class: Pistol
   clip:
     max: 18
     value: 18
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+2
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3880,7 +3880,7 @@ data:
   reload: Full
   source: DH2 - 155
   special: {}
-  type: solidprojectile
+  type: Solid Projectile
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Autopistol
@@ -3888,13 +3888,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: pistol
+  class: Pistol
   clip:
     max: 5
     value: 5
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3908,7 +3908,7 @@ data:
   source: DH2 - 155
   special:
     '!': true
-  type: solidprojectile
+  type: Solid Projectile
   weight: 3
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Hand Cannon
@@ -3916,13 +3916,13 @@ type: weapon
 ---
 data:
   availability: Rare
-  class: heavy
+  class: Heavy
   clip:
     max: 80
     value: 80
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3935,7 +3935,7 @@ data:
   reload: 2 Full
   source: DH2 - 156
   special: {}
-  type: solidprojectile
+  type: Solid Projectile
   weight: 30
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Heavy Stubber
@@ -3943,13 +3943,13 @@ type: weapon
 ---
 data:
   availability: Average
-  class: basic
+  class: Basic
   clip:
     max: 8
     value: 8
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3963,7 +3963,7 @@ data:
   source: DH2 - 156
   special:
     scatter: true
-  type: solidprojectile
+  type: Solid Projectile
   weight: 5
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shotgun
@@ -3971,13 +3971,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: basic
+  class: Basic
   clip:
     max: 18
     value: 18
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -3991,7 +3991,7 @@ data:
   source: DH2 - 156
   special:
     scatter: true
-  type: solidprojectile
+  type: Solid Projectile
   weight: 7
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Shotgun (Combat)
@@ -3999,13 +3999,13 @@ type: weapon
 ---
 data:
   availability: Scarce
-  class: basic
+  class: Basic
   clip:
     max: 20
     value: 20
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+4
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -4020,7 +4020,7 @@ data:
   special:
     accurate: true
     reliable: true
-  type: solidprojectile
+  type: Solid Projectile
   weight: 5
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Sniper Rifle
@@ -4028,13 +4028,13 @@ type: weapon
 ---
 data:
   availability: Average
-  class: pistol
+  class: Pistol
   clip:
     max: 9
     value: 9
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -4047,7 +4047,7 @@ data:
   reload: Full
   source: DH2 - 156
   special: {}
-  type: solidprojectile
+  type: Solid Projectile
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Stub Automatic
@@ -4055,13 +4055,13 @@ type: weapon
 ---
 data:
   availability: Plentiful
-  class: pistol
+  class: Pistol
   clip:
     max: 6
     value: 6
-  craftsmanship: common
+  craftsmanship: Common
   damage: 1d10+3
-  damageType: impact
+  damageType: Impact
   description: ''
   equipped: false
   modifications: []
@@ -4075,7 +4075,7 @@ data:
   source: DH2 - 156
   special:
     reliable: true
-  type: solidprojectile
+  type: Solid Projectile
   weight: 2
 img: systems/dark-heresy-2nd/icons/items/pistols/pistols_09.png
 name: Stub Revolver

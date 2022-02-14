@@ -1,6 +1,6 @@
 data:
   availability: Availability
-  craftmanship: common
+  craftmanship: Common
   description: Description
   installed: false
   upgrades: Upgrades
@@ -11,7 +11,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: Canfire either the launcher or the weaponattached to, but not both.
     Range of 45 meters with Damg and Pen ofthe loaded grenade, and can be fired Indirectly.
     Cannot reload during combat.
@@ -24,7 +24,7 @@ type: weaponModification
 ---
 data:
   availability: Scarce
-  craftmanship: common
+  craftmanship: Common
   description: Increases the clip size of the weapon to five times its current clip
     size, but it cannot be reloaded in combat.
   installed: false
@@ -36,7 +36,7 @@ type: weaponModification
 ---
 data:
   availability: Average
-  craftmanship: common
+  craftmanship: Common
   description: Halves the weight, Clip size, and range and reduces damage by 1. 20
     to attempt to find.
   installed: false
@@ -49,7 +49,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: Grants +5 to any BS or WS for owner and -5 of all others.
   installed: false
   upgrades: Any weapon
@@ -60,7 +60,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: May Ready another weapon or draw another item as part of the same action.
   installed: false
   upgrades: Any weapon
@@ -71,7 +71,7 @@ type: weaponModification
 ---
 data:
   availability: Scarce
-  craftmanship: common
+  craftmanship: Common
   description: Increasesclip sizeby half (rounded up)
   installed: false
   upgrades: Ranged weapons
@@ -82,7 +82,7 @@ type: weaponModification
 ---
 data:
   availability: Common
-  craftmanship: common
+  craftmanship: Common
   description: Rather than firing the weapon as normal, can use as a half action.
     Counts as a Standard Attack with a flamer
   installed: false
@@ -94,7 +94,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: Swap ammotypes withoutreloading. Can hold 3 different ammo's
   installed: false
   upgrades: Any Bolt, Launcher, and Solid Projectile weapon of the Pistol or Basic
@@ -106,7 +106,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: When using Semi-Auto Burst, counts as scoring one additional DoS. Also
     reload increased by Half Action.
   installed: false
@@ -118,7 +118,7 @@ type: weaponModification
 ---
 data:
   availability: Scarce
-  craftmanship: common
+  craftmanship: Common
   description: Upgrade reduces range by 1/3.
   installed: false
   upgrades: Any Las, Low-Tech, Solid Projectile, Bolt, or Melta of the Pistol class.
@@ -129,7 +129,7 @@ type: weaponModification
 ---
 data:
   availability: Plentiful
-  craftmanship: common
+  craftmanship: Common
   description: The ranged weapon counts as a spear when used in melee combat.
   installed: false
   upgrades: Any Basic ranged weapon.
@@ -140,7 +140,7 @@ type: weaponModification
 ---
 data:
   availability: Scarce
-  craftmanship: common
+  craftmanship: Common
   description: Gains +2 bonus on a Half Action or +4 bonus for a Full Action for aim.
   installed: false
   upgrades: Any Weapon
@@ -151,7 +151,7 @@ type: weaponModification
 ---
 data:
   availability: Scarce
-  craftmanship: common
+  craftmanship: Common
   description: Loses the Primitive quality (if it had it) and has its penetration
     increased by 2. No effect when power field is active.
   installed: false
@@ -163,7 +163,7 @@ type: weaponModification
 ---
 data:
   availability: Very Rare
-  craftmanship: common
+  craftmanship: Common
   description: Gains +10 BS to Semi-Auto Burst or Full Auto.
   installed: false
   upgrades: Any Ranged weapon (except Low-Tech) Capable of Semi-Auto or Full Auto.
@@ -174,7 +174,7 @@ type: weaponModification
 ---
 data:
   availability: Very Rare
-  craftmanship: common
+  craftmanship: Common
   description: Combines the benefits of a preysense sight, red-dot laser sight, and
     telescopic sight.
   installed: false
@@ -187,7 +187,7 @@ type: weaponModification
 ---
 data:
   availability: Very Rare
-  craftmanship: common
+  craftmanship: Common
   description: No penalties due to darkness.
   installed: false
   upgrades: Any ranged Las, Solid Projectile, Bolt, Low-Tech or Plasma weapon of the
@@ -199,7 +199,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: Can be wielded in one hand without -20 penalty. Range is halved.
   installed: false
   upgrades: Any Basic ranged weapon.
@@ -210,7 +210,7 @@ type: weaponModification
 ---
 data:
   availability: Very Rare
-  craftmanship: common
+  craftmanship: Common
   description: Suffers no penalties due to darkness and gains a +20 bonus to vision-based
     Perception tests in the dark.
   installed: false
@@ -223,7 +223,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: The weapon reduced by a Half Action,to a minimum of a Half Action.
   installed: false
   upgrades: Any ranged weapon.
@@ -234,7 +234,7 @@ type: weaponModification
 ---
 data:
   availability: Scarce
-  craftmanship: common
+  craftmanship: Common
   description: Gains +10 to BS when firing a single shot.
   installed: false
   upgrades: Any ranged Las, Solid Projectile, Bolt, Low-Tech or Plasma weapon of the
@@ -246,7 +246,7 @@ type: weaponModification
 ---
 data:
   availability: Scarce
-  craftmanship: common
+  craftmanship: Common
   description: Weapon weight increased by 20%. Ranged weapons receives +1 bonus to
     damage when used as an improvised weapon. Only destroyed on a result of 41 or
     higher when Parried by a weapon with the Power Field quality.
@@ -259,7 +259,7 @@ type: weaponModification
 ---
 data:
   availability: Scarce
-  craftmanship: common
+  craftmanship: Common
   description: Gains a +10 bonus to Pinning tests.
   installed: false
   upgrades: Any Weapon
@@ -270,7 +270,7 @@ type: weaponModification
 ---
 data:
   availability: Plentiful
-  craftmanship: common
+  craftmanship: Common
   description: Tests to hear shots made suffer -20 and can only attempt at half the
     normal distance.
   installed: false
@@ -282,7 +282,7 @@ type: weaponModification
 ---
 data:
   availability: Extremely Rare
-  craftmanship: common
+  craftmanship: Common
   description: Counts as having the Auto-stabilized traitand so always counts as being
     braced.
   installed: false
@@ -294,7 +294,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: If there is a final penalty to a BS test when using a weapon with a
     targeter, it is reduced by ten.
   installed: false
@@ -306,7 +306,7 @@ type: weaponModification
 ---
 data:
   availability: Average
-  craftmanship: common
+  craftmanship: Common
   description: Ignores penalties for Long and Extreme range, as long as the shooter
     is benefitting from a Full Action to Aim.
   installed: false
@@ -319,7 +319,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: Gain the Toxic (2) quality for one round. A tox dispenser can be used
     10 times before requiring refilling.
   installed: false
@@ -331,7 +331,7 @@ type: weaponModification
 ---
 data:
   availability: Average
-  craftmanship: common
+  craftmanship: Common
   description: Bipods and tripods allow a weapon to be braced anywhere there is a
     reasonably flat surface. A weapon braced on a bipod has a 90 fire arc, while one
     on a tripod has a 180 arc.
@@ -344,7 +344,7 @@ type: weaponModification
 ---
 data:
   availability: Very Rare
-  craftmanship: common
+  craftmanship: Common
   description: Grants its wielder a bonus to tests to Parry the attacks of foes with
     the Daemonic trait equal to 5 times the wielders Willpower bonus.
   installed: false
@@ -356,7 +356,7 @@ type: weaponModification
 ---
 data:
   availability: Extremely Rare
-  craftmanship: common
+  craftmanship: Common
   description: Does not upgrade the weapon, but the ammunition the weapon uses. The
     modification requires a skilled artisan and upgrades one clip at a time. Whenever
     a target with the Daemonic trait attempts to Dodge an attack made with a weapon
@@ -371,7 +371,7 @@ type: weaponModification
 ---
 data:
   availability: Rare
-  craftmanship: common
+  craftmanship: Common
   description: With spoken commands, the operator can fire his gun, switch firing
     modes, and also change ammunition (should it be fitted with a fire selector).
   installed: false
@@ -384,7 +384,7 @@ type: weaponModification
 ---
 data:
   availability: Very Rare
-  craftmanship: common
+  craftmanship: Common
   description: Gains the Crippling (2) quality against targets with the Daemonic trait.
     Each canister contains enough liquid to last for 40 rounds.
   installed: false
