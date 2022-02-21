@@ -7,7 +7,7 @@ data:
     rightArm: 2
     rightLeg: 2
   availability: Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 0
   type: Basic
@@ -25,7 +25,7 @@ data:
     rightArm: 3
     rightLeg: 3
   availability: Common
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 35
   type: Basic
@@ -43,7 +43,7 @@ data:
     rightArm: 5
     rightLeg: 5
   availability: Scarce
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 25
   type: Basic
@@ -61,7 +61,7 @@ data:
     rightArm: 1
     rightLeg: 0
   availability: Common
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 0
   type: Basic
@@ -79,7 +79,7 @@ data:
     rightArm: 1
     rightLeg: 1
   availability: Average
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 0
   type: Basic
@@ -97,7 +97,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Grants a +40 bonus to any Toughness test made to resist the effects
     of gasses, as well as a +10 bonus for resisting extreme temperatures and being
     set on fire. Contains rebreather for 5 hours. If takes more than 5 points of damage  in
@@ -118,7 +118,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Very Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Gains the Resistance (Psychic Powers) talent, or an additional +10
     to tests to resist psychic powers if the character already has this talent. Obsidian
     plate counts it's listed Armour points as triple against hits inflicted by Psychic
@@ -140,7 +140,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Very Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 50
   type: Basic
@@ -158,7 +158,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 55
   type: Carapace
@@ -176,7 +176,7 @@ data:
     rightArm: 5
     rightLeg: 0
   availability: Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 0
   type: Carapace
@@ -194,7 +194,7 @@ data:
     rightArm: 0
     rightLeg: 5
   availability: Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 0
   type: Carapace
@@ -212,7 +212,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 0
   type: Carapace
@@ -230,7 +230,7 @@ data:
     rightArm: 5
     rightLeg: 5
   availability: Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 45
   type: Carapace
@@ -248,7 +248,7 @@ data:
     rightArm: 6
     rightLeg: 6
   availability: Very Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 45
   type: Carapace
@@ -266,7 +266,7 @@ data:
     rightArm: 3
     rightLeg: 3
   availability: Scarce
-  craftmanship: Common
+  craftsmanship: Common
   description: Counts 1 AP higher against Blast.
   maxAgility: 55
   type: Flak
@@ -284,7 +284,7 @@ data:
     rightArm: 3
     rightLeg: 0
   availability: Scarce
-  craftmanship: Common
+  craftsmanship: Common
   description: Counts 1 AP higher against Blast.
   maxAgility: 60
   type: Flak
@@ -302,7 +302,7 @@ data:
     rightArm: 2
     rightLeg: 0
   availability: Average
-  craftmanship: Common
+  craftsmanship: Common
   description: Counts 1 AP higher against Blast.
   maxAgility: 0
   type: Flak
@@ -320,7 +320,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Average
-  craftmanship: Common
+  craftsmanship: Common
   description: Counts 1 AP higher against Blast.
   maxAgility: 0
   type: Flak
@@ -338,7 +338,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Average
-  craftmanship: Common
+  craftsmanship: Common
   description: Counts 1 AP higher against Blast.
   maxAgility: 60
   type: Flak
@@ -356,7 +356,7 @@ data:
     rightArm: 4
     rightLeg: 4
   availability: Scarce
-  craftmanship: Common
+  craftsmanship: Common
   description: Counts 1 AP higher against Blast.
   maxAgility: 50
   type: Flak
@@ -374,7 +374,7 @@ data:
     rightArm: 2
     rightLeg: 2
   availability: Scarce
-  craftmanship: Common
+  craftsmanship: Common
   description: Counts 1 AP higher against Blast.
   maxAgility: 55
   type: Flak
@@ -392,7 +392,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Extremely Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: If blocks more than 12 points of damage from a single attack, counts
     as a Photon Flash Grenade. User not affected.
   maxAgility: 0
@@ -411,7 +411,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Near Unique
-  craftmanship: Common
+  craftsmanship: Common
   description: When successfully blocks an attack, user jumps in a random direction.
     Roll 3d10 for meters travelled. If all 3 numbers rolled are the same then user
     dose not re-emerge for 1d5 rounds and gains 1 Corruption for each round.If activated
@@ -432,7 +432,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Very Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: consists of two or more generators. Turning on or off a generator requires
     a Full Action, which also activates all other linked generators. A linear force
     field then forms between each generator, 1.5 metres high and up to 8 metres in
@@ -455,7 +455,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Extremely Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Protection rating doubled against weapons with the Blast or Spray qualities.
     If the shield overloads, it inflicts 1d10 Energy damage to the wearer that ignores
     Toughness bonus and Armour.
@@ -475,7 +475,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Extremely Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Opponents with the Daemonic trait suffer a 10 penalty to attack tests
     and Focus Power tests against the wearer.
   maxAgility: 0
@@ -494,7 +494,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Near Unique
-  craftmanship: Common
+  craftsmanship: Common
   description: Bulky. Imposes -20 to stealth tests and dose not defend against ranged
     attacks made within 1 metre or melee.
   maxAgility: 0
@@ -513,7 +513,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Near Unique
-  craftmanship: Common
+  craftsmanship: Common
   description: Bulky. Imposes -20 to stealth tests and dose not defend against ranged
     attacks made within 1 metre or melee.
   maxAgility: 0
@@ -532,7 +532,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Very Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Imposes a -20onStealth tests when active.
   maxAgility: 0
   type: Force Field
@@ -550,7 +550,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Extremely Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Allies who can draw a line of sight to a character with a rosarius
     gain a +10 bonus to Fear and Pinning tests; this is lost if the wearer dies or
     suffers any Critical damage.
@@ -570,7 +570,7 @@ data:
     rightArm: 4
     rightLeg: 4
   availability: Very Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 60
   type: Mesh
@@ -588,7 +588,7 @@ data:
     rightArm: 0
     rightLeg: 0
   availability: Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: ''
   maxAgility: 0
   type: Mesh
@@ -606,7 +606,7 @@ data:
     rightArm: 7
     rightLeg: 7
   availability: Extremely Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Grants Unnatural Strength (1) trait and always counts as Braced.
   maxAgility: 50
   type: Power
@@ -624,7 +624,7 @@ data:
     rightArm: 8
     rightLeg: 8
   availability: Extremely Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Grants the wearer the Auto-Stabilised and Unnatural Strength (1) trait,
     and increases the value of his Size (X) trait by 1. When used with the detachable
     helmet, it is environmentally sealed with its own oxygen supply and voxcaster
@@ -647,7 +647,7 @@ data:
     rightArm: 7
     rightLeg: 7
   availability: Very Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Grants Unnatural Strength (1) trait and increases Size by 1 level.
     Power supply functions for 1d5 hours before needing recharging.
   maxAgility: 40
@@ -666,7 +666,7 @@ data:
     rightArm: 6
     rightLeg: 6
   availability: Extremely Rare
-  craftmanship: Common
+  craftsmanship: Common
   description: Contains an integral respirator, commlink, photo-visor, targeter, and
     recoil suppression sleeves, as well as a magnetic harness on the back capable
     of holding a single basic weapon. Any Acolyte without the Adeptus Mechanicus background
