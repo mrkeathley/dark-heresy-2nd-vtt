@@ -1,6 +1,6 @@
 import { DarkHeresyItemSheet } from './item-sheet.mjs';
 
-export class DarkHeresyAttackSpecialSheet extends DarkHeresyItemSheet {
+export class DarkHeresyPsykanaSheet extends DarkHeresyItemSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       width: 820,
@@ -10,6 +10,6 @@ export class DarkHeresyAttackSpecialSheet extends DarkHeresyItemSheet {
   }
 
   get template() {
-    return `systems/dark-heresy-2nd/templates/item/item-attack-special-sheet.hbs`;
+    return `systems/dark-heresy-2nd/templates/item/item-psykana-sheet.hbs`;
   }
 }

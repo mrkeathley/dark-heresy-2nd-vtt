@@ -159,7 +159,7 @@ type: tool
 data:
   availability: Very Rare
   craftmanship: Common
-  description: firing a holo-spectus into the air requires a Challenging (+0) Tech-Use
+  description: Firing a holo-spectus into the air requires a Challenging (+0) Tech-Use
     test, after which the user gains a visual representation of the area below the
     hovering pict-recorder out for several kilometres. Can zoom and highlight parts
     allowing to survey the area around in great detail, and grants a +20 bonus to
@@ -246,9 +246,9 @@ type: tool
 data:
   availability: Rare
   craftmanship: Common
-  description: 'Floating skulls that have a single function.Auger: Grants benefits
-    of a AuspexIllumination: Lights up a 20 meter area.Land Hailer: Records speech
-    and amplifies voice.Medicae: Counts as a Medi-kit.Utility: Counts as a Combi-tool'
+  description: 'Floating skulls that have a single function. Auger: Grants benefits
+    of a Auspex Illumination: Lights up a 20 meter area.Land Hailer: Records speech
+    and amplifies voice.Medicae: Counts as a Medi-kit. Utility: Counts as a Combi-tool'
   weight: 2
 img: systems/dark-heresy-2nd/icons/talents/red/gr_08.png
 name: Monotask Servo-Skull
