@@ -2,24 +2,24 @@ import { getDegree } from './roll-helpers.mjs';
 
 /**
  * RollData requires --
- *
  * sourceActor
  * weapon
  * destinationActor
  * combatAction
  * modifiers
+ * result
+ * isSuccess
+ * dos/dof
  *
  * @param rollData
  * @returns {Promise<void>}
  */
-export async function weaponRoll(rollData) {
-    await _computeTarget(rollData);
-    await _rollTarget(rollData);
+export async function damageRoll(rollData) {
+    await _computeBaseDamage(rollData);
     await _sendToChat(rollData);
-
 }
 
-async function _computeTarget(rollData) {
+async function _computeBaseDamage(rollData) {
     const formula = `0 + ${rollData.difficulty} + ${rollData.modifier} + ${rollData.attackModifier}`;
     let r = new Roll(formula, {});
     await r.evaluate({ async: true });
@@ -31,29 +31,6 @@ async function _computeTarget(rollData) {
         rollData.target = rollData.baseTarget + r.total;
     }
     rollData.rollObject = r;
-}
-
-async function _rollTarget(rollData) {
-    let r = new Roll('1d100', {});
-    await r.evaluate({ async: true });
-    rollData.result = r.total;
-    rollData.rollObject = r;
-    rollData.isSuccess = rollData.result <= rollData.target;
-    if (rollData.isSuccess) {
-        rollData.dof = 0;
-        rollData.dos = 1 + getDegree(rollData.target, rollData.result);
-    } else {
-        rollData.dos = 0;
-        rollData.dof = 1 + getDegree(rollData.result, rollData.target);
-    }
-}
-
-async function _rollDamage(rollData) {
-    if (rollData.isSuccess) {
-
-
-
-    }
 }
 
 async function _sendToChat(rollData) {
