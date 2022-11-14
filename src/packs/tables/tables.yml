@@ -1,0 +1,395 @@
+---
+name: Psychic Phenomena
+img: systems/dark-heresy-2nd/icons/psykana/beam-acid-1.jpg
+description: An unpredictable manifestation of the warp occurs.
+results:
+  - type: 0
+    weight: 3
+    range:
+      - 1
+      - 3
+    drawn: false
+    documentCollection: ''
+    _id: SlQHcLOxfpX5IODN
+    text: 'Dark Foreboding: A faint breeze blows past the psyker and those near him,
+    and everyone gets the feeling that somewhere in the galaxy something unfortunate
+    just happened.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 4
+      - 6
+    drawn: false
+    documentCollection: ''
+    _id: 3Cq71PIFl2X0H6sY
+    text: 'Warp Echo: For a few moments, all noises cause echoes, regardless of the
+    surroundings.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 7
+      - 9
+    drawn: false
+    documentCollection: ''
+    _id: ztZZF7zohcBipSon
+    text: 'Unholy Stench: The air around the psyker becomes permeated with a bizarre
+    and foul smell.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 10
+      - 12
+    drawn: false
+    documentCollection: ''
+    _id: 6CVUkyS2WlK5Ej0h
+    text: 'Mind Warp: The psyker suffers a -5 penalty to Willpower tests until the start
+    of his next turn as his own inherent phobias, suspicions, and hatreds surge to
+    the surface of his mind in a wave of unbound emotion.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 13
+      - 15
+    drawn: false
+    documentCollection: ''
+    _id: NnYcvmIdHSQB18d6
+    text: 'Hoarfrost: The temperature plummets for an instant, and a thin coating of
+    frost forms to cover everything within 3d10 metres.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 16
+      - 18
+    drawn: false
+    documentCollection: ''
+    _id: 7JlrvPZfPGUmgkxe
+    text: 'Aura of Taint: All animals within 1d100 metres become spooked and agitated;
+    characters can use the Psyniscience skill to pinpoint the psyker as the cause'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 19
+      - 21
+    drawn: false
+    documentCollection: ''
+    _id: 4QCaG1ydEnzOv5CU
+    text: 'Memory Worm: All people within line of sight of the psyker forget some trivial
+    fact or minor personal memory.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 22
+      - 24
+    drawn: false
+    documentCollection: ''
+    _id: sM4AolCyN6Raisc7
+    text: 'Spoilage: Food and drink go bad in a 5d10 metre radius.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 25
+      - 27
+    drawn: false
+    documentCollection: ''
+    _id: wi9gnSNmge4LcsIM
+    text: 'Haunting Breeze: Winds whip up around the psyker for a few moments, blowing
+    light objects around and guttering fires within 3d10 metres.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 28
+      - 30
+    drawn: false
+    documentCollection: ''
+    _id: lYuW5tyTc3pyKqEo
+    text: 'Veil of Darkness: For a brief moment (effectively, until the end of the round),
+    the area within 3d10 metres is plunged into immediate and impenetrable darkness.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 31
+      - 33
+    drawn: false
+    documentCollection: ''
+    _id: HnyrOVuj3RzetJgp
+    text: 'Distorted Reflections: Mirrors and other reflective surfaces within a radius
+    of 5d10 metres distort or shatter.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 34
+      - 36
+    drawn: false
+    documentCollection: ''
+    _id: 3yYp296DSsTWc4Lc
+    text: 'Breath Leech: Each character (including the psyker) within a 3d10 metre radius
+    becomes short of breath for one round and cannot make any Run or Charge actions.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 37
+      - 39
+    drawn: false
+    documentCollection: ''
+    _id: 0lkIUOhjG0hSmSHh
+    text: 'Daemonic Mask: For a fleeting moment, the psyker takes on a daemonic appearance
+    and gains the Fear (1) trait until the start of the next turn. However, he also
+    gains 1 Corruption point.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 40
+      - 42
+    drawn: false
+    documentCollection: ''
+    _id: XasmhfmFVOl6Uzrq
+    text: 'Unnatural Decay: All plant life within 3d10 metres of the psyker withers
+    and dies.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 43
+      - 45
+    drawn: false
+    documentCollection: ''
+    _id: Zv8TJTcuZMx6xL4E
+    text: 'Spectral Gale: Howling winds erupt around the psyker, requiring each character
+    (including the psyker) within 4d10 metres to make an Easy (+30) Agility or Strength
+    test to avoid being knocked Prone.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 46
+      - 48
+    drawn: false
+    documentCollection: ''
+    _id: g5z9wo85eOllNNyi
+    text: 'Bloody Tears: Blood weeps from stone and wood within 3d10 metres of the psyker.
+    If there are any paintings, pict-displays, statues, or other representations of
+    people inside this area, they appear to be crying blood.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 49
+      - 51
+    drawn: false
+    documentCollection: ''
+    _id: ggwF3Fjy1BGH1Umv
+    text: 'The Earth Protests: The ground suddenly shakes, and each character (including
+    the psyker) within a 5d10 metre radius must make an Ordinary (+10) Agility test
+    or be knocked down.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 52
+      - 54
+    drawn: false
+    documentCollection: ''
+    _id: WUx0aXITIvUeRZUH
+    text: 'Actinic Discharge: Static electricity fills the air within 5d10 metres causing
+    hair to stand on end and unprotected electronics to short out, while the psyker
+    is wreathed in eldritch lightning.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 55
+      - 57
+    drawn: false
+    documentCollection: ''
+    _id: E5gaZE9ftDKe4Z6q
+    text: 'Warp Ghosts: Ghostly apparitions fill the air within 3d10 metres around the
+    psyker, flying about and howling in pain for a few brief moments. Everyone in
+    the radius (except the psyker himself ) must test against a Fear rating of 1.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 58
+      - 60
+    drawn: false
+    documentCollection: ''
+    _id: crtoWgpBeN6A4J1s
+    text: 'Falling Upwards: Everything within 2d10 metres of the psyker (including the
+    psyker himself ) rises 1d10 metres into the air as gravity briefly ceases. Almost
+    immediately, everything crashes back to earth, suffering falling Damage as appropriate
+    for the distances fallen.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 61
+      - 63
+    drawn: false
+    documentCollection: ''
+    _id: vRYRQnrrpnL2vuue
+    text: 'Banshee Howl: A shrill keening rings out across the immediate area, shattering
+    glass and forcing every mortal creature able to hear it (including the psyker)
+    to pass a Challenging (+0) Toughness Test or be deafened for 1d10 rounds.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 64
+      - 66
+    drawn: false
+    documentCollection: ''
+    _id: lQCr6jqUAYe5LpXe
+    text: 'The Furies: The Psyker is assailed by unseen horrors. He is slammed to the
+    ground and suffers 1d5 Damage (ignoring Armour, but not Toughness Bonus) and he
+    must test against Fear (2).'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 67
+      - 69
+    drawn: false
+    documentCollection: ''
+    _id: O8lJ8w2WYG81FGaE
+    text: 'Shadow of the Warp: For a split second, the world changes in appearance,
+    and everyone within 1d100 metres has brief but horrific glimpse of the shadow
+    of the Warp. Everyone in the area (including the psyker) must make a Difficult
+    (-10) Willpower Test or gain 1d5 Corruption Points.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 70
+      - 72
+    drawn: false
+    documentCollection: ''
+    _id: nvqx8VFkfSg2z25q
+    text: 'Tech Scorn: The machine spirits reject your unnatural ways. All un-warded
+    technology within 5d10 metres malfunctions momentarily, and all ranged weapons
+    Jam (see page 255), whilst characters with cybernetic implants must pass a Routine
+    (+10) Toughness Test or suffer 1d5 Damage, ignoring Toughness Bonus and Armour.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 3
+    range:
+      - 73
+      - 75
+    drawn: false
+    documentCollection: ''
+    _id: 7mVv2okjeooEB40G
+    text: 'Warp Madness: A violent ripple of tainted discord causes all creatures within
+    2d10 metres (with the exception of the psyker) to become Frenzied for a Round
+    and suffer 1d5 Corruption Points unless they can pass a Difficult (-10) Willpower
+    Test.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 25
+    range:
+      - 76
+      - 100
+    drawn: false
+    documentCollection: ''
+    _id: Az7Ylqt9m1tkk53C
+    text: 'Perils of the Warp: The Warp opens in a wild maelstrom of unnatural energy.
+    Roll on perils of the Warp'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+formula: 1d100
+replacement: true
+displayRoll: true
+---
+name: Perils of the Warp
+img: systems/dark-heresy-2nd/icons/psykana/beam-acid-3.jpg
+description: The warp convulses violently.
+results:
+  - type: 0
+    weight: 5
+    range:
+      - 1
+      - 5
+    drawn: false
+    documentCollection: ''
+    _id: SlQHcLOxfpX5IODN
+    text: 'The Gibbering: The psyker screams in pain as uncontrolled Warp energies surge through his unprepared mind. He must make a Challenging (+0) Willpower Test or be stunned for 1d5 Rounds.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+  - type: 0
+    weight: 4
+    range:
+      - 6
+      - 9
+    drawn: false
+    documentCollection: ''
+    _id: SlQHcLOxfpX5IODN
+    text: 'Warp Burn: A violent burst of energy from the Warp smashes into the psykers mind, sending him reeling. He suffers 2d5 Damage, ignoring Toughness Bonus and Armour, and is stunned for 1d5 Rounds.'
+    img: icons/svg/d20-black.svg
+    documentId:
+    flags: {}
+formula: 1d100
+replacement: true
+displayRoll: true
