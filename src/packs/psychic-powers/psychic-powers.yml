@@ -14,9 +14,8 @@ data:
     range: self
     source: EWI 59
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: -20
@@ -32,27 +31,25 @@ data:
     damage: ''
     damageType: ''
     discipline: Minor
-    description: The psyker selects a single target, who opposes the test with an Ordinary
-        (+10) Willpower test. If the psyker succeeds, the target must repeat his last
-        exploit, such as iring a gun at a target who is no longer there or diving for
+    description: The target must repeat his last exploit, such as firing a gun at a target 
+        who is no longer there or diving for
         cover from a grenade that has already detonated. This repeated deed counts as
         the targets Action for the round. If the action would be obviously harmful to
         the target (but not to an ally), the target automatically wins the Opposed test
         (scoring 1 more degree of success than the psyker).
     penetration: ''
     prerequisite: WP 35
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: EWI 59
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
         characteristic: willpower
         isOpposed: true
-        opposed: null
+        opposed: willpower
 img: systems/dark-heresy-2nd/icons/psykana/beam-blue-1.jpg
 name: Deja Vu
 type: psychicPower
@@ -66,7 +63,7 @@ data:
     discipline: Minor
     description: The psyker chooses a single character or item within range and receives
         a brief and unclear image of the future, giving him a rough idea of one thing
-        that will happen to the target within a number of minutes up to the psykers PR.
+        that will happen to the target within [[@pr]] minutes.
         The GM decides what information the psyker receives, with additional degrees of
         success on the Focus Power test yielding more important information. For example,
         the psyker might learn that the character will be the target of an attack or will
@@ -74,12 +71,11 @@ data:
         The psyker cannot select himself as the target of this power.
     penetration: ''
     prerequisite: Per 35
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: EWI 59
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -106,13 +102,11 @@ data:
         subtype.
     penetration: ''
     prerequisite: WP 30
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: EWI 60
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: Half
     target:
         bonus: 0
@@ -128,8 +122,7 @@ data:
     damage: ''
     damageType: ''
     discipline: Minor
-    description: The psyker chooses a single target within range and line of sight, who opposes
-        this power with a Challenging (+0) Logic test. If the power is used during structured
+    description: If the power is used during structured
         time and the target fails to resist, he sufers a 10 penalty to all tests for PR
         rounds. If used during narrative time, the psyker instead chooses a time within
         the next PR hours for the target to experience the omen. The GM determines the
@@ -139,16 +132,17 @@ data:
         of the omen, in determining the outcome.
     penetration: ''
     prerequisite: Rank 1 Psyniscience
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: EWI 60
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
         characteristic: willpower
+        isOpposed: true
+        opposed: Logic
 img: systems/dark-heresy-2nd/icons/psykana/beam-blue-1.jpg
 name: Ill Omen
 type: psychicPower
@@ -161,7 +155,7 @@ data:
     damageType: ''
     discipline: Minor
     description: The psyker chooses a target, which can be an object or character, and pushes
-        it directly away from him a number of metres equal to his psy rating. To determine
+        it directly away from him [[@pr]] metres. To determine
         the maximum weight the psyker can push, consult the table on page 248 of the DARK
         HERESY Core Rulebook, substituting the psykers PR and WPB for SB and TB. If the
         target is a character, he opposes the power with a Challenging (+0) Strength test.
@@ -170,13 +164,11 @@ data:
         and 1 level of Fatigue.
     penetration: ''
     prerequisite: WP 30
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: EWI 60
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 10
@@ -202,9 +194,8 @@ data:
     range: self
     source: EWI 60
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -229,12 +220,11 @@ data:
         guard that the psyker is a Space Marine.
     penetration: ''
     prerequisite: Rank 1 Deceive
-    range: 1 x @effective_rating
+    range: 1*@pr
     source: EWI 61
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -259,12 +249,11 @@ data:
         the creatures arrive, they behave normally and are not compelled to obey the psyker.
     penetration: ''
     prerequisite: Fel 30
-    range: 1k x @effective_rating
+    range: 1k*@pr
     source: EWI 61
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -288,12 +277,11 @@ data:
         fail the test with 2 or more degrees of failure, his own ranged weapons jam immediately.
     penetration: ''
     prerequisite: Int 35
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: EWI 61
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -326,9 +314,8 @@ data:
     range: '10'
     source: EWI 61
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -356,9 +343,8 @@ data:
     range: unliited
     source: DH 165
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 10
@@ -377,12 +363,11 @@ data:
     description: You cause yourself or another creature within Range to halt Blood Loss.
     penetration: ''
     prerequisite: WP 35
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: DH 167
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 10
@@ -407,13 +392,11 @@ data:
         usages on the same target having no further effect.
     penetration: ''
     prerequisite: T 35, Smite
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: DH2 200
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: Half
     target:
         bonus: 0
@@ -437,12 +420,11 @@ data:
         taxing and requires at least 12 hours of recovery before it may be used again.
     penetration: ''
     prerequisite: T 30, Shape Flesh
-    range: 3 x @effective_rating
+    range: 3*@pr
     source: DH2 200
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -467,13 +449,11 @@ data:
         of the original target.
     penetration: ''
     prerequisite: Psy rating 4, Life Leech
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 200
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: -10
@@ -501,9 +481,8 @@ data:
     range: '1'
     source: DH2 200
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -528,9 +507,8 @@ data:
     range: self
     source: DH2 200
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -20
@@ -554,13 +532,11 @@ data:
         as the powers effect persists.
     penetration: ''
     prerequisite: T 40, Enfeeble
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 201
     special: {}
-    speed: Full
-    subtype:
-        - Attack
-        - Concentration
+    action: Full Action
+    subtype: 'Attack, Concentration'
     sustained: Free Action
     target:
         bonus: -10
@@ -600,9 +576,8 @@ data:
     range: '1'
     source: DH2 202
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 10
@@ -625,13 +600,11 @@ data:
         20m x PR        DMG: 1d10+PR (E)                Pen: 4                Special:'
     penetration: ''
     prerequisite: WP 40, Invigourate
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: DH2 202
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 0
@@ -654,9 +627,8 @@ data:
     range: self
     source: DH2 202
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -10
@@ -680,13 +652,11 @@ data:
         PR      Special: Shocking, Haywire (0)'
     penetration: ''
     prerequisite: Smite
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: ToF 58
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 0
@@ -718,9 +688,8 @@ data:
     range: self
     source: ToF 58
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: -10
@@ -750,12 +719,11 @@ data:
         are immune to the effects of this power.
     penetration: ''
     prerequisite: Enfeeble
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: ToF 57
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: 0
@@ -797,9 +765,8 @@ data:
     range: self
     source: ToF 59
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -824,9 +791,8 @@ data:
     range: self
     source: DH2 203
     special: {}
-    speed: Reaction
-    subtype:
-        - Concentration
+    action: Free Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -848,12 +814,11 @@ data:
         benefits as soon as they move out of range.
     penetration: ''
     prerequisite: Per 50, Foreboding
-    range: 3 x @effective_rating
+    range: 3*@pr
     source: DH2 203
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 0
@@ -876,13 +841,11 @@ data:
         The targets weapons also jam on any attack in which they fail to hit their target.
     penetration: ''
     prerequisite: WP 45, Foreboding
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: DH2 203
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: Free Action
     target:
         bonus: -10
@@ -907,12 +870,11 @@ data:
         as soon as they move out of range.
     penetration: ''
     prerequisite: Per 55, Forewarning
-    range: 3 x @effective_rating
+    range: 3*@pr
     source: DH2 203
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: -10
@@ -936,12 +898,11 @@ data:
         turn, all remaining re-rolls are lost.
     penetration: ''
     prerequisite: Per 45, WP 45, Scrier's Gaze
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: DH2 203
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -20
@@ -963,12 +924,11 @@ data:
         lose its benefit as soon as they move out of range.
     penetration: ''
     prerequisite: Psyniscience Rank 1, Warp Perception
-    range: 3 x @effective_rating
+    range: 3*@pr
     source: DH2 204
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: 0
@@ -1006,9 +966,8 @@ data:
     range: self
     source: DH2 204
     special: {}
-    speed: Special
-    subtype:
-        - Concentration
+    action: Special
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -1031,9 +990,8 @@ data:
     range: self
     source: DH2 204
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: 0
@@ -1058,9 +1016,8 @@ data:
     range: self
     source: DH2 205
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -1086,9 +1043,8 @@ data:
     range: self
     source: ITS 195
     special: {}
-    speed: Free Action
-    subtype:
-        - Concentration
+    action:  Free Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -1114,9 +1070,8 @@ data:
     range: self
     source: RT 169
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -1140,9 +1095,8 @@ data:
     range: self
     source: RT 169
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -1170,9 +1124,8 @@ data:
     range: self
     source: DH 172
     special: {}
-    speed: Free Action
-    subtype:
-        - Concentration
+    action:  Free Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -1199,9 +1152,8 @@ data:
     range: self
     source: DH 172
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 0
@@ -1225,9 +1177,8 @@ data:
     range: '1'
     source: DH2 206
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 20
@@ -1247,12 +1198,11 @@ data:
         (E)                Pen: 0                Special: Flame'
     penetration: ''
     prerequisite: Psy rating 3, Spontanous Combustion
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: DH2 206
     special: {}
-    speed: Half
-    subtype:
-        - Attack
+    action: Half Action
+    subtype: Attack
     sustained: null
     target:
         bonus: 0
@@ -1280,9 +1230,8 @@ data:
     range: self
     source: DH2 206
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: -10
@@ -1306,12 +1255,11 @@ data:
         PR (E)                Pen: 0                Special: Flame'
     penetration: ''
     prerequisite: Ag 40, Manipulate Flame
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: DH2 206
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 0
@@ -1331,13 +1279,11 @@ data:
         0                Special: Blast (PR) Flame'
     penetration: ''
     prerequisite: Psy rating 5, Molten Beam OR Sunburst
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 207
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: -10
@@ -1360,12 +1306,11 @@ data:
         per round along a flammable surface.
     penetration: ''
     prerequisite: WP 35
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 208
     special: {}
-    speed: Half
-    subtype:
-        - Attack
+    action: Half Action
+    subtype: Attack
     sustained: Half
     target:
         bonus: 20
@@ -1385,12 +1330,11 @@ data:
         2xPR                Special: Melta'
     penetration: ''
     prerequisite: Psy rating 4, Spontaneous Combustion
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: DH2 208
     special: {}
-    speed: Half
-    subtype:
-        - Attack
+    action: Half Action
+    subtype: Attack
     sustained: null
     target:
         bonus: 0
@@ -1410,12 +1354,11 @@ data:
         0                Special: Flame'
     penetration: ''
     prerequisite: WP 40, Manipulate Flame
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: DH2 208
     special: {}
-    speed: Half
-    subtype:
-        - Attack
+    action: Half Action
+    subtype: Attack
     sustained: null
     target:
         bonus: 10
@@ -1435,12 +1378,11 @@ data:
         0                Special: Flame'
     penetration: ''
     prerequisite: Psy rating 4, Flame Breath
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: DH2 208
     special: {}
-    speed: Half
-    subtype:
-        - Attack
+    action: Half Action
+    subtype: Attack
     sustained: null
     target:
         bonus: 0
@@ -1465,12 +1407,11 @@ data:
         again or catch on fire.
     penetration: ''
     prerequisite: Spontaneous Combustion
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH 175
     special: {}
-    speed: Half
-    subtype:
-        - Attack
+    action: Half Action
+    subtype: Attack
     sustained: Half
     target:
         bonus: 0
@@ -1496,13 +1437,11 @@ data:
         this power, the power immediately ends and must be manifested again.
     penetration: ''
     prerequisite: Molten Beam
-    range: 3 x @effective_rating
+    range: 3*@pr
     source: ToF 61
     special: {}
-    speed: Full
-    subtype:
-        - Attack
-        - Concentration
+    action: Full Action
+    subtype: 'Attack, Concentration'
     sustained: Full
     target:
         bonus: -20
@@ -1525,13 +1464,11 @@ data:
         20m x PR        DMG: 1d10 + PR (I)                Pen: 2                Special:'
     penetration: ''
     prerequisite: WP 40, Telekinetic Control
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: DH2 209
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 10
@@ -1553,13 +1490,11 @@ data:
         1d10 + PR (I)                Pen: 2                Special: Snare (PR/2)'
     penetration: ''
     prerequisite: WP 45, Assail
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 209
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 0
@@ -1589,12 +1524,11 @@ data:
         and requires at least 12 hours of recovery before it may be used again.
     penetration: ''
     prerequisite: Psy rating 5, Telekine Dome
-    range: 1k x @effective_rating
+    range: 1k*@pr
     source: DH2 209
     special: {}
-    speed: Extended Action (3)
-    subtype:
-        - Concentration
+    action: 3 Full Actions
+    subtype: Concentration
     sustained: null
     target:
         bonus: -20
@@ -1615,12 +1549,11 @@ data:
         in metres equal to the psykers psy rating.
     penetration: ''
     prerequisite: Int 40, Crush
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 209
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -1633,8 +1566,8 @@ data:
     attackBonus: ''
     attackType: ''
     cost: 300
-    damage: ''
-    damageType: ''
+    damage: '1d10+@pr'
+    damageType: 'Explosive'
     discipline: Telekinesis
     description: 'Each character in the area of effect (other than the psyker) suffers the
         damage below. He is also pushed directly away from the psyker a number of metres
@@ -1645,10 +1578,8 @@ data:
     range: self
     source: DH2 210
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 0
@@ -1672,12 +1603,11 @@ data:
         However, characters may still physically pass through the dome at no penalty.
     penetration: ''
     prerequisite: Psy rating 4, Telekine Shield
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: DH2 211
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 0
@@ -1703,9 +1633,8 @@ data:
     range: self
     source: DH2 211
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 20
@@ -1727,12 +1656,11 @@ data:
         If the object ever leaves the range of the power, the power ends.
     penetration: ''
     prerequisite: WP 35
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 211
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: 20
@@ -1770,13 +1698,11 @@ data:
         2d10 + 4xPR (X)           Pen: Current Radius          Special: Blast (2xPR)'
     penetration: ''
     prerequisite: Psy rating 5, Shockwave OR Telekine Dome
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: DH2 211
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: Half
     target:
         bonus: -10
@@ -1799,13 +1725,11 @@ data:
         Special                Special: Shocking'
     penetration: ''
     prerequisite: Crush
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: ITS 195
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: -10
@@ -1831,12 +1755,11 @@ data:
         but also against psychic and daemonic attacks.
     penetration: ''
     prerequisite: Telekine Shield
-    range: 2 x @effective_rating
+    range: 2*@pr
     source: ITS 196
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 0
@@ -1865,12 +1788,11 @@ data:
         firing.
     penetration: ''
     prerequisite: Telekinetic Control
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: RT 171
     special: {}
-    speed: Special
-    subtype:
-        - Concentration
+    action: Special
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 10
@@ -1900,9 +1822,8 @@ data:
     range: self
     source: RT 171
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 0
@@ -1924,13 +1845,11 @@ data:
         a bonus of +3 Damage per Psy Rating. No target may be hit more than once a round.
     penetration: ''
     prerequisite: Telekinetic Weapon
-    range: 5 x @effective_rating radius
+    range: 5*@pr radius
     source: RT 172
     special: {}
-    speed: Full
-    subtype:
-        - Attack
-        - Concentration
+    action: Full Action
+    subtype: 'Attack, Concentration'
     sustained: Full
     target:
         bonus: -10
@@ -1958,13 +1877,11 @@ data:
         (R)                Pen: PR                Special:'
     penetration: ''
     prerequisite: Telekinetic Weapon
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: RT 172
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: Free Action
     target:
         bonus: 0
@@ -1989,12 +1906,11 @@ data:
         round.
     penetration: ''
     prerequisite: WP 40, Erasure
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: DH2 212
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -2020,12 +1936,11 @@ data:
         in his memory, with no recollection of what occurred during that time.
     penetration: ''
     prerequisite: Fel 40, Telepathic Link
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: DH2 212
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -2050,12 +1965,11 @@ data:
         to half the psykers psy rating, rounded up.'
     penetration: ''
     prerequisite: Fel 40, Telepathic Link
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 212
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -2081,12 +1995,11 @@ data:
         moves beyond the powers range, he loses this powers benefits.
     penetration: ''
     prerequisite: Ag 30, psy rating 4, Terrify
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 212
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -10
@@ -2107,12 +2020,11 @@ data:
         by this power lose its benefits as soon as they move out of range.
     penetration: ''
     prerequisite: Adamantium Faith, Dominate OR Terrify
-    range: 3 x @effective_rating
+    range: 3*@pr
     source: DH2 212
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -10
@@ -2125,18 +2037,17 @@ data:
     attackBonus: ''
     attackType: 'psychic-bolt'
     cost: 300
-    damage: '1d10 + 2 + (2 x @effective_rating)'
+    damage: '1d10 + 2 + (2*@pr)'
     damageType: 'explosive'
     discipline: Telepathy
     description: 'Flavour text'
     penetration: '0'
     prerequisite: Psy rating 3, Hallucination
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 213
-    special: { concussive: '@effective_rating / 2' }
-    speed: Half
-    subtype:
-        - Attack
+    special: { concussive: '@pr / 2' }
+    action: Half Action
+    subtype: Attack
     sustained: null
     target:
         bonus: 0
@@ -2163,12 +2074,11 @@ data:
         the power. Additionally, the power breaks as soon as the target moves out of range.
     penetration: ''
     prerequisite: Fellowship 55, Dominate OR Terrify
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 214
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Special
     target:
         bonus: -10
@@ -2199,12 +2109,11 @@ data:
         having rolled a 100.'
     penetration: ''
     prerequisite: WP 35
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: DH2 214
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -2232,12 +2141,11 @@ data:
         for degrees of failure, and immediately apply the effects.'
     penetration: ''
     prerequisite: Fel 45, Hallucination
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: DH2 214
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -2261,13 +2169,11 @@ data:
         5m x PR        DMG: 1d10 + PR (X)                Pen: Special                Special:'
     penetration: ''
     prerequisite: Terrify
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: ITS 193
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: -10
@@ -2291,12 +2197,11 @@ data:
         as they move out of range.
     penetration: ''
     prerequisite: None
-    range: 3 x @effective_rating
+    range: 3*@pr
     source: ITS 194
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 10
@@ -2324,12 +2229,11 @@ data:
         free depends largely on how the psyker treated the animal.
     penetration: ''
     prerequisite: Telepathic Link
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: RT 165
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 0
@@ -2355,13 +2259,11 @@ data:
         the targets remaining wounds, it is immediately cast back into the Warp.
     penetration: ''
     prerequisite: Psy rating 3, Exorcism
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: EBY 54
     special: {}
-    speed: Full
-    subtype:
-        - Attack
-        - Concentration
+    action: Full Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: -20
@@ -2383,13 +2285,11 @@ data:
         Spray'
     penetration: ''
     prerequisite: Psy rating 4, Purge Soul
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: EBY 54
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 0
@@ -2411,13 +2311,11 @@ data:
         degree of success on the psykers test.
     penetration: ''
     prerequisite: WP 40, Word of the Emperor
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: EBY 55
     special: {}
-    speed: Full
-    subtype:
-        - Attack
-        - Concentration
+    action: Full Action
+    subtype: 'Attack, Concentration'
     sustained: Half
     target:
         bonus: -10
@@ -2445,9 +2343,8 @@ data:
     range: 5 x psy raing
     source: EBY 55
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -10
@@ -2473,10 +2370,8 @@ data:
     range: self
     source: EBY 56
     special: {}
-    speed: Full
-    subtype:
-        - Attack
-        - Concentration
+    action: Full Action
+    subtype: 'Attack, Concentration'
     sustained: Full
     target:
         bonus: -20
@@ -2497,12 +2392,11 @@ data:
         This can change an already established Initiative order
     penetration: ''
     prerequisite: Per 35
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: EBY 56
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 10
@@ -2524,13 +2418,11 @@ data:
         equal to the targets Corruption bonus, ignoring armour and Toughness bonus.
     penetration: ''
     prerequisite: WP 35, Word of the Emperor
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: EBY 56
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: -10
@@ -2558,9 +2450,8 @@ data:
     range: self
     source: EBY 56
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: 0
@@ -2581,12 +2472,11 @@ data:
         Willpower test or suffer a 5 penalty to his attack roll for each degree of failure.
     penetration: ''
     prerequisite: Fel 30, Psychic Communion
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: EBY 56
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: -10
@@ -2612,12 +2502,11 @@ data:
         (see Table 32: Warp Phenomena on page 137).'
     penetration: ''
     prerequisite: WP 40, Summoning
-    range: 1 x @effective_rating
+    range: 1*@pr
     source: EBY 57
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -10
@@ -2639,13 +2528,11 @@ data:
         CB                Special: Flame, Spray'
     penetration: ''
     prerequisite: 10 Corruption points, Cursed Earth
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: EBY 57
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 0
@@ -2669,13 +2556,11 @@ data:
         half the users psy rating.
     penetration: ''
     prerequisite: 15 Corruption points, WP 45, Dark Flame
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: EBY 57
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: -10
@@ -2698,9 +2583,8 @@ data:
     range: self
     source: EBY 57
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -10
@@ -2731,9 +2615,8 @@ data:
     range: self
     source: EBY 57
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -10
@@ -2759,9 +2642,8 @@ data:
     range: self
     source: EBY 58
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 10
@@ -2784,9 +2666,8 @@ data:
     range: self
     source: EBY 58
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: 0
@@ -2810,12 +2691,11 @@ data:
         counting as having rolled a 100.
     penetration: ''
     prerequisite: Telepathic Link, WP 40
-    range: 1000k x @effective_rating
+    range: 1000k*@pr
     source: EBY 37
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -20
@@ -2843,12 +2723,11 @@ data:
         moves out of range of the psyker, the power ceases to affect him.
     penetration: ''
     prerequisite: Telepathic Link, Fel 35
-    range: 20 x @effective_rating
+    range: 20*@pr
     source: EBY 37
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -10
@@ -2880,12 +2759,11 @@ data:
         targets happiest memories to his darkest secrets.'
     penetration: ''
     prerequisite: Fel 40, Telepathic Bond, WP 50
-    range: 1 x @effective_rating
+    range: 1*@pr
     source: EBY 37
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: Full
     target:
         bonus: -20
@@ -2910,9 +2788,8 @@ data:
     range: self
     source: EBY 37
     special: {}
-    speed: Reaction
-    subtype:
-        - Concentration
+    action: Free Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -20
@@ -2931,12 +2808,11 @@ data:
     description: Adjust target charater's Initative by +- PR for PR/2 turns
     penetration: ''
     prerequisite: WP 40
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: '- -'
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -2956,12 +2832,11 @@ data:
         wins target character loses it's next turn.
     penetration: ''
     prerequisite: Slow Time
-    range: 3 x @effective_rating
+    range: 3*@pr
     source: '- -'
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: -10
@@ -2983,12 +2858,11 @@ data:
         Toughness and Intelligence damage per turn gone.
     penetration: ''
     prerequisite: Temporal Crush
-    range: 3 x @effective_rating
+    range: 3*@pr
     source: '- -'
     special: {}
-    speed: Full
-    subtype:
-        - Concentration
+    action: Full Action
+    subtype: Concentration
         - Attack
     sustained: null
     target:
@@ -3012,9 +2886,8 @@ data:
     range: self
     source: '- -'
     special: {}
-    speed: Free Action
-    subtype:
-        - Concentration
+    action:  Free Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -20
@@ -3034,12 +2907,11 @@ data:
         within range, lose a half action.
     penetration: ''
     prerequisite: WP 50, Time Shift
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: '- -'
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: -10
@@ -3061,12 +2933,11 @@ data:
         inside the dome gains an additional Force Field equal to psyker's Willpower.
     penetration: ''
     prerequisite: WP 45, Chrono Shift
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: '- -'
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Full
     target:
         bonus: -20
@@ -3089,9 +2960,8 @@ data:
     range: 5 x psy
     source: '- -'
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 10
@@ -3116,9 +2986,8 @@ data:
     range: 5 x psy raing
     source: '- -'
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Free Action
     target:
         bonus: -10
@@ -3138,12 +3007,11 @@ data:
         0   Special: Haywire (0) + PR/2 to Haywire Table'
     penetration: ''
     prerequisite: Chrono Shift
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: '- -'
     special: {}
-    speed: Half
-    subtype:
-        - Attack
+    action: Half Action
+    subtype: Attack
     sustained: null
     target:
         bonus: 0
@@ -3163,13 +3031,11 @@ data:
         Damage         Pen: 0       Special: Blast (PR)'
     penetration: ''
     prerequisite: WP 60, Chronological Removal
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: '- -'
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: -10
@@ -3200,13 +3066,11 @@ data:
         6                Special:'
     penetration: ''
     prerequisite: None
-    range: 5 x @effective_rating
+    range: 5*@pr
     source: TNP 94
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 0
@@ -3228,13 +3092,11 @@ data:
         1d10 + PR (E)      Pen: 4 + Target's Fatigue           Special:"
     penetration: ''
     prerequisite: The Void's Touch
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: TNP 94
     special: {}
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 0
@@ -3247,19 +3109,17 @@ data:
     attackBonus: ''
     attackType: 'blast'
     cost: 0
-    damage: '2d10 + @effective_rating + @target_fatigue'
+    damage: '2d10 + @pr + @target_fatigue'
     damageType: 'energy'
     discipline: Void Frost
     description: 'Freezes the soul'
     penetration: '6'
     prerequisite: Breathstealing Barrage
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: TNP 95
-    special: { blast: 2 x @effective_rating, snare: 0 }
-    speed: Half
-    subtype:
-        - Attack
-        - Concentration
+    special: { blast: 2*@pr, snare: 0 }
+    action: Half Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: -10
@@ -3291,12 +3151,11 @@ data:
         its movement speed is halved until the end of its next Turn.
     penetration: ''
     prerequisite: None
-    range: 1 x @effective_rating
+    range: 1*@pr
     source: TNP 93
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: null
     target:
         bonus: 0
@@ -3325,13 +3184,11 @@ data:
         counts its Toughness as 0 against any Impact Damage that it suffers.
     penetration: ''
     prerequisite: Embrace of Emptiness
-    range: 10 x @effective_rating
+    range: 10*@pr
     source: TNP 95
     special: {}
-    speed: Full
-    subtype:
-        - Attack
-        - Concentration
+    action: Full Action
+    subtype: 'Attack, Concentration'
     sustained: null
     target:
         bonus: 0
@@ -3361,12 +3218,11 @@ data:
         saps its strength.
     penetration: ''
     prerequisite: Black Sleep
-    range: 1 x @effective_rating
+    range: 1*@pr
     source: TNP 95
     special: {}
-    speed: Half
-    subtype:
-        - Concentration
+    action: Half Action
+    subtype: Concentration
     sustained: Half
     target:
         bonus: 0
