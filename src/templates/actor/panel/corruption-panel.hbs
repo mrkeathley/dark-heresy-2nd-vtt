@@ -1,13 +1,13 @@
 <div class="dh-panel dh-grid-col-2 dh-grid-row-1">
-    <h1 class="dh-panel__header">Corruption</h1>
+    <h1 class="dh-panel__header">{{localize 'CORRUPTION'}}</h1>
     <div class="dh-field__wrapper">
-        <span class="dh-field__header">Corruption Points</span>
+        <span class="dh-field__header">{{localize 'CORRUPTION.POINTS'}}</span>
         <input class="dh-field__input" data-dtype="Number" type="number" name="system.corruption"
                value="{{actor.corruption}}" />
     </div>
     <div class="dh-table--border dh-corruptiontable--border">
         <div class="table-row--head">
-            <div class="table-cell--span2">Malignancies</div>
+            <div class="table-cell--span2">{{localize 'CORRUPTION.MALIGNANCIES'}}</div>
             <div class="table-cell--last">
                 <label class="dh-control-button item-create" data-type="malignancy">
                     <span class="dh-control-button__span material-icons">{{defaultVal icon 'add_circle'}}</span>

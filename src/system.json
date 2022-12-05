@@ -21,6 +21,13 @@
   "styles": [
     "css/dark-heresy-2nd.css"
   ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "scripts": [],
   "packs": [
     {

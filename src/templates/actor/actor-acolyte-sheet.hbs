@@ -7,7 +7,7 @@
                     <img class="dh-header__logo-image" src="{{actor.img}}" data-edit="img" alt="{{actor.name}}" title="{{actor.name}}" />
                 </div>
                 <div class="dh-header__item-wrapper--span-2">
-                    <span class="dh-header__title">Name</span>
+                    <span class="dh-header__title">{{localize 'NAME'}}</span>
                     <input class="dh-header__input" name="name" type="text" value="{{actor.name}}" />
                 </div>
                 {{#each actor.bio}}
@@ -20,28 +20,28 @@
 
         <div class="dh-navigation" data-group="primary">
             <label class="dh-navigation__item dh-navigation__item-left">
-                <a class="item" data-tab="combat" data-group="primary">combat</a>
+                <a class="item" data-tab="combat" data-group="primary">{{localize 'ACTOR.COMBAT'}}</a>
             </label>
             <label class="dh-navigation__item">
-                <a class="item" data-tab="main" data-group="primary">main</a>
+                <a class="item" data-tab="main" data-group="primary">{{localize 'ACTOR.MAIN'}}</a>
             </label>
             <label class="dh-navigation__item">
-                <a class="item" data-tab="bio" data-group="primary">bio</a>
+                <a class="item" data-tab="bio" data-group="primary">{{localize 'ACTOR.BIOGRAPHY'}}</a>
             </label>
             <label class="dh-navigation__item">
-                <a class="item" data-tab="gear" data-group="primary">gear</a>
+                <a class="item" data-tab="gear" data-group="primary">{{localize 'ACTOR.GEAR'}}</a>
             </label>
             <label class="dh-navigation__item">
-                <a class="item" data-tab="cybernetic" data-group="primary">cybernetics</a>
+                <a class="item" data-tab="cybernetic" data-group="primary">{{localize 'ACTOR.CYBERNETICS'}}</a>
             </label>
             <label class="dh-navigation__item">
-                <a class="item" data-tab="psychic" data-group="primary">psychic powers</a>
+                <a class="item" data-tab="psychic" data-group="primary">{{localize 'ACTOR.PSYCHIC_POWERS'}}</a>
             </label>
             <label class="dh-navigation__item">
-                <a class="item" data-tab="advances" data-group="primary">advances</a>
+                <a class="item" data-tab="advances" data-group="primary">{{localize 'ACTOR.ADVANCES'}}</a>
             </label>
             <label class="dh-navigation__item">
-                <a class="item" data-tab="social" data-group="primary">social</a>
+                <a class="item" data-tab="social" data-group="primary">{{localize 'ACTOR.SOCIAL'}}</a>
             </label>
         </div>
 
@@ -68,7 +68,7 @@
             <div class="tab" data-group="primary" data-tab="bio">
                 <div class="dh-panel dh-grid-col-6">
                     <div class="dh-header__info">
-                        <h1 class="dh-panel__header dh-grid-col-4">Biography</h1>
+                        <h1 class="dh-panel__header dh-grid-col-4">{{localize 'ACTOR.BIOGRAPHY'}}</h1>
                         {{#each actor.bio}}
                             {{#unless (arrayIncludes @key @root.dh.bio.primary)}}
                                 {{> systems/dark-heresy-2nd/templates/actor/partial/character-field.hbs key=@key value=this options=(getBioOptions @key)}}

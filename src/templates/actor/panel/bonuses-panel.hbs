@@ -1,10 +1,10 @@
 <div class="dh-panel dh-grid-col-2 dh-grid-row-1">
-    <h1 class="dh-panel__header">Bonuses</h1>
+    <h1 class="dh-panel__header">{{localize 'BONUSES'}}</h1>
     <div class="dh-table--border dh-bonusestable--border">
         <div class="table-row--head">
-            <div class="table-cell">Name</div>
-            <div class='table-cell'>Source</div>
-            <div class="table-cell--last">Source</div>
+            <div class="table-cell">{{localize 'NAME'}}</div>
+            <div class='table-cell'>{{localize 'SOURCE'}}</div>
+            <div class="table-cell--last"></div>
         </div>
         {{#each actor.backgroundEffects.abilities as | ability |}}
             <div class="table-row">

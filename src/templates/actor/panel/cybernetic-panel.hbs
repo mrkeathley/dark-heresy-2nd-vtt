@@ -1,10 +1,10 @@
 <div class="dh-panel dh-grid-col-4 dh-grid-row-2">
-    <h1 class="dh-panel__header">Cybernetics</h1>
+    <h1 class="dh-panel__header">{{localize 'CYBERNETICS'}}</h1>
     <div class="dh-table--border dh-cybernetictable--border">
         <div class="table-row--head">
-            <div class="table-cell--span2">Name</div>
-            <div class="table-cell">AP</div>
-            <div class="table-cell">Equipped</div>
+            <div class="table-cell--span2">{{localize 'NAME'}}</div>
+            <div class="table-cell">{{localize 'ARMOUR.AP'}}</div>
+            <div class="table-cell">{{localize 'EQUIPPED'}}</div>
             <div class="table-cell--last">
                 <label class="dh-control-button item-create" data-type="cybernetic">
                     <span class="dh-control-button__span material-icons">{{defaultVal icon 'add_circle'}}</span>
@@ -40,27 +40,27 @@
                         (isExpanded (concat 'description_' item.id ))}}>
                         <div class="dh-settings">
                             <div class="dh-field__wrapper">
-                                <span class="dh-field__header">Head</span>
+                                <span class="dh-field__header">{{localize 'ARMOUR.HEAD'}}</span>
                                 <span class="dh-field__span">{{item.system.armourPoints.head}}</span>
                             </div>
                             <div class="dh-field__wrapper">
-                                <span class="dh-field__header">Left Arm</span>
+                                <span class="dh-field__header">{{localize 'ARMOUR.LEFT_ARM'}}</span>
                                 <span class="dh-field__span">{{item.system.armourPoints.leftArm}}</span>
                             </div>
                             <div class="dh-field__wrapper">
-                                <span class="dh-field__header">Right Arm</span>
+                                <span class="dh-field__header">{{localize 'ARMOUR.RIGHT_ARM'}}</span>
                                 <span class="dh-field__span">{{item.system.armourPoints.rightArm}}</span>
                             </div>
                             <div class="dh-field__wrapper">
-                                <span class="dh-field__header">Body</span>
+                                <span class="dh-field__header">{{localize 'ARMOUR.BODY'}}</span>
                                 <span class="dh-field__span">{{item.system.armourPoints.body}}</span>
                             </div>
                             <div class="dh-field__wrapper">
-                                <span class="dh-field__header">Left Leg</span>
+                                <span class="dh-field__header">{{localize 'ARMOUR.LEFT_LEG'}}</span>
                                 <span class="dh-field__span">{{item.system.armourPoints.leftLeg}}</span>
                             </div>
                             <div class="dh-field__wrapper">
-                                <span class="dh-field__header">Right Leg</span>
+                                <span class="dh-field__header">{{localize 'ARMOUR.RIGHT_LEG'}}</span>
                                 <span class="dh-field__span">{{item.system.armourPoints.rightLeg}}</span>
                             </div>
                         </div>
